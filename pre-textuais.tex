@@ -92,7 +92,7 @@ Condensação de no máximo 500 palavras em um único parágrafo, delineando e e
 \pagenumbering{arabic} % Começa a numeração com algarismos arábicos
 \setcounter{page}{1}
 \setcounter{section}{0} % Reinicia a contagem das seções
-\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}/\pageref{\LastPage}}} % Número de página no canto superior direito
+\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}/\pageref{LastPage}}} % Número de página no canto superior direito
 
 % Configuração do estilo da página
 \pagestyle{fancy}
@@ -130,10 +130,10 @@ Chato Gepeto criou esta tabela pra mim, mas não acredito muito nas criações d
             no head, % Não usar cabeçalho do CSV
             late after line=\\, % Quebra de linha após cada linha do CSV
             late after last line=\\, % Quebra de linha após a última linha
-        ]{events.csv}{}{%
-		\csvcoli & \csvcolii & \csvcoliii & \csvcoliv & \csvcolv & \csvcolvi  & \csvcolvii & \csvcolviii & \csvcolix
-        }
-        \bottomrule
+	    %filter test=\ifnumless{\thecsvinputline}{2}{} % Ignora as duas primeiras linhas do CSV
+    ]{events.csv}{}{%[
+    \csvcoli & \csvcolii & \csvcoliii & \csvcoliv & {\num[round-mode=places, round-precision=0]{\csvcolv}} & {\num[round-mode=places, round-precision=0]{\csvcolvi}} & \csvcolvii & \csvcolviii & \csvcolix
+    }
     \end{tabular}
     \npnoround
 \end{table}
