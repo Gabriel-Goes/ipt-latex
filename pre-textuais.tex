@@ -1,0 +1,189 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{romanbar}
+\usepackage{etoolbox}
+\usepackage{lastpage}
+\usepackage{csvsimple}
+\usepackage[bottom]{footmisc}
+\usepackage{siunitx}
+\usepackage{numprint}
+
+% Configurações de Fonte
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\geometry{a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm}
+\renewcommand{\baselinestretch}{1.5}
+
+% Configuração do espaçamento antes e depois de títulos
+\titlespacing*{\section}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subsection}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\paragraph}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subparagraph}{0pt}{0pt}{0.6\baselineskip}
+
+% Configuração de formatação de listas
+\renewcommand{\labelitemi}{\textbullet}
+
+\pagestyle{fancy}
+\fancyhf{} % Limpa os cabeçalhos e rodapés
+\fancyhead[L]{\vspace*{-2cm}\includegraphics[width=4cm]{Picture1.png}} % Imagem no cabeçalho
+\fancyfoot[R]{\vspace*{-1cm}\includegraphics[width=8cm]{Picture2.png}} % Imagem no rodapé
+\renewcommand{\headrulewidth}{0pt} % Remove a linha horizontal do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove a linha horizontal do rodapé
+
+\begin{document}
+\begin{titlepage}
+\title{INSTRUÇÃO NORMATIVA TC-10 \\ PROCEDIMENTO PARA A ELABORAÇÃO E EMISSÃO DE RELATÓRIO TÉCNICO}
+\maketitle
+\end{titlepage}
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}}} % Número de página no canto superior direito
+
+% FOLHA DE ROSTO
+\section*{FOLHA DE ROSTO}
+Aqui deve ser adicionada uma folha de rosto modelo para todos os arquivos. Formulário 1153 [disponível na intranet]\url{http://portal.ipt.br} > Institucional > Comunicação > Logotipos e Modelos > Papeis Timbrados.
+\newpage
+
+% AGRADECIMENTOS
+\section*{Agradecimentos}
+Inúmeros órgãos públicos e entidades prestaram a sua colaboração, de alguma forma, no fornecimento de dados que constam deste relatório. Mesmo correndo o risco de alguma omissão, dado o grande número de consultas realizadas ao longo do desenvolvimento dos trabalhos, não se pode deixar de mencionar:	
+\begin{itemize}
+    \item Departamento de Águas e Energia Elétrica - DAEE
+    \item Companhia de Tecnologia de Saneamento Ambiental - Cetesp
+    \item Companhia de Saneamento Básico do Estado de São Paulo - Sabesp
+    \item Fundação Prefeito Faria Lima - Cepam
+\end{itemize}
+\newpage
+
+% RESUMO
+\section*{Resumo}
+Condensação de no máximo 500 palavras em um único parágrafo, delineando e enfatizando resultados, conclusões e pontos mais relevantes do trabalho.
+\newpage
+
+% SUMÁRIO
+\tableofcontents
+\newpage
+
+% LISTA DE ILUSTRAÇÕES
+\listoffigures
+\newpage
+
+% LISTA DE TABELAS
+\listoftables
+\newpage
+
+% LISTA DE SIGLAS, ABREVIATURAS, SÍMBOLOS E CONVENÇÕES
+\section*{Lista de Siglas, Abreviaturas, Símbolos e Convenções}
+% Conteúdo para a lista
+
+% ELEMENTOS TEXTUAIS
+\clearpage
+\pagenumbering{arabic} % Começa a numeração com algarismos arábicos
+\setcounter{page}{1}
+\setcounter{section}{0} % Reinicia a contagem das seções
+\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}/\pageref{\LastPage}}} % Número de página no canto superior direito
+
+% Configuração do estilo da página
+\pagestyle{fancy}
+\fancyhead[L]{\vspace*{-2cm}\includegraphics[width=4cm]{Picture1.png}} % Imagem no cabeçalho
+\fancyfoot[R]{\vspace*{-1cm}\includegraphics[width=8cm]{Picture2.png}} % Imagem no rodapé
+\renewcommand{\headrulewidth}{0pt} % Remove a linha horizontal do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove a linha horizontal do rodapé
+
+
+% INTRODUÇÃO
+\section{INTRODUÇÃO}
+Isto é apenas um texto de introdução onde eu enrolo um pouco para identificar como funciona um texto corrido em LaTeX. Será que parágrafos são feitos com TAB? Vamos ver a seguir. 
+
+Isto deveria ser um parágrafo. Gostaria que o ChatGPT corrigice isto para virar um parágrafo.
+
+Ele não conseguiu, mas me ensinou como faz um.
+
+\newpage
+
+% DESENVOLVIMENTO
+\section{DESENVOLVIMENTO}
+Chato Gepeto criou esta tabela pra mim, mas não acredito muito nas criações dele. Será  que funciona?
+
+\begin{table}[htbp]
+    \centering
+    \caption{Dados de Terremotos}
+    \label{tab:csv_example}
+    \renewcommand{\arraystretch}{1.5} % Ajusta espaçamento entre linhas da tabela
+    \small
+    \nprounddigits{0}
+    \begin{tabular}{ccccccccc} % Defina o número de colunas de acordo com seu arquivo CSV
+        \toprule
+        \midrule
+        \csvreader[
+            no head, % Não usar cabeçalho do CSV
+            late after line=\\, % Quebra de linha após cada linha do CSV
+            late after last line=\\, % Quebra de linha após a última linha
+        ]{events.csv}{}{%
+		\csvcoli & \csvcolii & \csvcoliii & \csvcoliv & \csvcolv & \csvcolvi  & \csvcolvii & \csvcolviii & \csvcolix
+        }
+        \bottomrule
+    \end{tabular}
+    \npnoround
+\end{table}
+
+\newpage
+
+% CONSIDERAÇÕES FINAIS
+\section{CONSIDERAÇÕES FINAIS}
+\newpage
+
+% INFORMAÇÕES COMPLEMENTARES
+\section{INFORMAÇÕES COMPLEMENTARES}
+\newpage
+
+
+% EQUIPE TÉCNICA
+\section{EQUIPE TÉCNICA}
+\newpage
+
+
+% LOCAL, DATA E ASSINATURAS
+\section{LOCAL, DATA E ASSINATURAS}
+\newpage
+
+
+% ELEMENTOS PÓS-TEXTUAIS
+
+% REFERÊNCIAS
+\section{REFERÊNCIAS}
+\newpage
+
+
+% GLOSSÁRIO
+\section{GLOSSÁRIO}
+\newpage
+
+
+% APÊNDICE
+\section{APÊNDICE}
+\newpage
+
+
+% ANEXOS
+\section{ANEXOS}
+\newpage
+
+
+% CONTRACAPA
+\section{CONTRACAPA (emissão impressa, em papel)}
+\newpage
+
+\end{document}
+
