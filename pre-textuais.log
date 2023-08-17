@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.8.8)  15 AUG 2023 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.8.8)  17 AUG 2023 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,21 +632,21 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 No configuration file `numprint.cfg' found.) (./pre-textuais.aux)
 \openout1 = `pre-textuais.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -716,7 +716,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -726,9 +726,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./pre-textuais.out) (./pre-textuais.out)
 \@outlinefile=\write4
@@ -736,7 +736,7 @@ LaTeX Info: Redefining \nameref on input line 43.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 43.
+(lastpage)             ! on input line 44.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -821,15 +821,15 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 47.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 47.
+(Font)              <6> on input line 48.
 
 
 LaTeX Warning: No \author given.
@@ -838,9 +838,9 @@ LaTeX Warning: No \author given.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 55.
 
-Overfull \hbox (0.681pt too wide) in paragraph at lines 55--56
+Overfull \hbox (0.681pt too wide) in paragraph at lines 56--57
 \OT1/phv/m/n/10 Aqui deve ser adi-cionada uma folha de rosto mod-elo para to-do
 s os ar-quivos. For-mul[]ario 1153 [dispon[]^^Pvel
  []
@@ -848,47 +848,47 @@ s os ar-quivos. For-mul[]ario 1153 [dispon[]^^Pvel
 <Picture1.png, id=55, 542.025pt x 357.58594pt>
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 56.
+Package pdftex.def Info: Picture1.png  used on input line 57.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <7> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 21.77342pt.
+Make it at least 78.67892pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 <Picture2.png, id=56, 301.8778pt x 47.42719pt>
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 56.
+Package pdftex.def Info: Picture2.png  used on input line 57.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
 [1 <./Picture1.png (PNG copy)> <./Picture2.png>]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 67.
+Package pdftex.def Info: Picture1.png  used on input line 68.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 67.
+Package pdftex.def Info: Picture2.png  used on input line 68.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [2]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 72.
+Package pdftex.def Info: Picture1.png  used on input line 73.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 72.
+Package pdftex.def Info: Picture2.png  used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [3]
 (./pre-textuais.toc)
@@ -906,27 +906,27 @@ Package pdftex.def Info: Picture2.png  used on input line 72.
  [6]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 91.
+Package pdftex.def Info: Picture1.png  used on input line 92.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 91.
+Package pdftex.def Info: Picture2.png  used on input line 92.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
 
 [7]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 113.
+Package pdftex.def Info: Picture1.png  used on input line 114.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 113.
+Package pdftex.def Info: Picture2.png  used on input line 114.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 \newpage
+l.114 \newpage
                [1
 
 ]
@@ -934,40 +934,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 126.
 
 
-! Package siunitx Error: Invalid token 'U' in numerical input.
+! LaTeX Error: Command \textdegree unavailable in encoding OT1.
 
-For immediate help type H <return>.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136     }
-           
-? 
-
-! Package siunitx Error: Invalid numerical input 'UTM X'.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.136     }
-           
-? 
-
-! Package siunitx Error: Invalid token 'U' in numerical input.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.136     }
-           
-? 
-
-! Package siunitx Error: Invalid numerical input 'UTM Y'.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.136     }
-           
+l.138             }
+                   
 ? 
 
 ! LaTeX Error: Command \textdegree unavailable in encoding OT1.
@@ -976,18 +950,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136     }
-           
-? 
-
-! LaTeX Error: Command \textdegree unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136     }
-           
+l.138             }
+                   
 ? 
 
 ! Package siunitx Error: Invalid numerical input '(m)'.
@@ -995,8 +959,8 @@ l.136     }
 For immediate help type H <return>.
  ...                                              
                                                   
-l.136     }
-           
+l.138             }
+                   
 ? 
 
 ! Package siunitx Error: Invalid numerical input '(m)'.
@@ -1004,8 +968,8 @@ l.136     }
 For immediate help type H <return>.
  ...                                              
                                                   
-l.136     }
-           
+l.138             }
+                   
 ? 
 
 ! Package siunitx Error: Invalid numerical input '(m)'.
@@ -1013,8 +977,8 @@ l.136     }
 For immediate help type H <return>.
  ...                                              
                                                   
-l.136     }
-           
+l.138             }
+                   
 ? 
 
 ! Package siunitx Error: Invalid numerical input '(m)'.
@@ -1022,302 +986,306 @@ l.136     }
 For immediate help type H <return>.
  ...                                              
                                                   
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.136     }
-           
+l.138             }
+                   
 ? 
 
-Overfull \hbox (39.23912pt too wide) in paragraph at lines 126--139
- [][] 
+Overfull \hbox (42.32243pt too wide) in paragraph at lines 126--141
+[][] 
  []
 
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 141.
+Package pdftex.def Info: Picture1.png  used on input line 143.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 141.
+Package pdftex.def Info: Picture2.png  used on input line 143.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
 [2]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 145.
+Package pdftex.def Info: Picture1.png  used on input line 147.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 145.
+Package pdftex.def Info: Picture2.png  used on input line 147.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [3]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 149.
+Package pdftex.def Info: Picture1.png  used on input line 151.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 149.
+Package pdftex.def Info: Picture2.png  used on input line 151.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [4]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 154.
+Package pdftex.def Info: Picture1.png  used on input line 156.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 154.
+Package pdftex.def Info: Picture2.png  used on input line 156.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [5]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 159.
+Package pdftex.def Info: Picture1.png  used on input line 161.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 159.
+Package pdftex.def Info: Picture2.png  used on input line 161.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [6]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 166.
+Package pdftex.def Info: Picture1.png  used on input line 168.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 166.
+Package pdftex.def Info: Picture2.png  used on input line 168.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [7]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 171.
+Package pdftex.def Info: Picture1.png  used on input line 173.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 171.
+Package pdftex.def Info: Picture2.png  used on input line 173.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [8]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 176.
+Package pdftex.def Info: Picture1.png  used on input line 178.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 176.
+Package pdftex.def Info: Picture2.png  used on input line 178.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [9]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 181.
+Package pdftex.def Info: Picture1.png  used on input line 183.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 181.
+Package pdftex.def Info: Picture2.png  used on input line 183.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [10]
 File: Picture1.png Graphic file (type png)
 <use Picture1.png>
-Package pdftex.def Info: Picture1.png  used on input line 186.
+Package pdftex.def Info: Picture1.png  used on input line 188.
 (pdftex.def)             Requested size: 113.81102pt x 75.07889pt.
 File: Picture2.png Graphic file (type png)
 <use Picture2.png>
-Package pdftex.def Info: Picture2.png  used on input line 186.
+Package pdftex.def Info: Picture2.png  used on input line 188.
 (pdftex.def)             Requested size: 227.62204pt x 35.76062pt.
  [11] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 (./pre-textuais.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `pre-textuais.out' has not changed.
 (rerunfilecheck)             Checksum: 39D91B567259389BA5D17C31D2F011DF;607.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 21202 strings out of 492615
- 404412 string characters out of 6131391
- 562822 words of memory out of 5000000
- 24872 multiletter control sequences out of 15000+600000
+ 21217 strings out of 492615
+ 404869 string characters out of 6131391
+ 562844 words of memory out of 5000000
+ 24887 multiletter control sequences out of 15000+600000
  551825 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,63p,914b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
-b>
-Output written on pre-textuais.pdf (19 pages, 203173 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on pre-textuais.pdf (19 pages, 210351 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

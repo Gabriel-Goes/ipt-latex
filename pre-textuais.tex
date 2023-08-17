@@ -15,6 +15,7 @@
 \usepackage{csvsimple}
 \usepackage[bottom]{footmisc}
 \usepackage{siunitx}
+\sisetup{round-mode=places, round-precision=0}
 \usepackage{numprint}
 
 % Configurações de Fonte
@@ -35,7 +36,7 @@
 
 \pagestyle{fancy}
 \fancyhf{} % Limpa os cabeçalhos e rodapés
-\fancyhead[L]{\vspace*{-2cm}\includegraphics[width=4cm]{Picture1.png}} % Imagem no cabeçalho
+\fancyhead[L]{\vspace*{-0cm}\includegraphics[width=4cm]{Picture1.png}} % Imagem no cabeçalho
 \fancyfoot[R]{\vspace*{-1cm}\includegraphics[width=8cm]{Picture2.png}} % Imagem no rodapé
 \renewcommand{\headrulewidth}{0pt} % Remove a linha horizontal do cabeçalho
 \renewcommand{\footrulewidth}{0pt} % Remove a linha horizontal do rodapé
@@ -48,7 +49,7 @@
 
 \pagenumbering{Roman}
 \setcounter{page}{1}
-\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}}} % Número de página no canto superior direito
+\fancyhead[R]{\textbf{ Relatório Técnico nº XXX {\thepage}}} % Número de página no canto superior direito
 
 % FOLHA DE ROSTO
 \section*{FOLHA DE ROSTO}
@@ -92,7 +93,7 @@ Condensação de no máximo 500 palavras em um único parágrafo, delineando e e
 \pagenumbering{arabic} % Começa a numeração com algarismos arábicos
 \setcounter{page}{1}
 \setcounter{section}{0} % Reinicia a contagem das seções
-\fancyhead[R]{\textbf{ Relatório Técnico nº XXX XXX {\thepage}/\pageref{LastPage}}} % Número de página no canto superior direito
+\fancyhead[R]{\textbf{ Relatório Técnico nº XXX {\thepage}/\pageref{LastPage}}} % Número de página no canto superior direito
 
 % Configuração do estilo da página
 \pagestyle{fancy}
@@ -116,28 +117,29 @@ Ele não conseguiu, mas me ensinou como faz um.
 \section{DESENVOLVIMENTO}
 Chato Gepeto criou esta tabela pra mim, mas não acredito muito nas criações dele. Será  que funciona?
 
-\begin{table}[htbp]
-    \centering
-    \caption{Dados de Terremotos}
-    \label{tab:csv_example}
-    \renewcommand{\arraystretch}{1.5} % Ajusta espaçamento entre linhas da tabela
-    \small
-    \nprounddigits{0}
-    \begin{tabular}{ccccccccc} % Defina o número de colunas de acordo com seu arquivo CSV
-        \toprule
-        \midrule
-        \csvreader[
-            no head, % Não usar cabeçalho do CSV
-            late after line=\\, % Quebra de linha após cada linha do CSV
-            late after last line=\\, % Quebra de linha após a última linha
-	    %filter test=\ifnumless{\thecsvinputline}{2}{} % Ignora as duas primeiras linhas do CSV
-    ]{events.csv}{}{%[
-    \csvcoli & \csvcolii & \csvcoliii & \csvcoliv & {\num[round-mode=places, round-precision=0]{\csvcolv}} & {\num[round-mode=places, round-precision=0]{\csvcolvi}} & \csvcolvii & \csvcolviii & \csvcolix
-    }
-    \end{tabular}
-    \npnoround
-\end{table}
-
+\begin{center}
+    \begin{table}[htbp]
+        \caption{Dados de Terremotos}
+        \label{tab:csv_example}
+        \renewcommand{\arraystretch}{1.5} % Ajusta espaçamento entre linhas da tabela
+        \small
+        \begin{tabular}{ccccccccc} % Defina o número de colunas de acordo com seu arquivo CSV
+            \toprule
+            ID & Hora de Origem (UTC) & Longitude & Latitude & 
+            \multicolumn{1}{c}{UTM X} & \multicolumn{1}{c}{UTM Y} & MLv & Energia & Cat \\
+            \midrule
+            \csvreader[
+                table head=\toprule \csvlinetotablerow \\ \midrule,
+                late after line=\\, % Quebra de linha após cada linha do CSV
+                late after last line=\\, % Quebra de linha após a última linha
+            ]{events.csv}{}{% Substitua "dados.csv" pelo nome do seu arquivo CSV
+                \csvcoli & \csvcolii & \csvcoliii & \csvcoliv & 
+            \num[group-separator={.},round-mode=places, round-precision=0]{\csvcolv} & \num[group-separator={.},round-mode=places, round-precision=0]{\csvcolvi} & \csvcolvii & \csvcolviii & \csvcolix
+            }
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{center}
 \newpage
 
 % CONSIDERAÇÕES FINAIS
