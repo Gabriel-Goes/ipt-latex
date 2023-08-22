@@ -58,7 +58,7 @@ Aqui deve ser adicionada uma folha de rosto modelo para todos os arquivos. Formu
 
 % AGRADECIMENTOS
 \section*{Agradecimentos}
-Inúmeros órgãos públicos e entidades prestaram a sua colaboração, de alguma forma, no fornecimento de dados que constam deste relatório. Mesmo correndo o risco de alguma omissão, dado o grande número de consultas realizadas ao longo do desenvolvimento dos trabalhos, não se pode deixar de mencionar:	
+Inúmeros órgãos públicos e entidades prestaram a sua colaboração, de alguma forma, no fornecimento de dados que constam deste relatório. Mesmo correndo o risco de alguma omissão, dado o grande número de consultas realizadas ao longo do desenvolvimento dos trabalhos, não se pode deixar de mencionar:
 \begin{itemize}
     \item Departamento de Águas e Energia Elétrica - DAEE
     \item Companhia de Tecnologia de Saneamento Ambiental - Cetesp
@@ -105,7 +105,7 @@ Condensação de no máximo 500 palavras em um único parágrafo, delineando e e
 
 % INTRODUÇÃO
 \section{INTRODUÇÃO}
-Isto é apenas um texto de introdução onde eu enrolo um pouco para identificar como funciona um texto corrido em LaTeX. Será que parágrafos são feitos com TAB? Vamos ver a seguir. 
+Isto é apenas um texto de introdução onde eu enrolo um pouco para identificar como funciona um texto corrido em LaTeX. Será que parágrafos são feitos com TAB? Vamos ver a seguir.
 
 Isto deveria ser um parágrafo. Gostaria que o ChatGPT corrigice isto para virar um parágrafo.
 
@@ -125,7 +125,7 @@ Chato Gepeto criou esta tabela pra mim, mas não acredito muito nas criações d
         \small
         \begin{tabular}{ccccccccc} % Defina o número de colunas de acordo com seu arquivo CSV
             \toprule
-            ID & Hora de Origem (UTC) & Longitude & Latitude & 
+            ID & Hora de Origem (UTC) & Longitude & Latitude &
             \multicolumn{1}{c}{UTM X} & \multicolumn{1}{c}{UTM Y} & MLv & Energia & Cat \\
             \midrule
             \csvreader[
@@ -133,7 +133,7 @@ Chato Gepeto criou esta tabela pra mim, mas não acredito muito nas criações d
                 late after line=\\, % Quebra de linha após cada linha do CSV
                 late after last line=\\, % Quebra de linha após a última linha
             ]{events.csv}{}{% Substitua "dados.csv" pelo nome do seu arquivo CSV
-                \csvcoli & \csvcolii & \csvcoliii & \csvcoliv & 
+                \csvcoli & \csvcolii & \csvcoliii & \csvcoliv &
             \num[group-separator={.},round-mode=places, round-precision=0]{\csvcolv} & \num[group-separator={.},round-mode=places, round-precision=0]{\csvcolvi} & \csvcolvii & \csvcolviii & \csvcolix
             }
             \bottomrule
