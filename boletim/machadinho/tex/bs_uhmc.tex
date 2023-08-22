@@ -1,0 +1,93 @@
+\documentclass[12]{iptex}
+
+\usepackage{underscore}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{romanbar}
+\usepackage{etoolbox}
+\usepackage{lastpage}
+\usepackage{csvsimple}
+\usepackage[bottom]{footmisc}
+\usepackage{siunitx}
+\sisetup{round-mode=places, round-precision=0}
+\usepackage{numprint}
+
+% Configurações de Fonte
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\geometry{a4paper, left=2.5cm, right=2cm, top=4.8cm, bottom=3.5cm}
+\renewcommand{\baselinestretch}{1.5}
+
+% Configuração do espaçamento antes e depois de títulos
+\titlespacing*{\section}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subsection}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\paragraph}{0pt}{1.5\baselineskip}{0.6\baselineskip}
+\titlespacing*{\subparagraph}{0pt}{0pt}{0.6\baselineskip}
+
+% Configuração de formatação de listas
+\renewcommand{\labelitemi}{\textbullet}
+\pagestyle{fancy}
+\fancyhf{} % Limpa os cabeçalhos e rodapés
+\fancyhead[L]{\vspace*{-1cm}\includegraphics[width=4cm]{../figuras/Picture1.png}} % Imagem no cabeçalho
+\fancyfoot[R]{\vspace*{-0cm}\includegraphics[width=8cm]{../figuras/Picture2.png}} % Imagem no rodapé
+\renewcommand{\headrulewidth}{0pt} % Remove a linha horizontal do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove a linha horizontal do rodapé
+
+
+
+\begin{document}
+\thispagestyle{plain} % Aplica o estilo de página customizado à primeira página
+\title{\textbf{MONITORAMENTO SISMOLÓGICO} \\
+\textbf{RSIS - Rede Sismológica Itá/Machadinho, SC/RS} \\
+\textbf{Reservatório de Machadinho, SC/RS} \\
+\textbf{BOLETIM SÍSMICO Nº XXXXXX}}
+\maketitle
+
+\section{PERÍODO DE ANÁLISE:}
+
+\section{ÚLTIMOS RELATÓRIOS TÉCNICOS:}
+
+\section{ATIVIDADES REALIZADAS:}
+
+\section{RESULTADOS:}
+
+\section{CONSIDERAÇÕES:}
+
+\newpage
+% Seção alinhada à esquerda
+\titleformat{\section}[hang]{\bfseries\Large}{\thesection}{1em}{} % Ajusta o alinhamento à esquerda
+\section{COMPLETEZA DOS DADOS}
+\begin{figure}[h]
+    \centering
+    \caption{Gráfico de completeza dos dados para o mês de XXX para estação XXX.}
+    \includegraphics[width=1.0\textwidth]{../figuras/completeza_dos_dados.png} % Substitua pelo nome da imagem e ajuste o tamanho
+    \caption*{Fonte:IPT}
+\end{figure}
+
+\newpage
+
+\section{TABELA DE EVENTOS}
+
+\input{Tabela.tex}
+
+
+% Restante do conteúdo
+
+\newpage
+\begin{thebibliography}{9}
+  \bibitem{ref1} Autor1. \emph{Título da Referência 1}. Editora, Ano.
+  \bibitem{ref2} Autor2. \emph{Título da Referência 2}. Editora, Ano.
+  % Adicione suas referências bibliográficas aqui
+\end{thebibliography}
+
+\end{document}
+
