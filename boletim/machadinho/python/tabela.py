@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 import csv
 
 # Nome do arquivo de entrada CSV
 input_csv = "../csv/events-2023-06-01-IT.csv"
 
 # Nome do arquivo de saída LaTeX
-output_tex = "../tex/Tabela.tex"
+output_tex = "Tabela.tex"
 
 # Abre o arquivo CSV para leitura
 with open(input_csv, "r") as csv_file:
@@ -43,6 +44,7 @@ with open(output_tex, "w") as tex_file:
 
     tex_file.write("        \\bottomrule\n")
     tex_file.write("    \\end{tabular}\n")
+    tex_file.write("    \\caption*{Fonte:IPT.}")
     tex_file.write("\\end{table}\n")
     tex_file.write("\\end{center}\n")
     tex_file.write("\\newpage\n")

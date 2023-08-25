@@ -10,7 +10,9 @@ fi
 input_tex="$1"
 
 # Executa o script Python para gerar o arquivo LaTeX
-python ../python/tabela.py
+python3 ../python/tabela.py
+python3 ../python/completude.py
+python3 ../python/mapa.py
 
 # Gera o arquivo PDF a partir do arquivo LaTeX
 pdflatex "$input_tex"
