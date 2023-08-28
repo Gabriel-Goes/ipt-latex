@@ -1,5 +1,5 @@
 % IPT Document Class
-% 
+%
 % --------------------------------------------------------------------------------------
 % Tecnologias Regulatórias e Metrológicas
 % Área de Aerodinâmica Industrial e Engenharia do Vento - Laboratório de Vazão
@@ -7,7 +7,7 @@
 % Autor: Gabriel Borelli Martins
 % E-mail: gborelli@ipt.br
 %
-% Modelo originariamente baseado no modelo de Relatório Técnico criado para o túnel de 
+% Modelo originariamente baseado no modelo de Relatório Técnico criado para o túnel de
 % vento pelo Pesquisador Paulo Jabardo.
 %
 % Colaboradores que contribuiram para a elaboração deste modelo:
@@ -38,7 +38,7 @@
 \RequirePackage{amssymb}
 \RequirePackage{latexsym}
 \RequirePackage{mathabx}
-\RequirePackage[hidelinks]{hyperref}  
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage[scaled]{helvet} % Mudar de "helvet" para "uarial" caso fonte arial esteja instalada
 \RequirePackage{url}
@@ -65,7 +65,7 @@
 \RequirePackage{upgreek} % Para letras gregas não itálicas no texto
 \RequirePackage[table]{xcolor}
 \RequirePackage{tabularx}
-\RequirePackage{enumitem}	
+\RequirePackage{enumitem}
 \RequirePackage{geometry}
 \RequirePackage{capt-of}
 \RequirePackage{xargs}
@@ -104,8 +104,8 @@
     \linewidth
     - 8\tabcolsep
     - 5\arrayrulewidth % if package array is loaded
-    
-			
+
+
 % Tamanhos de fonte das seções e subseções e alterações no TOC
 
 \sectionfont{\bfseries\large\MakeUppercase}
@@ -123,7 +123,7 @@
 
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
-	
+
 \paragraphfont{\normalsize\normalfont}
 
 \renewcommand\@pnumwidth{3.2em}
@@ -137,7 +137,7 @@
 	\renewcommand{\bottomfraction}{1}
 	\renewcommand{\textfraction}{0}
 	\renewcommand{\floatpagefraction}{0.8}
-	\newcommand{\n}[1]{$\text{#1}$}	
+	\newcommand{\n}[1]{$\text{#1}$}
 
 	\newcommand{\docNum}[1]{\gdef\inserirDocNum{#1}}
 	\newcommand{\cancelaDoc}[1]{\gdef\inserirCancelaDoc{#1}}
@@ -159,9 +159,12 @@
 	\newcommand{\selo}[1]{\gdef\inserirSelo{#1}}
 	\newcommand{\parConfig}[1]{#1}
 	\newcommand{\dummylabel}[2]{\def\@currentlabel{#2}\label{#1}} % criando referências "falsas"
-	
+    \newcommand{\periodo}[2]{\gdef\inserirInicio{#1}
+        \gdef\inserirFim{#2}}
 	\newcommand\firstup[1]{\firstupaux#1\relax}
 	\def\firstupaux#1#2\relax{\MakeUppercase{#1}\MakeLowercase{#2}}	%para forçar apenas a primeira letra maiúscula
+
+    \newcommand{\datahoje}[1]{\gdef\inserirDataHoje}{#1}}
 
 % Parágrafo
 
@@ -175,10 +178,10 @@
 	\setlength{\textwidth}{170mm}
 	\setlength{\footskip}{25mm}
 	\setlength{\marginparwidth}{0mm}
-	
+
 	\def\mypagestyle#1{\csname myps#1\endcsname}
 
-	\newcommand{\mypsCC}{	
+	\newcommand{\mypsCC}{
 		\setlength{\voffset}{-25.4mm}
 		\setlength{\oddsidemargin}{-3.5mm}
 		\setlength{\topmargin}{5mm}
@@ -189,11 +192,11 @@
 		\setlength{\textwidth}{170mm}
 		\setlength{\footskip}{25mm}
 		\setlength{\marginparwidth}{0mm}
-	
+
 	}
-	
-	
-	
+
+
+
 	\linespread{1.3} % espaçamento de 1,5 parecido com Word
 	%\onehalfspacing % fica com espaçamento menor do que 1,5 do Word
 	\setcounter{topnumber}{5}
@@ -203,15 +206,15 @@
 	\setlength{\textfloatsep}{20pt}
 	\setlength{\parskip}{6pt}
 	\setlength{\parindent}{1.25cm}
-	
+
 % Cabeçalhos e rodapé
 
-	\lhead{\includegraphics[scale=0.9]{figuras/headImage.pdf}}
+	\lhead{\includegraphics[scale=0.9]{../figuras/headImage.pdf}}
 	\chead{}
 	\rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
-	\rfoot{\includegraphics[scale=1.0]{figuras/footImage.pdf}}
+	\rfoot{\includegraphics[scale=1.0]{../figuras/footImageCalibr.png}}
 	\pagestyle{fancy}
 
 	\fancypagestyle{geral}{
@@ -235,25 +238,25 @@
 	\fancypagestyle{calibr_pag1}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{figuras/headImage.pdf}\\ 
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade}\\
 				\footnotesize\textbf{}
 			\end{tabular}
 		}
 		\rhead{\renewcommand{\arraystretch}{1.3}
 				\noindent\begin{tabular}{@{}r}
-				\\ 
+				\\
 				  \thepage /\pageref{LastPage} \\
 				  \small\textbf{}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
 
 	\fancypagestyle{calibr_doc}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{figuras/headImage.pdf}\\ 
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -266,49 +269,49 @@
 				\noindent\begin{tabular}{@{}r}
 				\\
 				\thepage /\pageref{LastPage} \\
-			 	\footnotesize\textbf{\inserirTipo~n\textordmasculine~\inserirDocNum} 
+			 	\footnotesize\textbf{\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
 
-	
+
 % Capa
 
 	\newcommand{\capa}{
-	
+
 	\thispagestyle{timbrado}
-	
-	
+
+
 	\begin{adjustwidth*}{1.5cm}{1.5cm}
 		{\setstretch{1.0}
 			\begin{flushright}
 				\textbf{\large\MakeUppercase{\inserirTipo}}\\
-				
+
 				\ifdefined\inserirDocNum
 					\textbf{\large\inserirDocNum}\\
 				\fi
-	
-				
+
+
 				\ifdefined\inserirSiglaCliente
 					\inserirSiglaCliente\\
-				\fi			
-				
+				\fi
+
 				\inserirData \\
-				
+
 				\vspace{3cm}
-				
+
 				\inserirTitulo \\
-				
-				
+
+
 				\ifdefined\inserirNomeCliente
 					\vspace{3cm}
 					\textbf{CLIENTE} \\
 					\inserirNomeCliente \\
 				\fi
-				
+
 				\vspace{3cm}
-				
+
 				\ifdefined\inserirUnidade
 					\textbf{UNIDADE RESPONSÁVEL} \\
 					\inserirUnidade ~-- \inserirUnidadeSigla \\
@@ -317,45 +320,53 @@
 					\inserirLab \\
 				\fi
 
+				\vspace{3cm}
+
+                \ifdefined\inserirInicio
+                    \textbf{PERIODO DE ANÁLISE} \\
+                    \textbf{Início: }\inserirInicio \\
+                    \textbf{Fim: }\inserirFim \\
+                \fi
+
 			\end{flushright}
 		}
 	\end{adjustwidth*}
-	
+
 	\clearpage
 }
 
 
 % Resumo
 	\newcommand{\resumo}[3][\textbf{Palavras-chave:}]{
-		
+
 		\setcounter{page}{1}
 		\renewcommand{\thepage}{\roman{page}}
-		
+
 		\section*{RESUMO}
-		
+
 		#2
-		
+
 		\vspace{0.5cm}
-		
+
 		#1 #3
-		
+
 		\pagebreak
 	}
 
 % Abstract
 \newcommand{\resumoeng}[3][\textbf{Keywords:}]{
-	
+
 	\setcounter{page}{1}
 	\renewcommand{\thepage}{\roman{page}}
-	
+
 	\section*{ABSTRACT}
-	
+
 	#2
-	
+
 	\vspace{0.5cm}
-	
+
 	#1 #3
-	
+
 	\pagebreak
 }
 
@@ -372,10 +383,10 @@
 					Cancela e substitui o~\inserirCancelaDoc
 				\fi
 			\end{tabular}
-		}		
+		}
 		\end{center}
 		\vspace{0.2cm}
-		
+
 		{\setstretch{0.5}
 		\noindent\begin{tabular}{lp{0.75\textwidth}}
 		\ifdefined\inserirTitulo
@@ -383,13 +394,13 @@
 			& \\
 		\fi
 		\textbf{Cliente:} & \textbf{\inserirNomeCliente} \\
-			& \textbf{\inserirLocalCliente} \\ 
+			& \textbf{\inserirLocalCliente} \\
 			& \textbf{CEP \inserirCEPCliente ~-- \inserirCidadeCliente ~-- \inserirEstadoCliente} \\
 		\ifdefined\inserirNomeInt
 		& \\
 		\textbf{Interessado:} & \textbf{\inserirNomeInt} \\
-			& \textbf{\inserirLocalInt} \\ 
-			& \textbf{\inserirCEPInt ~-- \inserirCidadeInt ~-- \inserirEstadoInt} \\ 
+			& \textbf{\inserirLocalInt} \\
+			& \textbf{\inserirCEPInt ~-- \inserirCidadeInt ~-- \inserirEstadoInt} \\
 		\fi
 		\ifdefined\inserirEquip
 		& \\
@@ -399,10 +410,10 @@
 		& \\
 		\textbf{Referência:} & \textbf{\inserirReferencia} \\
 		\fi
-		
+
 		\end{tabular}
 		}
-	
+
 	}
 
 % Página com dados do cliente para certificado acreditado
@@ -417,29 +428,29 @@
 				Cancela e substitui o~\inserirCancelaDoc
 				\fi
 			\end{tabular}
-		} 
+		}
 		\end{center}
-		
+
 		\ifdefined\inserirEquip
 			\vspace{0.2cm}
 		\fi
-		
+
 		\ifdefined\inserirNomeInt
 			\vspace{-1cm}
 		\else
 			\vspace{-2cm}
 		\fi
-		
+
 		{\setstretch{0.5}
 		\noindent\begin{tabular}{lp{0.6\textwidth}}
 		\textbf{Cliente:} & \textbf{\inserirNomeCliente}\\
-			& \textbf{\inserirLocalCliente} \\ 
-			& \textbf{\inserirCEPCliente ~-- \inserirCidadeCliente ~-- \inserirEstadoCliente}\\		
+			& \textbf{\inserirLocalCliente} \\
+			& \textbf{\inserirCEPCliente ~-- \inserirCidadeCliente ~-- \inserirEstadoCliente}\\
 		\ifdefined\inserirNomeInt
 		& \\
 		\textbf{Interessado:} & \textbf{\inserirNomeInt}\\
-			& \textbf{\inserirLocalInt} \\ 
-			& \textbf{\inserirCEPInt ~-- \inserirCidadeInt ~-- \inserirEstadoInt}\\				
+			& \textbf{\inserirLocalInt} \\
+			& \textbf{\inserirCEPInt ~-- \inserirCidadeInt ~-- \inserirEstadoInt}\\
 		\fi
 		\ifdefined\inserirEquip
 		& \\
@@ -450,7 +461,7 @@
 		\textbf{Referência:} & \textbf{\inserirReferencia}\\
 		\fi
 		\end{tabular}}  \hfill  \ifdefined\selo \includegraphics[height=0.15\textheight]{\inserirSelo} \fi
-		
+
 		%\vspace{1.0cm}
 	}
 
@@ -471,10 +482,10 @@
 			}
 			\captionsetup{#3}
 			\caption{#4}
-			\includegraphics[#3]{./figuras/#2}
+			\includegraphics[#3]{../figuras/#2}
 			\caption*{#5}
 			#6
-		\end{figure}	
+		\end{figure}
 	}
 
 % Tabelas
@@ -517,7 +528,7 @@
 				\caption*{#7}
 				#8
 			\end{minipage}
-		\end{table}	
+		\end{table}
 
 }
 
@@ -533,26 +544,26 @@
 	\newcommand{\inserirTabelaLonga}[7]{
 		\begin{center}
 			\begin{longtable}{#1}
-				
+
 				%\caption{#5} \\
-				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing\textbf{Tabela \thetable} -- #5}} 
+				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing\textbf{Tabela \thetable} -- #5}}
 				\vspace{0.3cm} \\
 				\hline
 				#3 \\
 				\hline
 				\endhead
-				
-				\hline 
+
+				\hline
 				\multicolumn{#2}{r}{\small\textit{Continua na próxima página}} \\
 				\endfoot
-				
+
 				\hline
 				%\caption*{#6}
 				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing#6}}
 				\endlastfoot
-				
+
 				#4
-				
+
 				#7
 			\end{longtable}
 		\end{center}
@@ -568,17 +579,17 @@
 		% Assinaturas
 			{\scriptsize\singlespacing
 			\begin{tabular}{p{8cm}p{8cm}}
-				\begin{center} \textbf{#1} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#2} \end{center} & 
+				\begin{center} \textbf{#1} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#2} \end{center} &
 				\begin{center} \textbf{#3} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#4} \end{center} \\
 				& \begin{center} \textbf{#5} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#6} \end{center}\\ \\
 			\end{tabular}
 			}
 		\end{flushright}
-		
+
 		\begin{center}
-			\includegraphics[scale=1]{figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
-		
+
 		\pagebreak
 	}
 
@@ -595,12 +606,12 @@
 			\end{tabular}
 		}
 	\end{flushright}
-	
+
 	\pagebreak
 }
 
 
-%% Três assinaturas digitais - especial p/ certificado acreditado	
+%% Três assinaturas digitais - especial p/ certificado acreditado
 	\newcommand{\assinaturaTresAcred}[6]{
 		\begin{flushright}
 			\textbf{São Paulo, \inserirData.}
@@ -613,16 +624,16 @@
 			\end{tabular}
 			}
 		\end{flushright}
-		
+
 		\begin{center}
-			\includegraphics[scale=1]{figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
-		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}		
-		
+		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
+
 		\pagebreak
 	}
-	
+
 %% Duas assinaturas digitais
 	\newcommand{\assinaturaDoisDigital}[4]{
 		\begin{flushright}
@@ -630,16 +641,16 @@
 		% Assinaturas
 			{\scriptsize\singlespacing
 			\begin{tabular}{p{8cm}p{8cm}}
-				\begin{center} \textbf{#1} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#2} \end{center} & 
+				\begin{center} \textbf{#1} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#2} \end{center} &
 				\begin{center} \textbf{#3} \\ \vspace{0.2cm} {\color{blue} Assinado Digitalmente} \vspace{0.2cm} \\ \textbf{#4} \end{center}\\ \\
 			\end{tabular}
 			}
 		\end{flushright}
-				
-		\begin{center}	
-			\includegraphics[scale=1]{figuras/digital.png}
-		\end{center}	
-		
+
+		\begin{center}
+			\includegraphics[scale=1]{../figuras/digital.png}
+		\end{center}
+
 		\pagebreak
 	}
 
@@ -656,7 +667,7 @@
 			\end{tabular}
 		}
 	\end{flushright}
-	
+
 	\pagebreak
 }
 
@@ -673,16 +684,16 @@
 			\end{tabular}
 			}
 		\end{flushright}
-		
+
 		\begin{center}
-			\includegraphics[scale=1]{figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
-		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}		
-		
+		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
+
 		\pagebreak
 	}
-		
+
 
 %% Uma assinatura digital
 	\newcommand{\assinaturaUmDigital}[2]{
@@ -695,14 +706,14 @@
 				\end{tabular}
 			}
 		\end{flushright}
-		
+
 		\begin{center}
-			\includegraphics[scale=1]{figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
-		
+
 		\pagebreak
 	}
-	
+
 
 %% Uma assinatura sem identificação de ass. digital
 \newcommand{\assinaturaUm}[2]{
@@ -715,7 +726,7 @@
 			\end{tabular}
 		}
 	\end{flushright}
-	
+
 	\pagebreak
 }
 
@@ -732,23 +743,23 @@
 				\end{tabular}
 			}
 		\end{flushright}
-		
+
 		\begin{center}
-			\includegraphics[scale=1]{figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
-		
-		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}		
-		
+
+		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
+
 		\pagebreak
 	}
-		
+
 %% Bibliografia
 %
 %	\newcommand{\bibliografia}[1]{
-%		
+%
 %		\renewcommand{\refname}{Bibliografia}
 %		\addcontentsline{toc}{section}{Referências}
-%		\bibliography{#1}	
+%		\bibliography{#1}
 %	}
 
 % Apêndices
@@ -757,54 +768,54 @@
 % 2° parâmetro: nome do apêndice
 % 3º parâmetro: label do apêndice
 \newcommand{\apendice}[4]{
-	
+
 	\dummylabel{#3}{#1}
 
 	\addcontentsline{toc}{section}{APÊNDICE #1 - #2}
 	\section*{APÊNDICE #1 - \MakeUppercase{#2}}
-	
+
 	\renewcommand{\thefigure}{#1.\arabic{figure}}
 	\renewcommand{\thetable}{#1.\arabic{table}}
 	\setcounter{figure}{0}
 	\setcounter{table}{0}
 }
 
-% Anexos 
+% Anexos
 % Anexo de Relatório Técnico, com folha de rosto
 % 1º parâmetro: identificação do anexo (A, B, C, ...)
 % 2° parâmetro: nome do anexo
 % 3º parâmetro: label do anexo
 % 4º parâmetro: número total de páginas do anexo.
 	\newcommand{\anexo}[4]{
-	
+
 	\dummylabel{#3}{#1}
-	
+
 	\fancypagestyle{anexo}{
 		\rhead{{\footnotesize Anexo #1 do \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage /\pageref{LastPage}}}
 	}
-	
+
 	\pagestyle{anexo}
-		
+
 	\vspace*{5cm}
 	\begin{center}
-		
+
 		\cftaddtitleline{toc}{section}{ANEXO #1 - #2}{#4 pág.}
 		%\addcontentsline{toc}{section}{ANEXO #1 - #2}
-		
+
 		\large\textbf{ANEXO #1}
-		
-		
+
+
 		\vspace{4cm}
-		
+
 		\large\bfseries\MakeUppercase{#2}
-		
+
 	\end{center}
-	
-	
+
+
 	\pagebreak
-	
-	
-		
+
+
+
 %	\renewcommand{\thefigure}{#1.\arabic{figure}}
 %	\renewcommand{\thetable}{#1.\arabic{table}}
 %	\setcounter{figure}{0}
@@ -816,13 +827,13 @@
 % 2° parâmetro: nome do anexo
 % 3º parâmetro: label do anexo
 	\newcommand{\anexoSemFolhaRosto}[3]{
-	
+
 	\dummylabel{#3}{#1}
-	
+
 	\fancypagestyle{anexo_sfr}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{figuras/headImage.pdf}\\ 
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -835,19 +846,19 @@
 				\noindent\begin{tabular}{@{}r}
 				\\
 				\thepage /\pageref{LastPage} \\
-			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum} 
+			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
-	
+
 	\pagestyle{anexo_sfr}
-		
+
 	\begin{center}
 		{\large \textbf{ANEXO #1 - #2}}
 	\end{center}
-	
-	
+
+
 	\renewcommand{\thefigure}{#1.\arabic{figure}}
 	\renewcommand{\thetable}{#1.\arabic{table}}
 	\setcounter{figure}{0}
