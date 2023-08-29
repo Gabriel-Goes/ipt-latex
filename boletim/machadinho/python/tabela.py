@@ -20,23 +20,35 @@ with open(output_tex, "w") as tex_file:
     tex_file.write("        \\caption{Dados de Terremotos}\n")
     tex_file.write("        \\renewcommand{\\arraystretch}{1.5} \n")
     tex_file.write("        \\tiny\n")
-    tex_file.write("        \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]S[table-format=1.1]S[table-format=5.3]c} \n")
+    tex_file.write("        \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]S[table-format=1.1]cc} \n")
     tex_file.write("            \\toprule\n")
 
     # Escreve o cabeçalho da tabela
-    tex_file.write("            " + " & ".join(data[0]) + " \\\\\n")
+    modified_header = ["{" + col + "}" for col in data[0]]
+    tex_file.write("            " + " & ".join(modified_header) + " \\\\\n")
     tex_file.write("            \\midrule\n")
 
     # Escreve o subcabeçalho da tabela
-    tex_file.write("            " + " & ".join(data[1]) + " \\\\\n")
+    modified_subheader = []
+    for col in data[1]:
+        if "°" in col:
+            modified_subheader.append(col.replace("°", "\\textdegree\\hspace{0.25em}"))
+        else:
+            modified_subheader.append("{" + col + "}")
+    tex_file.write("            " + " & ".join(modified_subheader) + " \\\\\n")
     tex_file.write("            \\midrule\n")
 
     # Escreve os dados da tabela
     for row in data[2:]:
         formatted_row = []
         for col_idx, col in enumerate(row):
-            if col_idx == 4 or col_idx == 5:  # Colunas UTM X e UTM Y
+            if col_idx == 0:  # First column with underscores
+                col_with_backslash = col.replace("_", r"\_")
+                formatted_row.append(col_with_backslash)
+            elif col_idx == 4 or col_idx == 5:  # Colunas UTM X e UTM Y
                 formatted_row.append(str(int(float(col))))
+            elif col_idx == 7:
+                formatted_row.append("\\num[round-precision=3,round-mode=figures,scientific-notation=true]{" + col + "}")
             else:
                 formatted_row.append(col)
         tex_file.write("            " + " & ".join(formatted_row) + " \\\\\n")
@@ -47,4 +59,3 @@ with open(output_tex, "w") as tex_file:
     tex_file.write("        \\caption*{Fonte:IPT.}\n")
     tex_file.write("    \\end{center}\n")
     tex_file.write("\\end{table}\n")
-

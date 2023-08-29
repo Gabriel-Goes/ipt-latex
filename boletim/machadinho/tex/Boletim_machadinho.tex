@@ -4,14 +4,10 @@
 \usepackage[main=brazil,english]{babel}
 
 \usepackage{siunitx}
-
 \sisetup{
     group-separator={.},
     group-minimum-digits=3,
-    output-decimal-marker={,},
-}
-
-
+    output-decimal-marker={,}}
 
 % Alterando nome do TOC (adicionar em outras línguas, se necessário)
 %\addto\captionsbrazil{%
@@ -127,11 +123,17 @@ A estação MC9, conforme discutido em boletim anterior, não está operando no 
 \end{figure}
 
 \section{TABELA DE EVENTOS}
-\label{subsec:tabelas}
+\label{sec:tabelas}
 
 \input{./Tabela.tex}
 
 \newpage
+
+\section{MAPA DE EVENTOS}
+\label{sec:mapa}
+
+\input{./Mapa.tex}
+
 
 %\section{REFERÊNCIAS BIBLIOGRÁFICAS}
 % Bibliografia
