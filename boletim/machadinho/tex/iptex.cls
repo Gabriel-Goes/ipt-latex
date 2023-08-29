@@ -73,7 +73,7 @@
 % Tabelas longas
 \RequirePackage{longtable}
 \RequirePackage{makecell}
-
+\RequirePackage{adjustbox}
 
 % Página no modo paisagem
 \RequirePackage{pdflscape}
@@ -211,7 +211,7 @@
 
 	\lhead{\includegraphics[scale=0.9]{../figuras/headImage.pdf}}
 	\chead{}
-	\rhead{{\footnotesize \thepage}}
+    \rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
 	\rfoot{\includegraphics[scale=1.0]{../figuras/footImageCalibr.png}}
@@ -221,9 +221,7 @@
     		\rhead{{\footnotesize \thepage /\pageref{LastPage}}}
 	}
 
-	\fancypagestyle{timbrado}{
-		\rhead{}
-	}
+	\fancypagestyle{timbrado}{}
 
 	\fancypagestyle{tipo_pre}{
 		\rhead{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage}
