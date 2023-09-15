@@ -5,7 +5,7 @@ import csv
 input_csv = "../csv/events-2023-06-01-IT.csv"
 
 # Nome do arquivo de saída LaTeX
-output_tex = "/home/ipt/documents/ggrl/tarefa_latex/boletim/machadinho/tex/Tabela.tex"
+output_tex = "../tex/TabelaTerremotos.tex"
 
 # Abre o arquivo CSV para leitura
 with open(input_csv, "r") as csv_file:
@@ -16,11 +16,12 @@ with open(input_csv, "r") as csv_file:
 # Abre o arquivo LaTeX para escrita
 with open(output_tex, "w") as tex_file:
     tex_file.write("\\begin{table}[htb!]\n")
+    tex_file.write("\\resizebox{0.67\textwidth}{!}\n")
     tex_file.write("    \\begin{center} \n")
     tex_file.write("        \\caption{Dados de Terremotos}\n")
     tex_file.write("        \\renewcommand{\\arraystretch}{1.5} \n")
-    tex_file.write("        \\tiny\n")
-    tex_file.write("        \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]S[table-format=1.1]cc} \n")
+    tex_file.write("        \\small\n")
+    tex_file.write("        \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc} \n")
     tex_file.write("            \\toprule\n")
 
     # Escreve o cabeçalho da tabela
@@ -45,8 +46,17 @@ with open(output_tex, "w") as tex_file:
             if col_idx == 0:  # First column with underscores
                 col_with_backslash = col.replace("_", r"\_")
                 formatted_row.append(col_with_backslash)
+            elif col_idx == 2:  # Seventh column with comma instead of .
+                col_with_backslash = col.replace(".", r",")
+                formatted_row.append(col_with_backslash)
+            elif col_idx == 3:  # Seventh column with comma instead of .
+                col_with_backslash = col.replace(".", r",")
+                formatted_row.append(col_with_backslash)
             elif col_idx == 4 or col_idx == 5:  # Colunas UTM X e UTM Y
                 formatted_row.append(str(int(float(col))))
+            elif col_idx == 6:  # Seventh column with comma instead of .
+                col_with_backslash = col.replace(".", r",")
+                formatted_row.append(col_with_backslash)                
             elif col_idx == 7:
                 formatted_row.append("\\num[round-precision=3,round-mode=figures,scientific-notation=true]{" + col + "}")
             else:
