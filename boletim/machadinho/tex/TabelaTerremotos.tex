@@ -1,9 +1,8 @@
 \begin{table}[htb!]
-    \begin{center} 
+    \resizebox{1\textwidth}{!}{%
         \caption{Dados de Terremotos}
-        \renewcommand{\arraystretch}{1.5} 
-        \resizebox{1.0\textwidth}{!}
-        \begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc} 
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}
             \toprule
             {ID} & {Hora de Origem (UTC)} & {Longitude} & {Latitude} & {UTM X} & {UTM Y} & {MLv} & {Energia} & {Cat} \\
             \midrule
@@ -26,7 +25,7 @@
             IT\_20230601\_055456 & 2023-06-01T05:54:56 & -52,1247 & -27,2432 & 388648 & 6986122 & -0,9 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{18.0537} & I \\
             \bottomrule
         \end{tabular}
-        \label{tab:dados_terremoto}
-        \caption*{Fonte:IPT.}
-    \end{center}
+    }
+    \label{tab:dados_terremoto}
+    \caption*{Fonte:IPT.}
 \end{table}
