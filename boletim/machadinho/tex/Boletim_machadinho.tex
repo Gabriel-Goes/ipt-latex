@@ -10,14 +10,14 @@
     output-decimal-marker={,}}
 
 % Alterando nome do TOC (adicionar em outras línguas, se necessário)
-%\addto\captionsbrazil{%
-%	\renewcommand{\contentsname}{SUMÁRIO}
-%	\renewcommand{\refname}{REFERÊNCIAS}
-%}
-%\addto\captionsenglish{%
-%	\renewcommand{\contentsname}{CONTENTS}
-%	\renewcommand{\refname}{REFERENCES}
-%}
+\addto\captionsbrazil{%
+	\renewcommand{\contentsname}{SUMÁRIO}
+	\renewcommand{\refname}{REFERÊNCIAS}
+}
+\addto\captionsenglish{%
+	\renewcommand{\contentsname}{CONTENTS}
+	\renewcommand{\refname}{REFERENCES}
+}
 
 % BIBLIOGRAFIA
 \usepackage[abnt-emphasize=bf,alf]{abntex2cite}
@@ -41,28 +41,28 @@
 %\cancelaDoc{Relatório Técnico nº 123 456-205} % Descomente para opção cancela e substitui
 %\cliente{Instituto de Pesquisas Tecnológicas}{IPT}{Av. Professor Almeida Prado, 532}{55555-555}{São Paulo}{SP}
 \data{2023}
-
-\titulo{\textbf{RSIS - Rede Sismológica Itá/Machadinho, SC/RS} \\
+\titulo{\textbf{RSIS - Rede Sismológica Itá/Machadinho} \\
 \textbf{Reservatório de Machadinho, SC/RS} \\
 \textbf{BOLETIM SÍSMICO Nº XXXXXX}}
 \unidade{Cidades Infraestruturas e Meio Ambiente}{CIMA}
-\lab{Seção de Obras Civis}
+\lab{Seção de Obras Civis - SOC}
 \periodo{MES/ANO}{MES/ANO}
 
 
 % Inserir capa
-	\capa
-	\pagestyle{timbrado}
+    \capa
+    \pagestyle{timbrado}
 
 % Inserir resumo
 	%\resumo[]{Teste}{}
 
-\tableofcontents
+%\tableofcontents
+
 \vspace{0.5cm}
 
 \pagebreak
 \renewcommand{\thepage}{\arabic{page}}
-\setcounter{page}{2}
+\setcounter{page}{1}
 
 %\thispagestyle{geral}
 
@@ -105,11 +105,10 @@ Continuam válidas as considerações e orientações anteriores a respeito das 
 A estação MC9, conforme discutido em boletim anterior, não está operando no momento. Recomendações para resumir o funcionamento da estação já foram repassadas pelo IPT à ENGIE, e a empresa já iniciou o processo de aquisição de novos equipamentos.
 
 %\datahoje{São Paulo, 25 de agosto de 2023}
-
 \newpage
+
 \section{COMPLETUDE DOS DADOS}
 \label{fig:completude}
-
 \begin{figure}[htb!]
     \centering
 	\captionsetup{justification=raggedright,
@@ -124,28 +123,31 @@ A estação MC9, conforme discutido em boletim anterior, não está operando no 
 
 \section{TABELA DE EVENTOS}
 \label{sec:tabelas}
-
 \input{./Tabela.tex}
 
 \newpage
 
 \section{MAPA DE EVENTOS}
 \label{sec:mapa}
+\begin{figure}[ht]
+    \centering
+    \caption{Mapa de eventos.}
+    \includegraphics[width=1.0\textwidth]{../figuras/mapaevents.png} % Substitua pelo nome do arquivo de imagem e ajuste o tamanho
+    \caption*{Fonte:IPT}
+\end{figure}
 
-\input{./Mapa.tex}
+\newpage
 
-
-%\section{REFERÊNCIAS BIBLIOGRÁFICAS}
+\section{REFERÊNCIAS BIBLIOGRÁFICAS}
 % Bibliografia
-
 %\renewcommand{\refname}{REFERÊNCIAS}
 %\addcontentsline{toc}{section}{REFERÊNCIAS}
 %\bibliography{ref}
+\pageref{LastPage}
+\label{pag:fim}
 
-%\label{pag:fim}
-
-%\pagebreak
-%\clearpage
+\pagebreak
+\clearpage
 
 % ANEXO A
 

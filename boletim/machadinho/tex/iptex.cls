@@ -28,6 +28,7 @@
 \LoadClass[a4paper,oneside,onecolumn,final,openany,\@@ptsize]{article}
 
 % Incluindo pacotes
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{mathtools}
@@ -38,12 +39,10 @@
 \RequirePackage{amssymb}
 \RequirePackage{latexsym}
 \RequirePackage{mathabx}
-\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage[scaled]{helvet} % Mudar de "helvet" para "uarial" caso fonte arial esteja instalada
 \RequirePackage{url}
 \RequirePackage{fancyhdr}
-\RequirePackage{lastpage}
 \RequirePackage{indentfirst}
 \RequirePackage{color}
 \RequirePackage{float}
@@ -164,7 +163,7 @@
 	\newcommand\firstup[1]{\firstupaux#1\relax}
 	\def\firstupaux#1#2\relax{\MakeUppercase{#1}\MakeLowercase{#2}}	%para forçar apenas a primeira letra maiúscula
 
-    \newcommand{\datahoje}[1]{\gdef\inserirDataHoje}{#1}}
+    \newcommand{\datahoje}[1]{{\gdef\inserirDataHoje}{#1}}
 
 % Parágrafo
 
