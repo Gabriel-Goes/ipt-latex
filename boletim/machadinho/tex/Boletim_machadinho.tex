@@ -18,9 +18,10 @@
 	\renewcommand{\contentsname}{CONTENTS}
 	\renewcommand{\refname}{REFERENCES}
 }
-
 % BIBLIOGRAFIA
 \usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+
+\usepackage[italic]{mathastext}
 
 % Para bibliografia ABNT com números
 %\usepackage[abnt-emphasize=bf,num]{abntex2cite}
@@ -104,51 +105,52 @@ Continuam válidas as considerações e orientações anteriores a respeito das 
 
 A estação MC9, conforme discutido em boletim anterior, não está operando no momento. Recomendações para resumir o funcionamento da estação já foram repassadas pelo IPT à ENGIE, e a empresa já iniciou o processo de aquisição de novos equipamentos.
 
-%\datahoje{São Paulo, 25 de agosto de 2023}
+\datahoje{São Paulo, 25 de agosto de 2023}
+
+\pagebreak
+\clearpage
 \newpage
 
 \section{COMPLETUDE DOS DADOS}
 \label{fig:completude}
 \begin{figure}[htb!]
     \centering
-	\captionsetup{justification=raggedright,
-                  singlelinecheck=false,
-                  width=0.4\textwidth,
-                  format=plain}
+	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
     \caption{Gráfico de completude dos dados para o mês de MÊS para estação ESTAÇÃO.}
     \includegraphics[width=1.0\textwidth]{../figuras/completude.png} % Substitua pelo nome da imagem e ajuste o tamanho
     \caption*{Fonte:IPT}
-	\label{fig:logo}
+	\label{fig:completude}
 \end{figure}
+
+\pagebreak
+\clearpage
+\newpage
 
 \section{TABELA DE EVENTOS}
 \label{sec:tabelas}
-\input{./Tabela.tex}
+\input{./testTable.tex}
 
+\pagebreak
+\clearpage
 \newpage
 
 \section{MAPA DE EVENTOS}
 \label{sec:mapa}
 \begin{figure}[ht]
     \centering
+	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
     \caption{Mapa de eventos.}
     \includegraphics[width=1.0\textwidth]{../figuras/mapaevents.png} % Substitua pelo nome do arquivo de imagem e ajuste o tamanho
     \caption*{Fonte:IPT}
 \end{figure}
 
-\newpage
-
-\section{REFERÊNCIAS BIBLIOGRÁFICAS}
+%\section{REFERÊNCIAS BIBLIOGRÁFICAS}
 % Bibliografia
 %\renewcommand{\refname}{REFERÊNCIAS}
 %\addcontentsline{toc}{section}{REFERÊNCIAS}
 %\bibliography{ref}
-\pageref{LastPage}
-\label{pag:fim}
 
-\pagebreak
-\clearpage
-
-% ANEXO A
+%\pageref{LastPage}
+%\label{pag:fim}
 
 \end{document}
