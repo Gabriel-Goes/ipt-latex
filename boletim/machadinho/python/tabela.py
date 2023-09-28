@@ -16,16 +16,16 @@ with open(input_csv, "r") as csv_file:
 # Abre o arquivo LaTeX para escrita
 with open(output_tex, "w") as tex_file:
     tex_file.write("\\begin{table}[htb!]\n")
-    tex_file.write("    \\resizebox{1\\textwidth}{!}{%\n")
-    tex_file.write("        \\caption{Dados de Terremotos}\n")
-    tex_file.write("        \\renewcommand{\\arraystretch}{1.5}\n")
-    tex_file.write("        \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
-    tex_file.write("            \\toprule\n")
+#    tex_file.write("    \\resizebox{1\\textwidth}{!}{%\n")
+    tex_file.write("      \\caption{Dados de Terremotos}\n")
+    tex_file.write("      \\renewcommand{\\arraystretch}{0.75}\n")
+        tex_file.write("      \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
+    tex_file.write("          \\toprule\n")
 
     # Escreve o cabeçalho da tabela
     modified_header = ["{" + col + "}" for col in data[0]]
     tex_file.write("            " + " & ".join(modified_header) + " \\\\\n")
-    tex_file.write("            \\midrule\n")
+    tex_file.write("          \\midrule\n")
 
     # Escreve o subcabeçalho da tabela
     modified_subheader = []
@@ -35,7 +35,7 @@ with open(output_tex, "w") as tex_file:
         else:
             modified_subheader.append("{" + col + "}")
     tex_file.write("            " + " & ".join(modified_subheader) + " \\\\\n")
-    tex_file.write("            \\midrule\n")
+    tex_file.write("          \\midrule\n")
 
     # Escreve os dados da tabela
     for row in data[2:]:
@@ -61,9 +61,9 @@ with open(output_tex, "w") as tex_file:
                 formatted_row.append(col)
         tex_file.write("            " + " & ".join(formatted_row) + " \\\\\n")
 
-    tex_file.write("            \\bottomrule\n")
-    tex_file.write("        \\end{tabular}\n")
-    tex_file.write("    }\n")
-    tex_file.write("    \\label{tab:dados_terremoto}\n")
-    tex_file.write("    \\caption*{Fonte:IPT.}\n")
+    tex_file.write("          \\bottomrule\n")
+    tex_file.write("      \\end{tabular}\n")
+#    tex_file.write("  }\n")
+    tex_file.write("  \\label{tab:dados_terremoto}\n")
+    tex_file.write("  \\caption*{Fonte:IPT.}\n")
     tex_file.write("\\end{table}\n")

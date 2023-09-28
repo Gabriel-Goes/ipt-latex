@@ -541,7 +541,9 @@
 	\newcommand{\inserirTabelaLonga}[7]{
 		\begin{center}
 			\begin{longtable}{#1}
-
+				\captionsetup{justification=raggedright,
+					singlelinecheck=false
+				}
 				%\caption{#5} \\
 				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing\textbf{Tabela \thetable} -- #5}}
 				\vspace{0.3cm} \\
