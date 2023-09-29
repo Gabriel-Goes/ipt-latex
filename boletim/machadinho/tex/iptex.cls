@@ -533,39 +533,44 @@
 % 1º parâmetro: disposição das colunas (ex. l|c|r, para esquerda, centro e direita)
 % 2° parâmetro: número de colunas
 % 3º parâmetro: nomes das colunas (separados por &)
-% 4º parâmetro: conteúdo da tabela
-% 5º parâmetro: título (caption)
-% 6º parâmetro: rodapé (caption* - fonte)
-% 7º parâmetro: chave para referência - deve ser inserida com \label{key}
+% 4º parâmetro: nome das subcolunas ( sperados por &)
+% 5º parâmetro: conteúdo da tabela
+% 6º parâmetro: título (caption)
+% 7º parâmetro: rodapé (caption* - fonte)
+% 8º parâmetro: chave para referência - deve ser inserida com \label{key}
 
 	\newcommand{\inserirTabelaLonga}[7]{
+        \begin{small}
 		\begin{center}
+        \begin{landscape}
 			\begin{longtable}{#1}
 				\captionsetup{justification=raggedright,
 					singlelinecheck=false
 				}
-				%\caption{#5} \\
-				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing\textbf{Tabela \thetable} -- #5}}
+				%\caption{#6} \\
+				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing\textbf{Tabela \thetable} -- #6}}
 				\vspace{0.3cm} \\
 				\hline
 				#3 \\
 				\hline
+   %             #4 \\
+   %             \hline
 				\endhead
 
 				\hline
-				\multicolumn{#2}{r}{\small\textit{Continua na próxima página}} \\
+				\multicolumn{#2}{l}{\small\textit{Continua na próxima página}} \\
 				\endfoot
 
 				\hline
-				%\caption*{#6}
-				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing#6}}
+				%\caption*{#7}
+				\multicolumn{#2}{l}{\parbox{\LTcapwidth}{\small\singlespacing#7}}
 				\endlastfoot
-
-				#4
-
-				#7
+				#5
+%				#8
 			\end{longtable}
-		\end{center}
+        \end{landscape}
+        \end{center}
+        \end{small}
 	}
 
 

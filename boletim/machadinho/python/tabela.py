@@ -19,7 +19,7 @@ with open(output_tex, "w") as tex_file:
 #    tex_file.write("    \\resizebox{1\\textwidth}{!}{%\n")
     tex_file.write("      \\caption{Dados de Terremotos}\n")
     tex_file.write("      \\renewcommand{\\arraystretch}{0.75}\n")
-        tex_file.write("      \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
+    tex_file.write("      \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
     tex_file.write("          \\toprule\n")
 
     # Escreve o cabeçalho da tabela
