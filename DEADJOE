@@ -1,8 +1,13 @@
-\documentclass[12pt]{iptex}
+
+*** These modified files were found in JOE when it aborted on Mon Oct  2 14:00:59 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/ipt/projetos/ipt-latex/boletim/machadinho/tex/Boletim_machadinho.tex'
+j\documentclass[12pt]{iptex}
 % IDIOMA
 % Se necessário, inserir línguas e indicar língua principal (main)
 \usepackage[main=brazil,english]{babel}
-\usepackage[italic]{mathastext}
+
 \usepackage{siunitx}
 \sisetup{
     group-separator={.},
@@ -20,6 +25,9 @@
 }
 % BIBLIOGRAFIA
 \usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+
+\usepackage[italic]{mathastext}
+
 % Para bibliografia ABNT com números
 %\usepackage[abnt-emphasize=bf,num]{abntex2cite}
 %\citebrackets[]
@@ -58,9 +66,9 @@
 
 \vspace{0.5cm}
 
-%\pagebreak
-%\renewcommand{\thepage}{\arabic{page}}
-%\setcounter{page}{1}
+\pagebreak
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
 
 %\thispagestyle{geral}
 
@@ -121,7 +129,7 @@ A estação MC9, conforme discutido em boletim anterior, não está operando no 
 
 \section{TABELA DE EVENTOS}
 \label{sec:tabelas}
-\input{./Tabela.tex}
+\input{./TabelaTerremotos.tex}
 
 \pagebreak
 \clearpage
@@ -143,7 +151,17 @@ A estação MC9, conforme discutido em boletim anterior, não está operando no 
 %\addcontentsline{toc}{section}{REFERÊNCIAS}
 %\bibliography{ref}
 
-\pageref{LastPage}
+%\pageref{LastPage}
 %\label{pag:fim}
 
 \end{document}
+
+*** File '(Unnamed)'
+/home/ipt/projetos/ipt-latex/.git/COMMIT_EDITMSG
+/home/ipt/projetos/ipt-latex/boletim/machadinho/tex/Boletim_machadinho.tex
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

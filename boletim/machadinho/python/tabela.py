@@ -5,7 +5,7 @@ import csv
 input_csv = "../csv/events-2023-06-01-IT.csv"
 
 # Nome do arquivo de saída LaTeX
-output_tex = "../tex/TabelaTerremotos.tex"
+output_tex = "../tex/B_Ma_Tabela.tex"
 
 # Abre o arquivo CSV para leitura
 with open(input_csv, "r") as csv_file:
@@ -15,17 +15,24 @@ with open(input_csv, "r") as csv_file:
 
 # Abre o arquivo LaTeX para escrita
 with open(output_tex, "w") as tex_file:
-    tex_file.write("\\begin{table}[htb!]\n")
-#    tex_file.write("    \\resizebox{1\\textwidth}{!}{%\n")
-    tex_file.write("      \\caption{Dados de Terremotos}\n")
-    tex_file.write("      \\renewcommand{\\arraystretch}{0.75}\n")
-    tex_file.write("      \\begin{tabular}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
-    tex_file.write("          \\toprule\n")
+    tex_file.write("\\begin{center}\n")
+    tex_file.write("\\setcaptionmargin{1cm}\n")
+    tex_file.write("\\scriptsize\n")
+    tex_file.write("\\begin{longtable}{lcccccccc}\n")
+    tex_file.write("\\caption[Exemplo de tabela.]{Dados de Terremotos}\\\\\n")
+    tex_file.write("\\hline \\hline\\\\[-2ex]\n")
 
     # Escreve o cabeçalho da tabela
     modified_header = ["{" + col + "}" for col in data[0]]
-    tex_file.write("            " + " & ".join(modified_header) + " \\\\\n")
-    tex_file.write("          \\midrule\n")
+    for id in modified_header:
+        tex_file.write("\\multicolumn{1}{c}" + id + " &\n")
+
+    tex_file.write("\n")
+    tex_file.write("\n")
+    tex_file.write("\\\\[0.5ex] \\hline\n")
+    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\n")
+    tex_file.write("\n")
 
     # Escreve o subcabeçalho da tabela
     modified_subheader = []
@@ -34,8 +41,63 @@ with open(output_tex, "w") as tex_file:
             modified_subheader.append(col.replace("°", "\\textdegree\\hspace{0.25em}"))
         else:
             modified_subheader.append("{" + col + "}")
-    tex_file.write("            " + " & ".join(modified_subheader) + " \\\\\n")
-    tex_file.write("          \\midrule\n")
+    for id in modified_subheader:
+        tex_file.write("\\multicolumn{1}{c}" + id + " & \n")
+
+    tex_file.write("\n")
+    tex_file.write("\n")
+    tex_file.write("\\\\[0.5ex] \\hline\n")
+    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\n")
+    tex_file.write("\n")
+
+    tex_file.write("\\endfirsthead\n")
+    tex_file.write("\n")
+
+    tex_file.write("\\multicolumn{9}{c}{\\footnotesize{{\\slshape{{\\tablename} \\table{}}} - Continuação}}\\\\[0.5ex]\n")
+    tex_file.write("\n")
+
+    tex_file.write("\\hline \\hline\\\\[-2ex]\n")
+    tex_file.write("\n")
+
+    # Escreve o cabeçalho da tabela
+    modified_header = ["{" + col + "}" for col in data[0]]
+    for id in modified_header:
+        tex_file.write("\\multicolumn{1}{c}" + id + " &\n")
+
+    tex_file.write("\n")
+    tex_file.write("\n")
+    tex_file.write("\\\\[0.5ex] \\hline\n")
+    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\n")
+    tex_file.write("\n")
+
+    # Escreve o subcabeçalho da tabela
+    modified_subheader = []
+    for col in data[1]:
+        if "°" in col:
+            modified_subheader.append(col.replace("°", "\\textdegree\\hspace{0.25em}"))
+        else:
+            modified_subheader.append("{" + col + "}")
+    for id in modified_subheader:
+        tex_file.write("\\multicolumn{1}{c}" + id + " & \n")
+
+    tex_file.write("\n")
+    tex_file.write("\n")
+    tex_file.write("\\\\[0.5ex] \\hline\n")
+    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\n")
+    tex_file.write("\n")
+    tex_file.write("\\endhead\n")
+    tex_file.write("\n")
+
+    tex_file.write("\\multicolumn{3}{l}{\\footnotesize{Continua na próxima página\\ldots}}}\\\\\n")
+    tex_file.write("\\endfoot\n")
+    tex_file.write("\\hline\n")
+    tex_file.write("\n")
+
+    tex_file.write("\\endlastfoot\n")
+    tex_file.write("\n")
 
     # Escreve os dados da tabela
     for row in data[2:]:
@@ -61,9 +123,7 @@ with open(output_tex, "w") as tex_file:
                 formatted_row.append(col)
         tex_file.write("            " + " & ".join(formatted_row) + " \\\\\n")
 
-    tex_file.write("          \\bottomrule\n")
-    tex_file.write("      \\end{tabular}\n")
-#    tex_file.write("  }\n")
-    tex_file.write("  \\label{tab:dados_terremoto}\n")
-    tex_file.write("  \\caption*{Fonte:IPT.}\n")
-    tex_file.write("\\end{table}\n")
+    tex_file.write("\\label{tab:dados_terremoto}\n")
+    tex_file.write("%\\caption*{Fonte:IPT.}\n")
+    tex_file.write("\\end{longtable}\n")
+    tex_file.write("\\end{center}\n")

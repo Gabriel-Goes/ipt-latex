@@ -98,11 +98,11 @@
 
 	\renewcommand{\familydefault}{\sfdefault}
 	\renewcommand{\arraystretch}{1.5}
-	\newdimen\NetTableWidth
-  \NetTableWidth=\dimexpr
-    \linewidth
-    - 8\tabcolsep
-    - 5\arrayrulewidth % if package array is loaded
+%	\newdimen\NetTableWidth
+%  \NetTableWidth=\dimexpr
+%    \linewidth
+%    - 8\tabcolsep
+%    - 5\arrayrulewidth % if package array is loaded
 
 
 % Tamanhos de fonte das seções e subseções e alterações no TOC

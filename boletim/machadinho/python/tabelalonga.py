@@ -25,7 +25,7 @@ with open(output_tex, "w") as tex_file:
     modified_subheader = []
     for col in data[1]:
         if "°" in col:
-            modified_subheader.append(col.replace("°","\\textdegree\\hspace{0.25em}"))
+            modified_subheader.append(col.replace("°", "\\textdegree\\hspace{0.25em}"))
         else:
             modified_subheader.append(col)
     tex_file.write("{" + " & ".join(modified_subheader) + "}{")

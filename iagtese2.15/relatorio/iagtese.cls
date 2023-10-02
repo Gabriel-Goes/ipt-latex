@@ -26,6 +26,7 @@
 %% sources see the copyright notice in the file thesis.dtx.
 %% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{siunitx}
 
 \def\filename{iagtese_en}
 \def\fileversion{versao 2.12}
