@@ -1,10 +1,12 @@
 \begin{center}
+%\setcaptionmargin{1cm}
 \scriptsize
 \begin{longtable}{ccccS[table-format=6.0]S[table-format=7.0]ccc}
-\caption{Dados de Terremotos}\\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline \\[-4ex]
-\hline \\[-5ex]
+\captionsetup{justification=raggedright,singlelinecheck=false}
+\caption{Dados de Terremotos.} \\
+
+\hline \\[-4.0ex]
+\hline \\[-5.0ex]
 \multicolumn{1}{c}{ID} &
 \multicolumn{1}{c}{Hora de Origem (UTC)} &
 \multicolumn{1}{c}{Longitude} &
@@ -13,30 +15,29 @@
 \multicolumn{1}{c}{UTM Y} &
 \multicolumn{1}{c}{MLv} &
 \multicolumn{1}{c}{Energia} &
-\multicolumn{1}{c}{Cat} &
+\multicolumn{1}{c}{Cat} 
 
-
-\\[-5.0ex] \hline
+\\[0.5ex] \hline
 \\[-5.0ex]
 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{(\textdegree\hspace{0.25em})}} & 
-\multicolumn{1}{c}{\textit{(\textdegree\hspace{0.25em})}} & 
-\multicolumn{1}{c}{\textit{{(m)}}} & 
-\multicolumn{1}{c}{\textit{{(m)}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{{(J)}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{(\textit{\textdegree\hspace{0.25em})}} & 
+\multicolumn{1}{c}{(\textit{\textdegree\hspace{0.25em})}} & 
+\multicolumn{1}{c}{\textit{(m)}} & 
+\multicolumn{1}{c}{\textit{(m)}} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{\textit{(J)}} & 
+\multicolumn{1}{c}{} 
 
-\\[-5.0ex] \hline
+\\[0.5ex] \hline
 \\[-4.0ex]
+
 \endfirsthead
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hline \\[-4ex]
-\hline \\[-5ex]
+
+\hline \\[-4.0ex]
+\hline \\[-5.0ex]
 \multicolumn{1}{c}{ID} &
 \multicolumn{1}{c}{Hora de Origem (UTC)} &
 \multicolumn{1}{c}{Longitude} &
@@ -45,29 +46,30 @@
 \multicolumn{1}{c}{UTM Y} &
 \multicolumn{1}{c}{MLv} &
 \multicolumn{1}{c}{Energia} &
-\multicolumn{1}{c}{Cat} &
+\multicolumn{1}{c}{Cat}
 
-
-\\[-5.0ex] \hline
+\\[0.5ex] \hline
 \\[-5.0ex]
 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{(\textdegree\hspace{0.25em})}} & 
-\multicolumn{1}{c}{\textit{(\textdegree\hspace{0.25em})}} & 
-\multicolumn{1}{c}{\textit{{(m)}}} & 
-\multicolumn{1}{c}{\textit{{(m)}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
-\multicolumn{1}{c}{\textit{{(J)}}} & 
-\multicolumn{1}{c}{\textit{{}}} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{(\textit{\textdegree\hspace{0.25em})}} & 
+\multicolumn{1}{c}{(\textit{\textdegree\hspace{0.25em})}} & 
+\multicolumn{1}{c}{\textit{(m)}} & 
+\multicolumn{1}{c}{\textit{(m)}} & 
+\multicolumn{1}{c}{} & 
+\multicolumn{1}{c}{\textit{(J)}} & 
+\multicolumn{1}{c}{} 
 
-\\[-5.0ex] \hline
+\\[0.5ex] \hline
 \\[-4.0ex]
+
 \endhead
 \hline
 
 \endlastfoot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 IT\_20230630\_070654 & 2023-06-30T07:06:54 & -52,1236 & -27,2447 & 388756 & 6985959 & -0,5 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{80.6926} & I \\
 IT\_20230623\_033615 & 2023-06-23T03:36:15 & -52,0635 & -27,3083 & 394770 & 6978969 & -0,5 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{82.288} & I \\
 IT\_20230622\_193901 & 2023-06-22T19:39:01 & -52,2639 & -27,2941 & 374921 & 6980353 & -0,6 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{69.5138} & I \\
@@ -128,7 +130,10 @@ IT\_20230606\_003357 & 2023-06-06T00:33:57 & -52,1642 & -27,2142 & 384706 & 6989
 IT\_20230605\_203509 & 2023-06-05T20:35:09 & -51,7175 & -27,3387 & 429030 & 6975842 & 0,8 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{29450.1} & Q \\
 IT\_20230601\_195756 & 2023-06-01T19:57:56 & -52,0606 & -27,2107 & 394964 & 6989781 & 0,9 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{38000.7} & Q \\
 IT\_20230601\_055456 & 2023-06-01T05:54:56 & -52,1247 & -27,2432 & 388648 & 6986122 & -0,9 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{18.0537} & I \\
-\label{tab:dados_terremoto}
+
+
+\label{dados_terremoto}
 \caption*{Fonte: IPT.}
+
 \end{longtable}
 \end{center}

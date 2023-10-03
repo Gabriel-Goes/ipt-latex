@@ -85,6 +85,7 @@
 \RequirePackage{array}
 %\RequirePackage{arydshln}
 
+
 %	\setlength\dashlinedash{0.2pt}
 %	\setlength\dashlinegap{1.5pt}
 %	\setlength\arrayrulewidth{1.5pt}

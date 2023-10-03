@@ -16,11 +16,14 @@ with open(input_csv, "r") as csv_file:
 # Abre o arquivo LaTeX para escrita
 with open(output_tex, "w") as tex_file:
     tex_file.write("\\begin{center}\n")
-    tex_file.write("\\setcaptionmargin{1cm}\n")
     tex_file.write("\\scriptsize\n")
-    tex_file.write("\\begin{longtable}{lcccccccc}\n")
-    tex_file.write("\\caption[Exemplo de tabela.]{Dados de Terremotos}\\\\\n")
-    tex_file.write("\\hline \\hline\\\\[-2ex]\n")
+    tex_file.write("\\begin{longtable}{ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
+#    tex_file.write("\\captionsetup{justification=raggedright,singlelinecheck=false}\n")
+    tex_file.write("\\caption{Dados de Terremotos}\\\\\n")
+
+    tex_file.write("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
+    tex_file.write("\\hline \\\\[-4ex]\n")
+    tex_file.write("\\hline \\\\[-5ex]\n")
 
     # Escreve o cabeçalho da tabela
     modified_header = ["{" + col + "}" for col in data[0]]
@@ -29,8 +32,8 @@ with open(output_tex, "w") as tex_file:
 
     tex_file.write("\n")
     tex_file.write("\n")
-    tex_file.write("\\\\[0.5ex] \\hline\n")
-    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\\\\[-5.0ex] \\hline\n")
+    tex_file.write("\\\\[-5.0ex]")
     tex_file.write("\n")
     tex_file.write("\n")
 
@@ -42,23 +45,20 @@ with open(output_tex, "w") as tex_file:
         else:
             modified_subheader.append("{" + col + "}")
     for id in modified_subheader:
-        tex_file.write("\\multicolumn{1}{c}" + id + " & \n")
+        tex_file.write("\\multicolumn{1}{c}{\\textit{" + id + "}} & \n")
 
     tex_file.write("\n")
-    tex_file.write("\n")
-    tex_file.write("\\\\[0.5ex] \\hline\n")
-    tex_file.write("\\\\[-1.8ex]")
-    tex_file.write("\n")
+    tex_file.write("\\\\[-5.0ex] \\hline\n")
+    tex_file.write("\\\\[-4.0ex]")
     tex_file.write("\n")
 
     tex_file.write("\\endfirsthead\n")
     tex_file.write("\n")
-
-    tex_file.write("\\multicolumn{9}{c}{\\footnotesize{{\\slshape{{\\tablename} \\table{}}} - Continuação}}\\\\[0.5ex]\n")
     tex_file.write("\n")
+    tex_file.write("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
 
-    tex_file.write("\\hline \\hline\\\\[-2ex]\n")
-    tex_file.write("\n")
+    tex_file.write("\\hline \\\\[-4ex]\n")
+    tex_file.write("\\hline \\\\[-5ex]\n")
 
     # Escreve o cabeçalho da tabela
     modified_header = ["{" + col + "}" for col in data[0]]
@@ -67,8 +67,8 @@ with open(output_tex, "w") as tex_file:
 
     tex_file.write("\n")
     tex_file.write("\n")
-    tex_file.write("\\\\[0.5ex] \\hline\n")
-    tex_file.write("\\\\[-1.8ex]")
+    tex_file.write("\\\\[-5.0ex] \\hline\n")
+    tex_file.write("\\\\[-5.0ex]")
     tex_file.write("\n")
     tex_file.write("\n")
 
@@ -80,26 +80,21 @@ with open(output_tex, "w") as tex_file:
         else:
             modified_subheader.append("{" + col + "}")
     for id in modified_subheader:
-        tex_file.write("\\multicolumn{1}{c}" + id + " & \n")
+        tex_file.write("\\multicolumn{1}{c}{\\textit{" + id + "}} & \n")
 
     tex_file.write("\n")
-    tex_file.write("\n")
-    tex_file.write("\\\\[0.5ex] \\hline\n")
-    tex_file.write("\\\\[-1.8ex]")
-    tex_file.write("\n")
+    tex_file.write("\\\\[-5.0ex] \\hline\n")
+    tex_file.write("\\\\[-4.0ex]")
     tex_file.write("\n")
     tex_file.write("\\endhead\n")
-    tex_file.write("\n")
-
-    tex_file.write("\\multicolumn{3}{l}{\\footnotesize{Continua na próxima página\\ldots}}}\\\\\n")
-    tex_file.write("\\endfoot\n")
     tex_file.write("\\hline\n")
-    tex_file.write("\n")
 
-    tex_file.write("\\endlastfoot\n")
     tex_file.write("\n")
+    tex_file.write("\\endlastfoot\n")
+    tex_file.write("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
 
     # Escreve os dados da tabela
+    print(data[2:])
     for row in data[2:]:
         formatted_row = []
         for col_idx, col in enumerate(row):
@@ -121,9 +116,9 @@ with open(output_tex, "w") as tex_file:
                 formatted_row.append("\\num[round-precision=3,round-mode=figures,scientific-notation=true]{" + col + "}")
             else:
                 formatted_row.append(col)
-        tex_file.write("            " + " & ".join(formatted_row) + " \\\\\n")
+        tex_file.write(" & ".join(formatted_row) + " \\\\\n")
 
     tex_file.write("\\label{tab:dados_terremoto}\n")
-    tex_file.write("%\\caption*{Fonte:IPT.}\n")
+    tex_file.write("\\caption*{Fonte: IPT.}\n")
     tex_file.write("\\end{longtable}\n")
     tex_file.write("\\end{center}\n")
