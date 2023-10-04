@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.28)  4 OCT 2023 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.28)  4 OCT 2023 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,68 +1440,68 @@ Package pdftex.def Info: figuras/footImageCalibr.png  used on input line 28.
 
 ]
 (./tex/Assinatura.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
 
 
 (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
 .
 
 (/usr/share/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 3.
+(Font)              scaled to size 7.59998pt on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 3.
+(Font)              scaled to size 11.39996pt on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 3.
+(Font)              scaled to size 9.49997pt on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 3.
+(Font)              scaled to size 7.59998pt on input line 4.
 <./figuras/assinatura.png, id=61, 116.5956pt x 48.18pt>
 File: ./figuras/assinatura.png Graphic file (type png)
 <use ./figuras/assinatura.png>
-Package pdftex.def Info: ./figuras/assinatura.png  used on input line 9.
+Package pdftex.def Info: ./figuras/assinatura.png  used on input line 10.
 (pdftex.def)             Requested size: 116.5953pt x 48.17986pt.
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.10     \hline
-                \\[0.5ex]
+l.12     \hline
+               
 ? 
 ! You can't use `\hrule' here except with leaders.
 \vline ->\vrule 
                 \@width \arrayrulewidth 
-l.10     \hline
-                \\[0.5ex]
+l.12     \hline
+               
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.10     \hline
-                \\[0.5ex]
+l.12     \hline
+               
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.10     \hline
-                \\[0.5ex]
+l.12     \hline
+               
 ? 
 ))
 File: figuras/headImage.pdf Graphic file (type pdf)
@@ -1662,7 +1662,7 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uh
 vro8a.pfb>
-Output written on B_Ma.pdf (8 pages, 589853 bytes).
+Output written on B_Ma.pdf (8 pages, 589950 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
