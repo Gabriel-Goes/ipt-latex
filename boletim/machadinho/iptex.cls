@@ -164,7 +164,6 @@
 	\newcommand\firstup[1]{\firstupaux#1\relax}
 	\def\firstupaux#1#2\relax{\MakeUppercase{#1}\MakeLowercase{#2}}	%para forçar apenas a primeira letra maiúscula
 
-    \newcommand{\datahoje}[1]{{\gdef\inserirDataHoje}{#1}}
 
 % Parágrafo
 
