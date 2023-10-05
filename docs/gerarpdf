@@ -1,23 +1,73 @@
 #!/bin/bash
 
-# Verifica se um argumento foi fornecido
-if [ $# -eq 0 ]; then
-    echo "Uso: $0 <arquivo.tex>"
+# Solicita ao usuário que selecione uma opção
+echo "Selecione a opção desejada:"
+echo "1 - Machadinho"
+echo "2 - Baesa"
+read opcao
+
+
+# Verifica a opção escolhida e executa o arquivo correspondente
+if [ "$opcao" == "1" ]; then
+    logs=~/projetos/ipt-latex/boletim/machadinho/
+    tabela=~/projetos/ipt-latex/boletim/machadinho/python/tabela.py
+    mapa=~/projetos/ipt-latex/boletim/machadinho/python/mapa_machadinho.py
+    input_tex=~/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+    # Verifica se o arquivo existe antes de executá-lo
+    
+    if [ -f "$tabela" ] && [ -f "$mapa" ];then
+        echo "Executando $tabela"
+        python3 "$tabela"
+        echo "Executando $mapa"
+        python3 "$mapa"
+    else
+        echo "Script python não encontrado"
+        exit 1
+    fi
+    
+    if [ -f "$input_tex" ]; then 
+        # Gera o arquivo PDF a partir do arquivo LaTeX
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Primeiro print"
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Segundo print"
+        echo " "
+        # Remove arquivos temporários gerados pelo pdflatex
+#        rm -f *.aux *.log *.out *.xmpi *.toc
+
+        echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+
+    else
+        echo "Script "$input_tex"  não encontrado"
+        exit 1
+    fi
+
+   elif [ "$opcao" == "2" ]; then
+    input_tex=~/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
+    logs=~/projetos/ipt-latex/boletim/baesa/
+    # [ -f "$tabela" ] && [ -f "$tabela" ] && 
+    if [ -f "$input_tex" ] ;then
+        echo "Executando $arquivo"
+        #  python3 "$tabela"
+        # python3 "$mapa"
+        
+        # Gera o arquivo PDF a partir do arquivo LaTeX
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Primeiro print"
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Segundo print"
+        echo " "
+
+        # Remove arquivos temporários gerados pelo pdflatex
+#        rm -f *.aux *.log *.out *.xmpi *.toc
+
+        echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+    else
+        echo "Script "$input_tex" não encontrado"
+        exit 1
+    fi
+
+else
+    echo "Opção inválida!"
     exit 1
 fi
-
-# Nome do arquivo LaTeX passado como argumento
-input_tex="$1"
-
-# Executa o script Python para gerar o arquivo LaTeX
-python3 ../python/tabela.py
-python3 ../python/mapa.py
-
-# Gera o arquivo PDF a partir do arquivo LaTeX
-pdflatex "$input_tex"
-
-# Remove arquivos temporários gerados pelo pdflatex
-rm -f *.aux *.log *.out *.xmpi *.toc
-
-echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
-

@@ -11,4 +11,4 @@ def generate_map_latex(output_filename):
         output_file.write(latex_code)
 
 
-generate_map_latex("./tex/mapa_machadinho_boletim.tex")
+generate_map_latex("/home/ipt/projetos/ipt-latex/boletim/machadinho/tex/mapa_machadinho_boletim.tex")
