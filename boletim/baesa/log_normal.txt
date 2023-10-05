@@ -65,6 +65,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -197,11 +198,36 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/capa_baesa_boletim.tex
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
-age.pdf> <./figuras/footImageCalibr.png>])
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/capa_baesa_boletim.tex [1 <./fi
+guras/headImage.pdf> <./figuras/footImageCalibr.png>])
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/corpo_baesa_boletim.tex
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/info_gerais_baesa_boletim.tex
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...column{2}{|c|}{Volume (m³)} & 5.200 x 10^
+                                                  6 &  1.477 x 10^6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...umn{2}{|c|}{Volume (m³)} & 5.200 x 10^6 &
+                                                    1.477 x 10^6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...olume (m³)} & 5.200 x 10^6 &  1.477 x 10^
+                                                  6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...} & 5.200 x 10^6 &  1.477 x 10^6 \\ \hline
+                                                  
+? [2] [3]
 
 ! Package caption Error: \caption outside float.
 
@@ -209,18 +235,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \caption
-             {(*) esvaziamento e enchimento do reservatório em decorrência...
-
-? [2]
-
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption
+l.68 \caption
              *{(**) em 20.01.2009 foi desativada e os equipamentos retornara...
 
 ? 
@@ -230,7 +245,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \caption
+l.69 \caption
              *{(*) em 26.01.2015 foi desativada a estação BC7.}
 ? 
 ! Package caption Error: \caption outside float.
@@ -239,23 +254,19 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \caption
+l.70 \caption
              *{A partir de janeiro de 2015 não estão sendo utilizados mais...
 
-? [3]
-Overfull \hbox (70.20935pt too wide) in paragraph at lines 50--67
+? [4]
+Overfull \hbox (70.20935pt too wide) in paragraph at lines 82--99
 \T1/phv/m/n/12 Res-pon-s�-vel Re-gis-tro Va-li-dade Chave de Au-ten-ti-ca-��o P
 es-soa IPT 676518 19/10/2023 Z7FX6S4TNR1QGXE8
-) [4]
+) [5]
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/ultimos_relatorios_baesa_boleti
-m.tex) [5]
+m.tex) [6]
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/atividades_realizadas_baesa_bol
-etim.tex) [6]
+etim.tex) [7]
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/resultados_baesa_boletim.tex
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 
 ! Package array Error:  Illegal pream-token (1): `c' used.
 
@@ -285,18 +296,18 @@ l.12     4 &
                              
 l.12     4 & 5 &
                  6 \\
-? ) [7]
+? ) [8]
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/considerações_baesa_boletim.t
-ex) (/home/ipt/projetos/ipt-latex/assinatura.tex) [8 </home/ipt/projetos/ipt-la
+ex) (/home/ipt/projetos/ipt-latex/assinatura.tex) [9 </home/ipt/projetos/ipt-la
 tex/figuras/assinatura.png>]
 (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/anexo_baesa_boletim.tex))
-[9]
+[10]
 No file baesa_boletim.bbl.
 
 AED: lastpage setting LastPage
-[10] (./baesa_boletim.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+[11] (./baesa_boletim.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
 /8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on baesa_boletim.pdf (10 pages, 159506 bytes).
+Output written on baesa_boletim.pdf (11 pages, 163791 bytes).
 Transcript written on baesa_boletim.log.

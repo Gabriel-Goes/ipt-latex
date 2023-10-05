@@ -213,7 +213,8 @@ tim.tex)
 (/home/ipt/projetos/ipt-latex/boletim/machadinho/tex/tabela_machadinho_boletim.
 tex [4 </home/ipt/projetos/ipt-latex/figuras/completude.png>] [5]) [6]
 (/home/ipt/projetos/ipt-latex/boletim/machadinho/tex/mapa_machadinho_boletim.te
-x) [7 <./figuras/mapaevents.png (PNG copy)>]
+x) [7 </home/ipt/projetos/ipt-latex/boletim/machadinho/figuras/mapaevents.png (
+PNG copy)>]
 No file machadinho_boletim.bbl.
 
 AED: lastpage setting LastPage
@@ -222,5 +223,5 @@ base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
 ha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on machadinho_boletim.pdf (8 pages, 589122 bytes).
+Output written on machadinho_boletim.pdf (8 pages, 589121 bytes).
 Transcript written on machadinho_boletim.log.

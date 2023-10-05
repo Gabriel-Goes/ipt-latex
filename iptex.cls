@@ -46,6 +46,7 @@
 \RequirePackage{indentfirst}
 \RequirePackage{color}
 \RequirePackage{float}
+\RequirePackage{multirow}
 \RequirePackage{lscape}
 \RequirePackage{lastpage}
 \RequirePackage[margin=15pt,font=small,labelfont=bf,labelsep=endash,centerlast]{caption}
