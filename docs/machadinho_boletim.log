@@ -1,0 +1,435 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.10.3)  6 OCT 2023 10:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/suporte/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+(/home/suporte/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+LaTeX2e <2018-12-01>
+
+! LaTeX Error: File `iptex.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Interruption.
+<to be read again> 
+                   }
+l.4 \usepackage
+               [main=brazil,english]{babel}^^M
+? 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen102
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count81
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+Package: mathastext 2018/08/22 v1.3t Use the text font in math mode (JFB)
+\mst@exists@muskip=\muskip10
+\mst@forall@muskip=\muskip11
+\mst@prime@muskip=\muskip12
+\mst@do@nonletters=\toks14
+\mst@do@easynonletters=\toks15
+\mst@do@az=\toks16
+\mst@do@AZ=\toks17
+\symmtoperatorfont=\mathgroup4
+\symmtletterfont=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `nor
+mal'
+(Font)                  OT1/cmr/bx/it --> OT1/cmr/bx/it on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `bol
+d'
+(Font)                  OT1/cmr/bx/it --> OT1/cmr/bx/it on input line 1125.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/m/it on input line 1125.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `bold'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/bx/it on input line 1125.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `normal
+'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 1125.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/bx/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/bx/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/m/it on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `bold'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/bx/it on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 1125.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 1125.
+
+** Latin letters in the normal (resp. bold) math versions are now
+** set up to use the fonts OT1/cmr/m(bx)/it
+** Other characters (digits, ...) and \log-like names will be
+** typeset with the n shape.
+** ! and ?
+** punctuation: , . : ; and \colon
+LaTeX Info: Redefining \relbar on input line 1271.
+** minus as endash
+** \hbar
+** + and =
+LaTeX Info: Redefining \Relbar on input line 1399.
+** adding = ; and + to \nfss@catcodes
+** parentheses ( ) [ ] and slash /
+** \# \mathdollar \% \& 
+** \imath and \jmath 
+** \Huge and \HUGE have been (re)-defined.
+** mathastext has declared larger sizes for subscripts.
+** To keep LaTeX defaults, use option `defaultmathsizes'.
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-02-15 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-02-15 L3 programming layer (code)
+\c_max_int=\count82
+\l_tmpa_int=\count83
+\l_tmpb_int=\count84
+\g_tmpa_int=\count85
+\g_tmpb_int=\count86
+\g__kernel_prg_map_int=\count87
+\c_log_iow=\count88
+\l_iow_line_count_int=\count89
+\l__iow_line_target_int=\count90
+\l__iow_one_indent_int=\count91
+\l__iow_indent_int=\count92
+\c_zero_dim=\dimen103
+\c_max_dim=\dimen104
+\l_tmpa_dim=\dimen105
+\l_tmpb_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+\c_zero_skip=\skip41
+\c_max_skip=\skip42
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip13
+\c_max_muskip=\muskip14
+\l_tmpa_muskip=\muskip15
+\l_tmpb_muskip=\muskip16
+\g_tmpa_muskip=\muskip17
+\g_tmpb_muskip=\muskip18
+\l_keys_choice_int=\count93
+\l__intarray_loop_int=\count94
+\c__intarray_sp_dim=\dimen109
+\g__intarray_font_int=\count95
+\c__fp_leading_shift_int=\count96
+\c__fp_middle_shift_int=\count97
+\c__fp_trailing_shift_int=\count98
+\c__fp_big_leading_shift_int=\count99
+\c__fp_big_middle_shift_int=\count100
+\c__fp_big_trailing_shift_int=\count101
+\c__fp_Bigg_leading_shift_int=\count102
+\c__fp_Bigg_middle_shift_int=\count103
+\c__fp_Bigg_trailing_shift_int=\count104
+\c__kernel_randint_max_int=\count105
+\g__fp_array_int=\count106
+\l__fp_array_loop_int=\count107
+\l__sort_length_int=\count108
+\l__sort_min_int=\count109
+\l__sort_top_int=\count110
+\l__sort_max_int=\count111
+\l__sort_true_max_int=\count112
+\l__sort_block_int=\count113
+\l__sort_begin_int=\count114
+\l__sort_end_int=\count115
+\l__sort_A_int=\count116
+\l__sort_B_int=\count117
+\l__sort_C_int=\count118
+\l__tl_analysis_normal_int=\count119
+\l__tl_analysis_index_int=\count120
+\l__tl_analysis_nesting_int=\count121
+\l__tl_analysis_type_int=\count122
+\l__regex_internal_a_int=\count123
+\l__regex_internal_b_int=\count124
+\l__regex_internal_c_int=\count125
+\l__regex_balance_int=\count126
+\l__regex_group_level_int=\count127
+\l__regex_mode_int=\count128
+\c__regex_cs_in_class_mode_int=\count129
+\c__regex_cs_mode_int=\count130
+\l__regex_catcodes_int=\count131
+\l__regex_default_catcodes_int=\count132
+\c__regex_catcode_D_int=\count133
+\c__regex_catcode_S_int=\count134
+\c__regex_catcode_L_int=\count135
+\c__regex_catcode_O_int=\count136
+\c__regex_catcode_A_int=\count137
+\c__regex_all_catcodes_int=\count138
+\l__regex_show_lines_int=\count139
+\l__regex_min_state_int=\count140
+\l__regex_max_state_int=\count141
+\l__regex_left_state_int=\count142
+\l__regex_right_state_int=\count143
+\l__regex_capturing_group_int=\count144
+\l__regex_min_pos_int=\count145
+\l__regex_max_pos_int=\count146
+\l__regex_curr_pos_int=\count147
+\l__regex_start_pos_int=\count148
+\l__regex_success_pos_int=\count149
+\l__regex_curr_char_int=\count150
+\l__regex_curr_catcode_int=\count151
+\l__regex_last_char_int=\count152
+\l__regex_case_changed_char_int=\count153
+\l__regex_curr_state_int=\count154
+\l__regex_step_int=\count155
+\l__regex_min_active_int=\count156
+\l__regex_max_active_int=\count157
+\l__regex_replacement_csnames_int=\count158
+\l__regex_match_count_int=\count159
+\l__regex_min_submatch_int=\count160
+\l__regex_submatch_int=\count161
+\l__regex_zeroth_submatch_int=\count162
+\g__regex_trace_regex_int=\count163
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen110
+\l__box_bottom_dim=\dimen111
+\l__box_left_dim=\dimen112
+\l__box_right_dim=\dimen113
+\l__box_top_new_dim=\dimen114
+\l__box_bottom_new_dim=\dimen115
+\l__box_left_new_dim=\dimen116
+\l__box_right_new_dim=\dimen117
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen118
+\l__coffin_offset_x_dim=\dimen119
+\l__coffin_offset_y_dim=\dimen120
+\l__coffin_x_dim=\dimen121
+\l__coffin_y_dim=\dimen122
+\l__coffin_x_prime_dim=\dimen123
+\l__coffin_y_prime_dim=\dimen124
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen125
+\l__coffin_display_x_dim=\dimen126
+\l__coffin_display_y_dim=\dimen127
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen128
+\l__coffin_left_corner_dim=\dimen129
+\l__coffin_right_corner_dim=\dimen130
+\l__coffin_bottom_corner_dim=\dimen131
+\l__coffin_top_corner_dim=\dimen132
+\l__coffin_scaled_total_height_dim=\dimen133
+\l__coffin_scaled_width_dim=\dimen134
+\l__seq_internal_a_int=\count164
+\l__seq_internal_b_int=\count165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-02-15 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count166
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count167
+\g__xparse_grabber_int=\count168
+\l__xparse_m_args_int=\count169
+\l__xparse_mandatory_args_int=\count170
+\l__xparse_v_nesting_int=\count171
+)
+Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen136
+\ar@mcellbox=\box45
+\extrarowheight=\dimen137
+\NC@list=\toks19
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box47
+\l__siunitx_tmp_dim=\dimen138
+\l__siunitx_tmp_int=\count172
+\l__siunitx_number_mantissa_length_int=\count173
+\l__siunitx_number_uncert_length_int=\count174
+\l__siunitx_round_int=\count175
+\l__siunitx_process_decimal_int=\count176
+\l__siunitx_process_uncertainty_int=\count177
+\l__siunitx_process_fixed_int=\count178
+\l__siunitx_process_integer_min_int=\count179
+\l__siunitx_process_precision_int=\count180
+\l__siunitx_group_min_int=\count181
+\l__siunitx_angle_marker_box=\box48
+\l__siunitx_angle_unit_box=\box49
+\l__siunitx_angle_marker_dim=\dimen139
+\l__siunitx_angle_unit_dim=\dimen140
+\l__siunitx_unit_int=\count182
+\l__siunitx_unit_denominator_int=\count183
+\l__siunitx_unit_numerator_int=\count184
+\l__siunitx_unit_prefix_int=\count185
+\l__siunitx_unit_prefix_base_int=\count186
+\l__siunitx_unit_prefix_gram_int=\count187
+\l__siunitx_number_product_int=\count188
+\c__siunitx_one_fill_skip=\skip49
+\l__siunitx_table_unit_align_skip=\skip50
+\l__siunitx_table_exponent_dim=\dimen141
+\l__siunitx_table_integer_dim=\dimen142
+\l__siunitx_table_mantissa_dim=\dimen143
+\l__siunitx_table_marker_dim=\dimen144
+\l__siunitx_table_result_dim=\dimen145
+\l__siunitx_table_uncert_dim=\dimen146
+\l__siunitx_table_fill_pre_dim=\dimen147
+\l__siunitx_table_fill_post_dim=\dimen148
+\l__siunitx_table_fill_mid_dim=\dimen149
+\l__siunitx_table_pre_box=\box50
+\l__siunitx_table_post_box=\box51
+\l__siunitx_table_mantissa_box=\box52
+\l__siunitx_table_result_box=\box53
+\l__siunitx_table_number_align_skip=\skip51
+\l__siunitx_table_text_align_skip=\skip52
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count189
+\calc@Bcount=\count190
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count191
+\calc@Cskip=\skip55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\bibindent=\skip56
+\minimumbiblabelwidth=\skip57
+\ABCIauxlen=\skip58
+\c@ABCIaux=\count192
+\c@ABCImax=\count193
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip59
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks21
+)
+No file machadinho_boletim.aux.
+\openout1 = `machadinho_boletim.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{document}
+                     
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.34 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 13174 strings out of 494427
+ 269891 string characters out of 6174076
+ 289220 words of memory out of 5000000
+ 16849 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 83 hyphenation exceptions out of 8191
+ 40i,0n,63p,273b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

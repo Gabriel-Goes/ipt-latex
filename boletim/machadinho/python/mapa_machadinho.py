@@ -4,7 +4,7 @@ def generate_map_latex(output_filename):
     \centering
 	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
     \caption{Mapa de eventos.}
-    \includegraphics[width=1.0\textwidth]{./boletim/machadinho/figuras/mapaevents.png}
+    \includegraphics[width=1.0\textwidth]{/home/suporte/projetos/ipt-latex/boletim/machadinho/figuras/mapaevents.png}
     \caption*{Fonte: IPT}
 \end{figure}
 """
@@ -12,4 +12,4 @@ def generate_map_latex(output_filename):
         output_file.write(latex_code)
 
 
-generate_map_latex("./boletim/machadinho/tex/mapa_machadinho_boletim.tex")
+generate_map_latex("/home/suporte/projetos/ipt-latex/boletim/machadinho/tex/mapa_machadinho_boletim.tex")

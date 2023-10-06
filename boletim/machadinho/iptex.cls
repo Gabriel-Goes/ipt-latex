@@ -208,12 +208,12 @@
 
 % Cabeçalhos e rodapé
 
-	\lhead{\includegraphics[scale=0.9]{figuras/headImage.pdf}}
+	\lhead{\includegraphics[scale=0.9]{/home/suporte/projetos/ipt-latex/figuras/headImage.pdf}}
 	\chead{}
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
-	\rfoot{\includegraphics[scale=1.0]{figuras/footImageCalibr.png}}
+	\rfoot{\includegraphics[scale=1.0]{/home/suporte/projetos/ipt-latex/figuras/footImageCalibr.png}}
 	\pagestyle{fancy}
 
 	\fancypagestyle{geral}{
@@ -235,7 +235,7 @@
 	\fancypagestyle{calibr_pag1}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{figuras/headImage.pdf}\\
+				\includegraphics[scale=0.9]{/home/suporte/projetos/ipt-latex/figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade}\\
 				\footnotesize\textbf{}
 			\end{tabular}
@@ -247,13 +247,13 @@
 				  \small\textbf{}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{/home/suporte/projetos/ipt-latex/figuras/footImageCalibr.png}}
 	}
 
 	\fancypagestyle{calibr_doc}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{figuras/headImage.pdf}\\
+				\includegraphics[scale=0.9]{/home/suporte/projetos/ipt-latex/figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -269,7 +269,7 @@
 			 	\footnotesize\textbf{\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{/home/suporte/projetos/ipt-latex/figuras/footImageCalibr.png}}
 	}
 
 
