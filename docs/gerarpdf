@@ -4,6 +4,7 @@
 echo "Selecione a opção desejada:"
 echo "1 - Machadinho"
 echo "2 - Baesa"
+echo ""
 read opcao
 
 
@@ -27,10 +28,10 @@ if [ "$opcao" == "1" ]; then
     
     if [ -f "$input_tex" ]; then 
         # Gera o arquivo PDF a partir do arquivo LaTeX
-	echo "iniciando pdflatex "$input_tex""
-        pdflatex "$input_tex"# > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+	    echo "iniciando pdflatex "$input_tex""
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Primeiro print"
-        pdflatex "$input_tex" #> ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Segundo print"
         echo " "
         # Remove arquivos temporários gerados pelo pdflatex
