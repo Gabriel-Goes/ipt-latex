@@ -3,8 +3,8 @@
 \scriptsize
 \setlength{\arrayrulewidth}{0.05pt}
 \begin{longtable}{ccccS[table-format=6.0]S[table-format=7.0]ccc}
-\captionsetup{justification=raggedright,singlelinecheck=false}
-\caption{Dados de Terremotos}\\
+\captionsetup{justification=justified,singlelinecheck=false}
+\caption{Listagem de eventos detectados e categorizados durante o período de interesse.}\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hline \\[-4ex]
 \hline \\[-5ex]
@@ -68,6 +68,7 @@
 \\[-4.0ex]
 \endhead
 \hline
+\caption*{A coluna \textit{Cat} representaria a categoria na qual o evento foi classificado sendo \textit{Q}=Detonação/Desmontes, \textit{E}=Sismo Regional e \textit{I}=Sismo induzido e \textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).\\ Fonte: IPT.}
 
 \endlastfoot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,6 +132,5 @@ IT\_20230606\_003357 & 2023-06-06T00:33:57 & -52,1642 & -27,2142 & 384706 & 6989
 IT\_20230605\_203509 & 2023-06-05T20:35:09 & -51,7175 & -27,3387 & 429030 & 6975842 & 0,8 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{29450.1} & Q \\
 IT\_20230601\_195756 & 2023-06-01T19:57:56 & -52,0606 & -27,2107 & 394964 & 6989781 & 0,9 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{38000.7} & Q \\
 IT\_20230601\_055456 & 2023-06-01T05:54:56 & -52,1247 & -27,2432 & 388648 & 6986122 & -0,9 & \num[round-precision=3,round-mode=figures,scientific-notation=true]{18.0537} & I \\
-\caption*{Fonte: IPT.}
 \end{longtable}
 \end{center}

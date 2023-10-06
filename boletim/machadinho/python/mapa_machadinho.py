@@ -2,8 +2,8 @@ def generate_map_latex(output_filename):
     latex_code = r"""
 \begin{figure}[h]
     \centering
-	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
-    \caption{Mapa de eventos.}
+	\captionsetup{justification=justified, singlelinecheck=false, width=1\textwidth}
+    \caption{Mapa da região de interesse no entorno do empreendimento, mostrando as principais cidades, rodovias e rios, com a localização das pedreiras, estações \textbf{BCM2} e \textbf{MC9}, e eventos próximos ao empreendimento detectados no período de interesse.}
     \includegraphics[width=1.0\textwidth]{/home/suporte/projetos/ipt-latex/boletim/machadinho/figuras/mapaevents.png}
     \caption*{Fonte: IPT}
 \end{figure}
