@@ -1,7 +1,7 @@
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/home/ipt/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+(/home/ipt/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./iptex.cls
 Document Class: iptex 2022/06/03 IPT Document Class
@@ -147,7 +147,7 @@ Package hyperref Warning: Option `pdfa' has already been used,
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
-** pdfx: No file machadinho_boletim.xmpdata . Metadata will be incomplete!
+** pdfx: No file baesa_boletim.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
@@ -186,8 +186,8 @@ Using XMP template file: pdfa.xmp
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./machadinho_boletim.aux) (./machadinho_boletim.out) (./machadinho_boletim.out
-) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(./baesa_boletim.aux) (./baesa_boletim.out) (./baesa_boletim.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
@@ -198,33 +198,115 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(./boletim/machadinho/tex/capa_machadinho_boletim.tex
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
-age.pdf> <./figuras/footImageCalibr.png>])
-(./boletim/machadinho/tex/corpo_machadinho_boletim.tex [2] (./assinatura.tex
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/capa_baesa_boletim.tex [1 <./fi
+guras/headImage.pdf> <./figuras/footImageCalibr.png>])
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/corpo_baesa_boletim.tex
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/info_gerais_baesa_boletim.tex
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd))) [3 <./figuras/as
-sinatura.png>] (./boletim/machadinho/tex/completude_machadinho_boletim.tex)
-(./boletim/machadinho/tex/tabela_machadinho_boletim.tex
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-
-sen-ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...column{2}{|c|}{Volume (mÂ³)} & 5.200 x 10^
+                                                  6 &  1.477 x 10^6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...umn{2}{|c|}{Volume (mÂ³)} & 5.200 x 10^6 &
+                                                    1.477 x 10^6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...olume (mÂ³)} & 5.200 x 10^6 &  1.477 x 10^
+                                                  6 \\ \hline
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...} & 5.200 x 10^6 &  1.477 x 10^6 \\ \hline
+                                                  
+? [2] [3]
 
-Underfull \hbox (badness 1009) in paragraph at lines 71--71
-\T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =Detonação/Desmontes, \T1/phv/m/sl/10.95 
-E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
-Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =Não-localizável. O
-[4 <./figuras/completude.png>] [5]) [6]
-(./boletim/machadinho/tex/mapa_machadinho_boletim.tex) [7 <./boletim/machadinho
-/figuras/mapaevents.png (PNG copy)>] 
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \caption
+             *{(**) em 20.01.2009 foi desativada e os equipamentos retornara...
+
+? 
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \caption
+             *{(*) em 26.01.2015 foi desativada a estaÃ§Ã£o BC7.}
+? 
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \caption
+             *{A partir de janeiro de 2015 nÃ£o estÃ£o sendo utilizados mais...
+
+? [4]
+Overfull \hbox (70.20935pt too wide) in paragraph at lines 82--99
+\T1/phv/m/n/12 Res-pon-sá-vel Re-gis-tro Va-li-dade Chave de Au-ten-ti-ca-ção P
+es-soa IPT 676518 19/10/2023 Z7FX6S4TNR1QGXE8
+) [5]
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/ultimos_relatorios_baesa_boleti
+m.tex) [6]
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/atividades_realizadas_baesa_bol
+etim.tex) [7]
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/resultados_baesa_boletim.tex
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11     1
+           & 2 & 3 \\
+? ! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.11     1 &
+             2 & 3 \\
+? ! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.11     1 & 2 &
+                 3 \\
+? ! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.12     4 &
+             5 & 6 \\
+? ! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.12     4 & 5 &
+                 6 \\
+? ) [8]
+(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/consideraÃ§Ãµes_baesa_boletim.t
+ex) (/home/ipt/projetos/ipt-latex/assinatura.tex) [9 <./figuras/assinatura.png>
+] (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/anexo_baesa_boletim.tex))
+[10]
+No file baesa_boletim.bbl.
+
 AED: lastpage setting LastPage
-[8] (./machadinho_boletim.aux) )
-(see the transcript file for additional information){/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on machadinho_boletim.pdf (8 pages, 592374 bytes).
-Transcript written on machadinho_boletim.log.
+[11] (./baesa_boletim.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on baesa_boletim.pdf (11 pages, 163791 bytes).
+Transcript written on baesa_boletim.log.

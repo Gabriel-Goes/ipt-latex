@@ -2,7 +2,7 @@
 
 # Solicita ao usuário que selecione uma opção
 echo "Selecione a opção desejada:"
-echo "1 - Machadinho"
+echo "1 - Main"
 echo "2 - Baesa"
 echo ""
 read opcao
@@ -10,43 +10,129 @@ read opcao
 
 # Verifica a opção escolhida e executa o arquivo correspondente
 if [ "$opcao" == "1" ]; then
-    logs=~/projetos/ipt-latex/boletim/machadinho/
-    tabela=~/projetos/ipt-latex/boletim/machadinho/python/tabela.py
-    mapa=~/projetos/ipt-latex/boletim/machadinho/python/mapa_machadinho.py
-    input_tex=~/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+    logs=~/projetos/ipt-latex/boletim/main/
+    tabela=~/projetos/ipt-latex/boletim/main/python/tabela_main.py
+    mapa=~/projetos/ipt-latex/boletim/main/python/mapa_main.py
+    input_tex=~/projetos/ipt-latex/boletim/main/main_boletim.tex
+    capa=~/projetos/ipt-latex/boletim/main/python/capa.py
     # Verifica se o arquivo existe antes de executá-lo
-    
-    if [ -f "$tabela" ] && [ -f "$mapa" ];then
-        echo "Executando $tabela"
-        python3 "$tabela"
-        echo "Executando $mapa"
-        python3 "$mapa"
+    echo "Selecione a opção desejada:"
+    echo "1 - Machadinho"
+    echo "2 - Itá"
+    echo "3 - Salto Pilão"
+    echo ""
+    read opcao2
+
+    # ---------   RELATÓRIO DE MACHADINHO    -----------------------------------------------------------------------------
+    if [ "$opcao2" == "1" ];then
+        echo " Script Machadinho"
+        if [ -f "$tabela" ] && [ -f "$mapa" ];then
+            echo " ---> Iniciando Python scripts"
+            echo "Executando "$capa""
+            python3 "$capa" 1
+            echo "Executando $tabela"
+            python3 "$tabela"
+            echo "Executando $mapa"
+            python3 "$mapa"
+        else
+            echo ""$tabela" e "$mapa""
+            echo "Script python não encontrado"
+            exit 1
+        fi
+        
+        if [ -f "$input_tex" ]; then 
+            # Gera o arquivo PDF a partir do arquivo LaTeX
+            echo " ---> Iniciando pdflatex "$input_tex""
+            pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Primeiro print"
+            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Segundo print"
+            echo " "
+            # Remove arquivos temporários gerados pelo pdflatex
+            rm -f *.aux *.log *.out *.xmpi *.toc
+            echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+
+        else
+            echo "Script "$input_tex"  não encontrado"
+            exit 1
+        fi
+
+    # -------------   RELATÓRIO DE ITÁ   ----------------------------------------------------------------------------------
+    elif [ "$opcao2" == "2" ];then
+        echo " Script Itá"
+        if [ -f "$tabela" ] && [ -f "$mapa" ];then
+            echo " ---> Iniciando Python scripts"
+            echo "Executando "$capa""
+            python3 "$capa" 2
+            echo "Executando $tabela"
+            python3 "$tabela"
+            echo "Executando $mapa"
+            python3 "$mapa"
+        else
+            echo ""$tabela" e "$mapa""
+            echo "Script python não encontrado"
+            exit 1
+        fi
+        
+        if [ -f "$input_tex" ]; then 
+            # Gera o arquivo PDF a partir do arquivo LaTeX
+            echo " ---> Iniciando pdflatex "$input_tex""
+            pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Primeiro print"
+            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Segundo print"
+            echo " "
+            # Remove arquivos temporários gerados pelo pdflatex
+            rm -f *.aux *.log *.out *.xmpi *.toc
+            echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+
+        else
+            echo "Script "$input_tex"  não encontrado"
+            exit 1
+        fi
+        # ---------   RELATÓRIO DE SALTO PILÃO    -----------------------------------------------------------------------------
+    elif [ "$opcao2" == "3" ];then
+        echo " Script Salto Pilão"
+        if [ -f "$tabela" ] && [ -f "$mapa" ];then
+            echo " ---> Iniciando Python scripts"
+            echo "Executando "$capa""
+            python3 "$capa" 3
+            echo "Executando $tabela"
+            python3 "$tabela"
+            echo "Executando $mapa"
+            python3 "$mapa"
+        else
+            echo ""$tabela" e "$mapa""
+            echo "Script python não encontrado"
+            exit 1
+        fi
+        
+        if [ -f "$input_tex" ]; then 
+            # Gera o arquivo PDF a partir do arquivo LaTeX
+            echo " ---> Iniciando pdflatex "$input_tex""
+            pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Primeiro print"
+            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            echo "Segundo print"
+            echo " "
+            # Remove arquivos temporários gerados pelo pdflatex
+            rm -f *.aux *.log *.out *.xmpi *.toc
+            echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+
+        else
+            echo "Script "$input_tex"  não encontrado"
+            exit 1
+        fi
+    # ERRO NA ESCOLHA DE OPÇÃO RETORNANDO OPÇÃO INVÁLIDA
     else
-        echo "Script python não encontrado"
+        echo "Opção 2 inválida"
         exit 1
     fi
-    
-    if [ -f "$input_tex" ]; then 
-        # Gera o arquivo PDF a partir do arquivo LaTeX
-	    echo "iniciando pdflatex "$input_tex""
-        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Primeiro print"
-        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Segundo print"
-        echo " "
-        # Remove arquivos temporários gerados pelo pdflatex
-#        rm -f *.aux *.log *.out *.xmpi *.toc
 
-        echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
-
-    else
-        echo "Script "$input_tex"  não encontrado"
-        exit 1
-    fi
-
-   elif [ "$opcao" == "2" ]; then
-    input_tex=~/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
-    logs=~/projetos/ipt-latex/boletim/baesa/
+# ---------------- TEMPLATE BAESA -------------------------------------------------------------------------------------
+elif [ "$opcao" == "2" ]; then
+input_tex=~/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
+logs=~/projetos/ipt-latex/boletim/baesa/
     # [ -f "$tabela" ] && [ -f "$tabela" ] && 
     if [ -f "$input_tex" ] ;then
         echo "Executando $arquivo"
@@ -61,15 +147,15 @@ if [ "$opcao" == "1" ]; then
         echo " "
 
         # Remove arquivos temporários gerados pelo pdflatex
-#        rm -f *.aux *.log *.out *.xmpi *.toc
+        rm -f *.aux *.log *.out *.xmpi *.toc
 
         echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
     else
         echo "Script "$input_tex" não encontrado"
         exit 1
     fi
-
+# --------------------- ERRO NA ESCOLHA DE OPÇÃO RETORNANDO OPÇÃO INVÁLIDA --------------------------------------------
 else
-    echo "Opção inválida!"
+    echo "Opção 1 inválida!"
     exit 1
 fi
