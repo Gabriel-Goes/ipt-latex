@@ -208,23 +208,37 @@ age.pdf> <./figuras/footImageCalibr.png>])
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)) [3 <./figuras/ass
 inatura.png>] (./boletim/main/tex/completude_main_boletim.tex)
 (./boletim/main/tex/tabela_main_boletim.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-sen
--ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-
+sen-ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
 
-Underfull \hbox (badness 1009) in paragraph at lines 7--7
+Underfull \hbox (badness 1009) in paragraph at lines 8--8
 \T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =Detonação/Desmontes, \T1/phv/m/sl/10.95 
 E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
 Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =Não-localizável. O
-[4 <./boletim/main/figuras/completude.png>]) [5]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.10 \hline
+            \\[-4ex]
+? ! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.10 \hline \\
+              [-4ex]
+? ! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.10 \hline \\
+              [-4ex]
+? [4 <./boletim/main/figuras/completude.png>] [5])
 (./boletim/main/tex/mapa_main_boletim.tex) [6 <./boletim/main/figuras/mapaevent
 s.png (PNG copy)>] 
 AED: lastpage setting LastPage
-[7] (./Boletim_Machadinho.aux) )
-(see the transcript file for additional information){/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Machadinho.pdf (7 pages, 592050 bytes).
+[7] (./Boletim_Machadinho.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
+ha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Machadinho.pdf (7 pages, 592075 bytes).
 Transcript written on Boletim_Machadinho.log.

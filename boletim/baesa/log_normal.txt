@@ -315,5 +315,5 @@ AED: lastpage setting LastPage
 /8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Baesa.pdf (11 pages, 140644 bytes).
+Output written on Boletim_Baesa.pdf (11 pages, 140672 bytes).
 Transcript written on Boletim_Baesa.log.
