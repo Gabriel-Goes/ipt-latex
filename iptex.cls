@@ -578,6 +578,31 @@
 
 
 % Página com assinaturas
+    \newcommand{\assinaturaLucas}{
+        \begin{table}[b]
+        \begin{adjustwidth}{0pt}{-9cm} % Ajusta a margem direita em -3cm
+        \centering
+        \setlength{\arrayrulewidth}{0.9pt} % Espessura das linhas verticais
+        \begin{tabular}{|c|}
+            \hline
+            Cidades, Infraestrutura e Meio Ambiente \\
+            \hline
+            Seção de Obras Civis \\
+            \hline \\[1.0pt]
+            \includegraphics{./figuras/assinatura.png} \\[5.0pt]
+            \hline \\[-25.0pt]
+            Físico Me. Lucas Alexandre Schirbel \\[-7.0pt]
+            Pesquisador \\[-7.0pt]
+            RE: 117113 \\[0.0pt]
+            \hline
+        \end{tabular}
+        \end{adjustwidth}
+        \end{table}
+}                
+
+
+
+
 %% Três assinaturas digitais
 	\newcommand{\assinaturaTresDigital}[6]{
 		\begin{flushright}
