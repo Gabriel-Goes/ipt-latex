@@ -1,43 +1,28 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/home/ipt/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16> (./iptex.cls
+(/home/suporte/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
+LaTeX2e <2018-12-01>
+(./iptex.cls
 Document Class: iptex 2022/06/03 IPT Document Class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty)
@@ -62,8 +47,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)
@@ -79,35 +63,28 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
-
-LaTeX Warning: Command \underbar  has changed.
-               Check if current package is valid.
-
-
-LaTeX Warning: Command \underline  has changed.
-               Check if current package is valid.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xargs/xargs.sty
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -122,29 +99,26 @@ LaTeX Warning: Command \underline  has changed.
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/pdfx.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty){/var/lib/texmf/f
-onts/map/pdftex/updmap/pdftex.map}
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty){/var/lib/texmf/fonts/
+map/pdftex/updmap/pdftex.map}
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/l8u-penc.def)
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 1461.
+(hyperref)                setting the option has no effect on input line 1432.
 
 
 Package hyperref Warning: Option `pdfa' has already been used,
-(hyperref)                setting the option has no effect on input line 1461.
+(hyperref)                setting the option has no effect on input line 1432.
 
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/psdextra.def)
 (/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.sty
 (/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 ** pdfx: No file Boletim_Baesa.xmpdata . Metadata will be incomplete!
@@ -156,157 +130,103 @@ Package hyperref Warning: Option `pdfa' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 Using XMP template file: pdfa.xmp
 <<pdfa.xmpi>>)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf))
 (/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+** Latin letters in the normal (resp. bold) math versions are now
+** set up to use the fonts T1/phv/m(bx)/it
+** Other characters (digits, ...) and \log-like names will be
+** typeset with the n shape.
 ** ! and ?
 ** punctuation: , . : ; and \colon
+** minus as endash
+** \hbar
 ** + and =
 ** adding = ; and + to \nfss@catcodes
 ** parentheses ( ) [ ] and slash /
 ** alldelims: < > \backslash \setminus | \vert \mid \{ and \}
 ** \# \mathdollar \% \& 
 ** \imath and \jmath 
-** Latin letters in the `normal' (resp. `bold') math versions are now
-** set up to use the fonts T1/phv/m(b)/it
-** Other characters (digits, ...) and \log-like names will be
-** typeset with the n shape.
-** \hbar
-** minus as endash
 ** \Huge and \HUGE have been (re)-defined.
 ** mathastext has declared larger sizes for subscripts.
 ** To keep LaTeX defaults, use option `defaultmathsizes'.
 ) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
 
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./Boletim_Baesa.aux) (./Boletim_Baesa.out) (./Boletim_Baesa.out)
+(./Boletim_Baesa.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Boletim_Baesa.out) (./Boletim_Baesa.out)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
-nary-brazil.trsl)
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
-nary-english.trsl)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/capa_baesa_boletim.tex [1 <./fi
-guras/headImage.pdf> <./figuras/footImageCalibr.png>])
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/corpo_baesa_boletim.tex
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/info_gerais_baesa_boletim.tex
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd)
+ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...column{2}{|c|}{Volume (m³)} & 5.200 x 10^
-                                                  6 &  1.477 x 10^6 \\ \hline
-? ! Missing $ inserted.
-<inserted text> 
-                $
-l.37 ...umn{2}{|c|}{Volume (m³)} & 5.200 x 10^6 &
-                                                    1.477 x 10^6 \\ \hline
-? ! Missing $ inserted.
-<inserted text> 
-                $
-l.37 ...olume (m³)} & 5.200 x 10^6 &  1.477 x 10^
-                                                  6 \\ \hline
-? ! Missing $ inserted.
-<inserted text> 
-                $
-l.37 ...} & 5.200 x 10^6 &  1.477 x 10^6 \\ \hline
+l.38 .../boletim/baesa/tex/capa_baesa_boletim.tex}
                                                   
-? [2] [3]
-
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 \caption
-             *{(**) em 20.01.2009 foi desativada e os equipamentos retornara...
-
+? (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 
+     
 ? 
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+Overfull \hbox (149.12218pt too wide) in paragraph at lines 38--39
+[] \T1/phv/m/n/12 /projetos/ipt-latex/boletim/baesa/tex/capa$[]\T1/phv/m/sl/12 
+aesa[]oletim\T1/phv/m/n/12 .\T1/phv/m/sl/12 tex \T1/phv/m/n/12 /\T1/phv/m/sl/12
+ projetos\T1/phv/m/n/12 /\T1/phv/m/sl/12 ipt \T1/phv/m/n/12 ^^U \T1/phv/m/sl/12
+ latex\T1/phv/m/n/12 /\T1/phv/m/sl/12 boletim\T1/phv/m/n/12 /\T1/phv/m/sl/12 ba
+esa\T1/phv/m/n/12 /\T1/phv/m/sl/12 tex\T1/phv/m/n/12 /\T1/phv/m/sl/12 capa[]aes
+a[]oletim\T1/phv/m/n/12 .\T1/phv/m/sl/12 tex$ 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...boletim/baesa/tex/corpo_baesa_boletim.tex}
                                                   
-l.69 \caption
-             *{(*) em 26.01.2015 foi desativada a estação BC7.}
+? (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 
+     
 ? 
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \caption
-             *{A partir de janeiro de 2015 não estão sendo utilizados mais...
-
-? [4]
-Overfull \hbox (70.20935pt too wide) in paragraph at lines 82--99
-\T1/phv/m/n/12 Res-pon-s�-vel Re-gis-tro Va-li-dade Chave de Au-ten-ti-ca-��o P
-es-soa IPT 676518 19/10/2023 Z7FX6S4TNR1QGXE8
-) [5]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/ultimos_relatorios_baesa_boleti
-m.tex) [6]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/atividades_realizadas_baesa_bol
-etim.tex) [7]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/resultados_baesa_boletim.tex
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11     1
-           & 2 & 3 \\
-? ! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.11     1 &
-             2 & 3 \\
-? ! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.11     1 & 2 &
-                 3 \\
-? ! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.12     4 &
-             5 & 6 \\
-? ! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.12     4 & 5 &
-                 6 \\
-? ) [8]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/considerações_baesa_boletim.t
-ex) (/home/ipt/projetos/ipt-latex/assinatura.tex) [9 <./figuras/assinatura.png>
-] (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/anexo_baesa_boletim.tex))
-[10]
+Overfull \hbox (157.3983pt too wide) in paragraph at lines 41--42
+[] \T1/phv/m/n/12 /projetos/ipt-latex/boletim/baesa/tex/corpo$[]\T1/phv/m/sl/12
+ aesa[]oletim\T1/phv/m/n/12 .\T1/phv/m/sl/12 tex \T1/phv/m/n/12 /\T1/phv/m/sl/1
+2 projetos\T1/phv/m/n/12 /\T1/phv/m/sl/12 ipt \T1/phv/m/n/12 ^^U \T1/phv/m/sl/1
+2 latex\T1/phv/m/n/12 /\T1/phv/m/sl/12 boletim\T1/phv/m/n/12 /\T1/phv/m/sl/12 b
+aesa\T1/phv/m/n/12 /\T1/phv/m/sl/12 tex\T1/phv/m/n/12 /\T1/phv/m/sl/12 corpo[]a
+esa[]oletim\T1/phv/m/n/12 .\T1/phv/m/sl/12 tex$ 
+[1 <./figuras/headImage.pdf> <./figuras/footImageCalibr.png>]
 No file Boletim_Baesa.bbl.
 
 AED: lastpage setting LastPage
-[11] (./Boletim_Baesa.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
-/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Baesa.pdf (11 pages, 163791 bytes).
+[2] (./Boletim_Baesa.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Baesa.pdf (2 pages, 102377 bytes).
 Transcript written on Boletim_Baesa.log.
