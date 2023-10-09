@@ -147,7 +147,7 @@ Package hyperref Warning: Option `pdfa' has already been used,
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
-** pdfx: No file baesa_boletim.xmpdata . Metadata will be incomplete!
+** pdfx: No file Boletim_Baesa.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
@@ -186,7 +186,7 @@ Using XMP template file: pdfa.xmp
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./baesa_boletim.aux) (./baesa_boletim.out) (./baesa_boletim.out)
+(./Boletim_Baesa.aux) (./Boletim_Baesa.out) (./Boletim_Baesa.out)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -301,12 +301,12 @@ l.12     4 & 5 &
 ex) (/home/ipt/projetos/ipt-latex/assinatura.tex) [9 <./figuras/assinatura.png>
 ] (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/anexo_baesa_boletim.tex))
 [10]
-No file baesa_boletim.bbl.
+No file Boletim_Baesa.bbl.
 
 AED: lastpage setting LastPage
-[11] (./baesa_boletim.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+[11] (./Boletim_Baesa.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
 /8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on baesa_boletim.pdf (11 pages, 163791 bytes).
-Transcript written on baesa_boletim.log.
+Output written on Boletim_Baesa.pdf (11 pages, 163791 bytes).
+Transcript written on Boletim_Baesa.log.

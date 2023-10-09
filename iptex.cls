@@ -28,6 +28,7 @@
 \LoadClass[a4paper,oneside,onecolumn,final,openany,\@@ptsize]{article}
 
 % Incluindo pacotes
+%\RequirePackage{bookmark}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}

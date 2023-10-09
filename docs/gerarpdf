@@ -45,7 +45,7 @@ if [ "$opcao" == "1" ]; then
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Primeiro print"
-            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
@@ -79,7 +79,7 @@ if [ "$opcao" == "1" ]; then
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Primeiro print"
-            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
@@ -112,7 +112,7 @@ if [ "$opcao" == "1" ]; then
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Primeiro print"
-            pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
@@ -140,9 +140,9 @@ logs=~/projetos/ipt-latex/boletim/baesa/
         # python3 "$mapa"
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
-        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Primeiro print"
-        pdflatex "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Segundo print"
         echo " "
 
