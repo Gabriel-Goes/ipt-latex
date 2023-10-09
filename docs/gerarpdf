@@ -133,11 +133,16 @@ if [ "$opcao" == "1" ]; then
 elif [ "$opcao" == "2" ]; then
 input_tex=~/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
 logs=~/projetos/ipt-latex/boletim/baesa/
-    # [ -f "$tabela" ] && [ -f "$tabela" ] && 
-    if [ -f "$input_tex" ] ;then
-        echo "Executando $arquivo"
-        #  python3 "$tabela"
-        # python3 "$mapa"
+tabela=~/projetos/ipt-latex/boletim/baesa/python/tabela_baesa.py
+mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
+completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
+    if [ -f "$input_tex" ] && [ -f "$tabela" ] && [ -f "$mapa" ] && [ -f "$completude" ];then
+        echo "Executando $tabela"
+        python3 "$tabela"
+        echo "Executando $mapa"
+        python3 "$mapa"
+        echo "Executando $completude"
+        python3 "$completude"
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
         pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
