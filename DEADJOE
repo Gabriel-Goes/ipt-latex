@@ -1,4 +1,9 @@
-\documentclass[12pt]{iptex}
+
+*** These modified files were found in JOE when it aborted on Mon Oct  9 14:55:57 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/ipt/projetos/ipt-latex/boletim/main/main_boletim.tex'
+jj:q\documentclass[12pt]{iptex}
 % IDIOMA
 % Se necessário, inserir línguas e indicar língua principal (main)
 \usepackage[main=brazil,english]{babel}
@@ -45,8 +50,7 @@
 \input{./boletim/main/tex/completude_main_boletim.tex}
 
 \input{./boletim/main/tex/tabela_main_boletim.tex}
-\clearpage
-\newpage
+%\newpage
 
 \input{./boletim/main/tex/mapa_main_boletim.tex}
 \newpage
@@ -61,3 +65,13 @@ C. F. RICHTER, \textit{Elementary Seismology}, W. H. Freeman and Co., San Franci
 
 
 \end{document}
+
+*** File '(Unnamed)'
+/home/ipt/projetos/ipt-latex/.git/COMMIT_EDITMSG
+/home/ipt/projetos/ipt-latex/boletim/main/main_boletim.tex
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
