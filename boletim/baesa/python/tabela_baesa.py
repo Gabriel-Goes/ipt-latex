@@ -16,7 +16,6 @@ with open(input_csv, "r") as csv_file:
 # Abre o arquivo LaTeX para escrita
 with open(output_tex, "w") as tex_file:
     tex_file.write("\\begin{center}\n")
-    tex_file.write("\\label{tab:tabela_baesa}\n")
     tex_file.write("\\scriptsize\n")
     tex_file.write("\\setlength{\\arrayrulewidth}{0.05pt}\n")
     tex_file.write("\\begin{longtable}\
@@ -146,6 +145,7 @@ round-mode=figures,scientific\
                 formatted_row.append(col)
         tex_file.write(" & ".join(formatted_row) + " \\\\\n")
 
+    tex_file.write("\\label{tab:tabela_baesa}\n")
     tex_file.write("\\end{longtable}\n")
     tex_file.write("\\end{center}\n")
     tex_file.write("\\clearpage\n")
