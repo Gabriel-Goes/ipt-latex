@@ -4,6 +4,7 @@
 echo "Selecione a opção desejada:"
 echo "1 - Main"
 echo "2 - Baesa"
+echo "3 - Relatório Técnico"
 echo ""
 read opcao
 
@@ -148,6 +149,38 @@ completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
         pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Primeiro print"
         pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Segundo print"
+        echo " "
+
+        # Remove arquivos temporários gerados pelo pdflatex
+        rm -f *.aux *.log *.out *.xmpi *.toc
+
+        echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+    else
+        echo "Script "$input_tex" não encontrado"
+        exit 1
+    fi
+
+# ---------------- TEMPLATE BAESA -------------------------------------------------------------------------------------
+elif [ "$opcao" == "3" ]; then
+input_tex=~/projetos/ipt-latex/relatorio/relatórios_tecnicos.tex
+logs=~/projetos/ipt-latex/relatorio/
+#tabela=~/projetos/ipt-latex/relatorio/python/tabela_baesa.py
+#mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
+#completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
+# && [ -f "$tabela" ] && [ -f "$mapa" ] && [ -f "$completude" ]
+    if [ -f "$input_tex" ];then
+       # echo "Executando $tabela"
+       # python3 "$tabela"
+       # echo "Executando $mapa"
+       # python3 "$mapa"
+       # echo "Executando $completude"
+       # python3 "$completude"
+        
+        # Gera o arquivo PDF a partir do arquivo LaTeX
+        pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        echo "Primeiro print"
+        pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "Segundo print"
         echo " "
 
