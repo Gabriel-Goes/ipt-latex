@@ -199,17 +199,10 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/home/ipt/projetos/ipt-latex/relatorio/tex/capa_relatorios.tex)
-Runaway argument?
-{\textbf {RELATÓRIO TÉCNICOS} \\ \unidade {Cidades Infraestruturas \ETC.
-! File ended while scanning use of \titulo.
-<inserted text> 
-                \par 
-l.28 ...t-latex/relatorio/tex/capa_relatorios.tex}
-                                                  
-? (/home/ipt/projetos/ipt-latex/relatorio/tex/corpo_relatorios.tex
-(./relatorio/tex/resumo.tex) [1 <./figuras/headImage.pdf> <./figuras/footImageC
-alibr.png>] (./Relatóiro_Técnico.toc
+(/home/ipt/projetos/ipt-latex/relatorio/tex/capa_relatorios.tex [1 <./figuras/h
+eadImage.pdf> <./figuras/footImageCalibr.png>])
+(/home/ipt/projetos/ipt-latex/relatorio/tex/corpo_relatorios.tex
+(./relatorio/tex/resumo.tex [1]) (./Relatóiro_Técnico.toc
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
@@ -223,5 +216,5 @@ AED: lastpage setting LastPage
 /base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Relatóiro_Técnico.pdf (9 pages, 141186 bytes).
+Output written on Relatóiro_Técnico.pdf (10 pages, 142949 bytes).
 Transcript written on Relatóiro_Técnico.log.
