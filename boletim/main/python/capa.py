@@ -21,12 +21,12 @@ tex_content = f"""\
 % Params
 \\tipo{{BOLETIM SISMOLÓGICO}}
 \\data{{2023}}
-\\titulo{{\\textbf{{RSIS - Rede Sismológica Itá/Machadinho}} \\\\
+\\titulo{{\\textbf{{UHE Salto Pilão}} \\\\
 \\textbf{{{selected_reservoir}}} \\\\
-\\textbf{{BOLETIM SÍSMICO Nº XXXXXX}}}}
+\\textbf{{BOLETIM SÍSMICO Nº 25/36-2024 Ago.23}}}}
 \\unidade{{Cidades Infraestruturas e Meio Ambiente}}{{CIMA}}
 \\lab{{Seção de Obras Civis - SOC}}
-\\periodo{{MES/ANO}}{{MES/ANO}}
+\\periodo{{01/08/2023}}{{31/08/2023}}
 
 % Inserir capa
 \\capa
