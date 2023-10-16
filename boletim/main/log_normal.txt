@@ -186,26 +186,28 @@ ABD: EveryShipout initializing macros
 (./boletim/main/tex/capa_main_boletim.tex
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
 age.pdf> <./figuras/footImageCalibr.png>])
-(./boletim/main/tex/corpo_main_boletim.tex [2]) [3 <./figuras/assinatura.png>]
+(./boletim/main/tex/corpo_main_boletim.tex
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{itemize}
+                 
+? [2]) [3 <./figuras/assinatura.png>]
 (./boletim/main/tex/completude_main_boletim.tex)
 (./boletim/main/tex/tabela_main_boletim.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-sen
--ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
-
-Underfull \hbox (badness 1009) in paragraph at lines 7--7
-\T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =DetonaÁ„o/Desmontes, \T1/phv/m/sl/10.95 
-E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
-Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =N„o-localiz·vel. O
-[4 <./boletim/main/figuras/completude.png>] [5])
-(./boletim/main/tex/mapa_main_boletim.tex) [6 <./boletim/main/figuras/mapaevent
+Overfull \vbox (1.47482pt too high) has occurred while \output is active
+[4 <./boletim/main/figuras/completude_SP7.png>])
+(./boletim/main/tex/mapa_main_boletim.tex) [5 <./boletim/main/figuras/mapaevent
 s.png (PNG copy)>] 
 AED: lastpage setting LastPage
-[7] (./Boletim_Salto_Pil√£o.aux) )
-(see the transcript file for additional information){/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Salto_Pil√£o.pdf (7 pages, 591053 bytes).
+[6] (./Boletim_Salto_Pil√£o.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/m
+atha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Salto_Pil√£o.pdf (6 pages, 410091 bytes).
 Transcript written on Boletim_Salto_Pil√£o.log.

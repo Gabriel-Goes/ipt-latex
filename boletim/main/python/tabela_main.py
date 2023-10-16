@@ -24,7 +24,7 @@ with open(output_tex, "w") as tex_file:
 	#tex_file.write("\fontsize{12}{12}\selectfont\n")
     tex_file.write("\\captionsetup{justification=justified,\
 singlelinecheck=false}\n")
-    tex_file.write("\\caption{Listagem de eventos detectados e categorizados durante o período de interesse.\\\\ A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q}=Detonação/Desmontes, \\textit{E}=Sismo Regional e \\textit{I}=Sismo induzido e \\textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).}\\\\\n")
+    tex_file.write("\\caption{Listagem de eventos detectados e categorizados durante o período de interesse.\\\\ A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q} = Detonação/Desmontes, \\textit{E} = Sismo Regional e \\textit{I} = Sismo induzido e \\textit{N} = Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958). Fonte: IPT.}\\\\\n")
 #    tex_file.write("\\caption*{A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q}=Detonação/Desmontes, \\textit{E}=Sismo Regional e \\textit{I}=Sismo induzido e \\textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).}\n")
     tex_file.write("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
     tex_file.write("\\hline \\\\[-4ex]\n")
@@ -115,7 +115,7 @@ singlelinecheck=false}\n")
     tex_file.write("\n")
     tex_file.write("\\endhead\n")
     tex_file.write("\\hline\n")
-    tex_file.write("\\caption*{Fonte: IPT.}\n")
+    #tex_file.write("\\caption*{Fonte: IPT.}\n")
 
     tex_file.write("\n")
     tex_file.write("\\endlastfoot\n")
@@ -149,4 +149,4 @@ round-mode=figures,scientific\
 
     tex_file.write("\\end{longtable}\n")
     tex_file.write("\\end{center}\n")
-    tex_file.write("\\clearpage\n")
+    #tex_file.write("\\clearpage\n")
