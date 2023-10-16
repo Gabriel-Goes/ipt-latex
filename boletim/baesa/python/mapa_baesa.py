@@ -10,6 +10,7 @@ def generate_map_latex(output_filename):
 """
     with open(output_filename, "w") as output_file:
         output_file.write(latex_code)
+    print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
 generate_map_latex("./boletim/baesa/tex/mapa_baesa.tex")

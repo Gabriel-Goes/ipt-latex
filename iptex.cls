@@ -155,14 +155,17 @@
 	\newcommand{\titulo}[1]{\gdef\inserirTitulo{#1}}
 	\newcommand{\tipo}[1]{\gdef\inserirTipo{#1}}
 	\newcommand{\unidade}[2]{\gdef\inserirUnidade{#1}
-		\gdef\inserirUnidadeSigla{#2}}
+                             \gdef\inserirUnidadeSigla{#2}}
 	\newcommand{\lab}[1]{\gdef\inserirLab{#1}}
 	\newcommand{\cabecalhoAcred}[1]{\gdef\inserirCabecalhoAcred{#1}}
 	\newcommand{\selo}[1]{\gdef\inserirSelo{#1}}
 	\newcommand{\parConfig}[1]{#1}
 	\newcommand{\dummylabel}[2]{\def\@currentlabel{#2}\label{#1}} % criando referências "falsas"
     \newcommand{\periodo}[2]{\gdef\inserirInicio{#1}
-        \gdef\inserirFim{#2}}
+                             \gdef\inserirFim{#2}}
+    \newcommand{\PeriodoAnalise}[2]{\gdef\inserirComeco{#1}
+                                    \gdef\inserirFinal{#2}}
+
 	\newcommand\firstup[1]{\firstupaux#1\relax}
 	\def\firstupaux#1#2\relax{\MakeUppercase{#1}\MakeLowercase{#2}}	%para forçar apenas a primeira letra maiúscula
 
@@ -222,7 +225,9 @@
     		\rhead{{\footnotesize \thepage /\pageref{LastPage}}}
 	}
 
-	\fancypagestyle{timbrado}{}
+	\fancypagestyle{timbrado}{
+        \rhead{}   
+    }
 
 	\fancypagestyle{tipo_pre}{
 		\rhead{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage}
@@ -302,6 +307,10 @@
 
 				\inserirTitulo \\
 
+                \ifdefined\PeriodoAnalise
+                    \textbf{\inserirComeco}\textbf{ e }\textbf{\inserirFinal} \\
+                \fi
+
 
 				\ifdefined\inserirNomeCliente
 					\vspace{3cm}
@@ -321,11 +330,12 @@
 
 				\vspace{3cm}
 
-                \ifdefined\inserirInicio
-                    \textbf{PERIODO DE ANÁLISE} \\
+                \ifdefined\periodo
+                    \textbf{PERÍODO DE ANÁLISE} \\
                     \textbf{Início: }\inserirInicio \\
                     \textbf{Fim: }\inserirFim \\
                 \fi
+
 
 			\end{flushright}
 		}

@@ -1,24 +1,24 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {section}{\numberline {1}AGENDA}{2}{section.1}%
-\contentsline {section}{\numberline {2}INTRODUÇÃO}{3}{section.2}%
-\contentsline {section}{\numberline {3}PROGRAMAS e \textit {LINKS}}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Distribuições e documentação \LaTeX }{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Editor}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Arquivo de classe IPTeX}{4}{subsection.3.3}%
-\contentsline {section}{\numberline {4}ESTRUTURA}{4}{section.4}%
-\contentsline {section}{\numberline {5}SEÇÕES E SUBSEÇÕES}{5}{section.5}%
-\contentsline {section}{\numberline {6}PRIMEIRO NÍVEL}{5}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Segundo nível}{5}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Terceiro nível}{5}{subsubsection.6.1.1}%
-\contentsline {paragraph}{\numberline {6.1.1.1}Quarto nível}{5}{paragraph.6.1.1.1}%
-\contentsline {section}{\numberline {7}REFERÊNCIAS INTERNAS}{5}{section.7}%
-\contentsline {section}{\numberline {8}LISTAS}{5}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Listas não ordenadas}{6}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}\textit {enumerate}}{6}{subsection.8.2}%
-\contentsline {section}{\numberline {9}FLOATS}{7}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Figuras}{7}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Tabelas}{8}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Fórmulas}{8}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Fórmulas químicas}{9}{subsection.10.1}%
-\contentsline {section}{\numberline {11}REFERÊNCIAS BIBLIOGRÁFICAS}{9}{section.11}%
-\contentsline {section}{\numberline {12}APLICAÇÃO DA CLASSE IPTEX}{9}{section.12}%
+\contentsline {section}{\numberline {1}AGENDA}{3}{section.1}%
+\contentsline {section}{\numberline {2}INTRODUÇÃO}{4}{section.2}%
+\contentsline {section}{\numberline {3}PROGRAMAS e \textit {LINKS}}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Distribuições e documentação \LaTeX }{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Editor}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Arquivo de classe IPTeX}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}ESTRUTURA}{5}{section.4}%
+\contentsline {section}{\numberline {5}SEÇÕES E SUBSEÇÕES}{6}{section.5}%
+\contentsline {section}{\numberline {6}PRIMEIRO NÍVEL}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Segundo nível}{6}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Terceiro nível}{6}{subsubsection.6.1.1}%
+\contentsline {paragraph}{\numberline {6.1.1.1}Quarto nível}{6}{paragraph.6.1.1.1}%
+\contentsline {section}{\numberline {7}REFERÊNCIAS INTERNAS}{6}{section.7}%
+\contentsline {section}{\numberline {8}LISTAS}{6}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Listas não ordenadas}{7}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}\textit {enumerate}}{7}{subsection.8.2}%
+\contentsline {section}{\numberline {9}FLOATS}{8}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Figuras}{8}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Tabelas}{9}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Fórmulas}{9}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Fórmulas químicas}{10}{subsection.10.1}%
+\contentsline {section}{\numberline {11}REFERÊNCIAS BIBLIOGRÁFICAS}{10}{section.11}%
+\contentsline {section}{\numberline {12}APLICAÇÃO DA CLASSE IPTEX}{10}{section.12}%

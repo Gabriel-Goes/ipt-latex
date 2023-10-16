@@ -3,7 +3,6 @@
 % Se necessário, inserir línguas e indicar língua principal (main)
 \usepackage[main=brazil,english]{babel}
 \usepackage[italic]{mathastext}
-\usepackage{siunitx}
 \sisetup{
     group-separator={.},
     group-minimum-digits=3,
@@ -14,21 +13,14 @@
 	\renewcommand{\contentsname}{SUMÁRIO}
 	\renewcommand{\refname}{REFERÊNCIAS}
 }
-\addto\captionsenglish{%
-	\renewcommand{\contentsname}{CONTENTS}
-	\renewcommand{\refname}{REFERENCES}
-}
+
 % BIBLIOGRAFIA
-\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+%\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
 % Para bibliografia ABNT com números
-%\usepackage[abnt-emphasize=bf,num]{abntex2cite}
-%\citebrackets[]
+\usepackage[abnt-emphasize=bf,num]{abntex2cite}
+\citebrackets[]
 
 % Para outros estilos o autor deve definir o \bibliographystyle dentro do documento
-
-% Ajustes adicionais
-%\setlist[enumerate]{itemsep=3mm} % espaçamento enumerate
-%\setlist[itemize]{itemsep=3mm} % espaçamento itemize
 
 % Início do documento
 \begin{document}
@@ -39,15 +31,11 @@
 % Corpo
 \input{./boletim/main/tex/corpo_main_boletim.tex}
 
-\clearpage
-\newpage
-
 \input{./boletim/main/tex/completude_main_boletim.tex}
 
 \input{./boletim/main/tex/tabela_main_boletim.tex}
 
 \input{./boletim/main/tex/mapa_main_boletim.tex}
-\newpage
 
 % Bibliografia
 \section{REFERÊNCIAS BIBLIOGRÁFICAS}
@@ -56,6 +44,5 @@ C. F. RICHTER, \textit{Elementary Seismology}, W. H. Freeman and Co., San Franci
 %\renewcommand{\refname}{REFERÊNCIAS}
 %\addcontentsline{toc}{section}{REFERÊNCIAS}
 %\bibliography{ref}
-
 
 \end{document}

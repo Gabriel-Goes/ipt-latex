@@ -150,3 +150,5 @@ round-mode=figures,scientific\
     tex_file.write("\\end{longtable}\n")
     tex_file.write("\\end{center}\n")
     tex_file.write("\\clearpage\n")
+
+print(f" -> Tabela '{output_tex}' gerada com sucesso!")
