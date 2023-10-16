@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Solicita ao usuário que selecione uma opção
-echo "Selecione a opção desejada:"
-echo "1 - Main"
+echo "Selecione o documento desejado:"
+echo "1 - Modelo Principal"
 echo "2 - Baesa"
 echo "3 - Relatório Técnico"
 echo ""
@@ -11,13 +11,13 @@ read opcao
 
 # Verifica a opção escolhida e executa o arquivo correspondente
 if [ "$opcao" == "1" ]; then
-    logs=~/projetos/ipt-latex/boletim/main/
+    logs=~/projetos/ipt-latex/boletim/main/logs
     tabela=~/projetos/ipt-latex/boletim/main/python/tabela_main.py
     mapa=~/projetos/ipt-latex/boletim/main/python/mapa_main.py
     input_tex=~/projetos/ipt-latex/boletim/main/main_boletim.tex
     capa=~/projetos/ipt-latex/boletim/main/python/capa.py
     # Verifica se o arquivo existe antes de executá-lo
-    echo "Selecione a opção desejada:"
+    echo "Selecione o Reservatório Desejado:"
     echo "1 - Machadinho"
     echo "2 - Itá"
     echo "3 - Salto Pilão"
@@ -26,7 +26,8 @@ if [ "$opcao" == "1" ]; then
 
     # ---------   RELATÓRIO DE MACHADINHO    -----------------------------------------------------------------------------
     if [ "$opcao2" == "1" ];then
-        echo " Script Machadinho"
+        echo " Modelo Machadinho Selecionado"
+        echo " "
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
             echo "Executando "$capa""
@@ -43,15 +44,16 @@ if [ "$opcao" == "1" ]; then
         
         if [ -f "$input_tex" ]; then 
             # Gera o arquivo PDF a partir do arquivo LaTeX
+            echo ""
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Primeiro print"
+            echo " -> Primeiro print"
             pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Segundo print"
+            echo " -> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
             rm -f *.aux *.log *.out *.xmpi *.toc
-            echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+            echo "Arquivo PDF gerado"
 
         else
             echo "Script "$input_tex"  não encontrado"
@@ -60,7 +62,8 @@ if [ "$opcao" == "1" ]; then
 
     # -------------   RELATÓRIO DE ITÁ   ----------------------------------------------------------------------------------
     elif [ "$opcao2" == "2" ];then
-        echo " Script Itá"
+        echo " Modelo Itá Selecionado"
+        echo ""
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
             echo "Executando "$capa""
@@ -69,6 +72,7 @@ if [ "$opcao" == "1" ]; then
             python3 "$tabela"
             echo "Executando $mapa"
             python3 "$mapa"
+            echo ""
         else
             echo ""$tabela" e "$mapa""
             echo "Script python não encontrado"
@@ -79,13 +83,13 @@ if [ "$opcao" == "1" ]; then
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Primeiro print"
+            echo "-> Primeiro print"
             pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Segundo print"
+            echo "-> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
             rm -f *.aux *.log *.out *.xmpi *.toc
-            echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+            echo "Arquivo PDF gerado"
 
         else
             echo "Script "$input_tex"  não encontrado"
@@ -93,7 +97,8 @@ if [ "$opcao" == "1" ]; then
         fi
         # ---------   RELATÓRIO DE SALTO PILÃO    -----------------------------------------------------------------------------
     elif [ "$opcao2" == "3" ];then
-        echo " Script Salto Pilão"
+        echo " Modelo Salto Pilão Selecionado"
+        echo ""
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
             echo "Executando "$capa""
@@ -102,6 +107,7 @@ if [ "$opcao" == "1" ]; then
             python3 "$tabela"
             echo "Executando $mapa"
             python3 "$mapa"
+            echo ""
         else
             echo ""$tabela" e "$mapa""
             echo "Script python não encontrado"
@@ -112,9 +118,9 @@ if [ "$opcao" == "1" ]; then
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo " ---> Iniciando pdflatex "$input_tex""
             pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Primeiro print"
+            echo "-> Primeiro print"
             pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-            echo "Segundo print"
+            echo "-> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
             rm -f *.aux *.log *.out *.xmpi *.toc
@@ -126,7 +132,7 @@ if [ "$opcao" == "1" ]; then
         fi
     # ERRO NA ESCOLHA DE OPÇÃO RETORNANDO OPÇÃO INVÁLIDA
     else
-        echo "Opção 2 inválida"
+        echo "Opção '$opcao2' inválida"
         exit 1
     fi
 
@@ -138,18 +144,22 @@ tabela=~/projetos/ipt-latex/boletim/baesa/python/tabela_baesa.py
 mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
 completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
     if [ -f "$input_tex" ] && [ -f "$tabela" ] && [ -f "$mapa" ] && [ -f "$completude" ];then
+        echo " Modelo Baesa Selecionado"
+        echo ""
         echo "Executando $tabela"
         python3 "$tabela"
         echo "Executando $mapa"
         python3 "$mapa"
         echo "Executando $completude"
         python3 "$completude"
+        echo ""
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
+        echo "---> Iniciando pdflatex "$input_tex""
         pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Primeiro print"
+        echo "-> Primeiro print"
         pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Segundo print"
+        echo "-> Segundo print"
         echo " "
 
         # Remove arquivos temporários gerados pelo pdflatex
@@ -164,7 +174,7 @@ completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
 # ---------------- TEMPLATE BAESA -------------------------------------------------------------------------------------
 elif [ "$opcao" == "3" ]; then
 input_tex=~/projetos/ipt-latex/relatorio/relatórios_tecnicos.tex
-logs=~/projetos/ipt-latex/relatorio/
+logs=~/projetos/ipt-latex/relatorio/logs/
 #tabela=~/projetos/ipt-latex/relatorio/python/tabela_baesa.py
 #mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
 #completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
@@ -178,22 +188,23 @@ logs=~/projetos/ipt-latex/relatorio/
        # python3 "$completude"
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
+        echo " ---> Iniciando pdflatex"
         pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Primeiro print"
+        echo "-> Primeiro print"
         pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
-        echo "Segundo print"
+        echo "-> Segundo print"
         echo " "
 
         # Remove arquivos temporários gerados pelo pdflatex
         rm -f *.aux *.log *.out *.xmpi *.toc
 
-        echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
+        echo "Arquivo PDF gerado."
     else
         echo "Script "$input_tex" não encontrado"
         exit 1
     fi
 # --------------------- ERRO NA ESCOLHA DE OPÇÃO RETORNANDO OPÇÃO INVÁLIDA --------------------------------------------
 else
-    echo "Opção 1 inválida!"
+    echo "Opção '$opcao' inválida!"
     exit 1
 fi

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  21 SEP 2023 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  16 OCT 2023 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1569,52 +1569,62 @@ or `english'. on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 47.
+(Font)              scaled to size 11.39996pt on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 47.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+(Font)              scaled to size 13.67995pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 47
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 46
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
-7.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 47.
+(Font)              scaled to size 9.49997pt on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 47.
+(Font)              scaled to size 7.59998pt on input line 46.
 <figuras/headImage.pdf, id=101, 159.36037pt x 72.1896pt>
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 47.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 46.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 <figuras/footImage.pdf, id=102, 264.30975pt x 28.35594pt>
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 47.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 46.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
  [1
 
  <./figuras/headImage.pdf> <./figuras/footImage.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 53.
+(Font)              scaled to size 16.41594pt on input line 50.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 53.
- (./oficina_latex.toc
+(Font)              scaled to size 16.41594pt on input line 50.
+File: figuras/headImage.pdf Graphic file (type pdf)
+<use figuras/headImage.pdf>
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 51.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: figuras/footImage.pdf Graphic file (type pdf)
+<use figuras/footImage.pdf>
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 51.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [1
+
+] (./oficina_latex.toc
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
@@ -1627,136 +1637,129 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 58.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 57.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 58.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 57.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [2
-
-]
+ [2]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
-1.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 71.
+(Font)              scaled to size 11.39996pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 71.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 71.
+(Font)              scaled to size 11.39996pt on input line 70.
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 71.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 70.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 71.
+(Font)              scaled to size 11.39996pt on input line 70.
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 99.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 98.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 99.
+(Font)              scaled to size 9.49997pt on input line 98.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 99.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 98.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \clearpage
-                [2]
+ [3]
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 108.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 13.67995pt on input line 108.
+(Font)              scaled to size 13.67995pt on input line 107.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 111.
+(Font)              scaled to size 13.67995pt on input line 110.
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 132.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 131.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 132.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 131.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [3
+ [4
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 141.
+(Font)              scaled to size 10.40245pt on input line 140.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-41.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 160.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 159.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 160.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 159.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [4]
+ [5]
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 162.
+(Font)              scaled to size 10.40245pt on input line 161.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 194.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 193.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 194.
+(Font)              scaled to size 10.40245pt on input line 193.
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 200.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 199.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 200.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 199.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
-[5]
+[6]
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 247.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 246.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 247.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 246.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [6]
+ [7]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 258.
-<./figuras/headImage.pdf, id=196, 159.36037pt x 72.1896pt>
+(Font)              scaled to size 10.40245pt on input line 257.
+<./figuras/headImage.pdf, id=202, 159.36037pt x 72.1896pt>
 File: ./figuras/headImage.pdf Graphic file (type pdf)
 <use ./figuras/headImage.pdf>
-Package pdftex.def Info: ./figuras/headImage.pdf  used on input line 274.
+Package pdftex.def Info: ./figuras/headImage.pdf  used on input line 273.
 (pdftex.def)             Requested size: 193.47577pt x 87.64377pt.
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 299.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 298.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 299.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 298.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [7 <./figuras/headImage.pdf>]
+ [8 <./figuras/headImage.pdf>]
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 329.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 328.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 329.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 328.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [8]
-Overfull \hbox (2.60196pt too wide) in paragraph at lines 352--353
+ [9]
+Overfull \hbox (2.60196pt too wide) in paragraph at lines 351--352
 \T1/phv/m/sl/10.95 ref.bib \T1/phv/m/n/10.95 que foi for-ne-cido. Para uti-li-z
 ar ao longo do texto utiliza-se os co-man-dos [][]\T1/cmtt/m/n/10.95 \cite{} []
 \T1/phv/m/n/10.95 ou [][]\T1/cmtt/m/n/10.95 \citeonline{}[]\T1/phv/m/n/10.95 . 
@@ -1765,13 +1768,13 @@ ar ao longo do texto utiliza-se os co-man-dos [][]\T1/cmtt/m/n/10.95 \cite{} []
 
 File: figuras/headImage.pdf Graphic file (type pdf)
 <use figuras/headImage.pdf>
-Package pdftex.def Info: figuras/headImage.pdf  used on input line 371.
+Package pdftex.def Info: figuras/headImage.pdf  used on input line 370.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: figuras/footImage.pdf Graphic file (type pdf)
 <use figuras/footImage.pdf>
-Package pdftex.def Info: figuras/footImage.pdf  used on input line 371.
+Package pdftex.def Info: figuras/footImage.pdf  used on input line 370.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
-[9
+[10
 
 ] 
 AED: lastpage setting LastPage
@@ -1780,10 +1783,10 @@ Package rerunfilecheck Info: File `oficina_latex.out' has not changed.
 (rerunfilecheck)             Checksum: A73FE19CAC20E3F8DB731493A078A645;1463.
  ) 
 Here is how much of TeX's memory you used:
- 37867 strings out of 476091
- 735308 string characters out of 5794081
+ 37869 strings out of 476091
+ 735323 string characters out of 5794081
  1873330 words of memory out of 5000000
- 57504 multiletter control sequences out of 15000+600000
+ 57503 multiletter control sequences out of 15000+600000
  576669 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,94p,584b,2914s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1799,9 +1802,9 @@ exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on oficina_latex.pdf (10 pages, 227308 bytes).
+Output written on oficina_latex.pdf (11 pages, 228450 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -44,4 +44,4 @@ file_name = "./boletim/main/tex/capa_main_boletim.tex"
 with open(file_name, "w") as tex_file:
     tex_file.write(tex_content)
 
-print(f"Created {file_name}")
+print(f" -> Capa '{file_name}' gerada com sucesso!")
