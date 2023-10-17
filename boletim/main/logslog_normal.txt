@@ -199,6 +199,7 @@ nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 (./boletim/main/tex/capa_main_boletim.tex
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd)
 ! Undefined control sequence.
 \capa ...ifdefined \PeriodoAnalise \inserirComeco 
@@ -211,6 +212,36 @@ l.12 \capa
 l.12 \capa
           
 ? [1 <./figuras/headImage.pdf> <./figuras/footImageCalibr.png>])
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
+age.pdf> <./figuras/footImageCalibr.png>])
+<<<<<<< HEAD:boletim/main/log_normal.txt
+(./boletim/main/tex/corpo_main_boletim.tex
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{itemize}
+                 
+? [2]) [3 <./figuras/assinatura.png>]
+(./boletim/main/tex/completude_main_boletim.tex)
+(./boletim/main/tex/tabela_main_boletim.tex
+Overfull \vbox (1.47482pt too high) has occurred while \output is active
+[4 <./boletim/main/figuras/completude_SP7.png>])
+(./boletim/main/tex/mapa_main_boletim.tex) [5 <./boletim/main/figuras/mapaevent
+s.png (PNG copy)>] 
+AED: lastpage setting LastPage
+[6] (./Boletim_Salto_Pilão.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/m
+atha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Salto_Pilão.pdf (6 pages, 410091 bytes).
+=======
+>>>>>>> 1c37482a8b3111c4aec852e32f26a482f0de042c
 (./boletim/main/tex/corpo_main_boletim.tex [2]
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
@@ -230,6 +261,7 @@ Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =N�o-localiz�vel. O
 (./boletim/main/tex/mapa_main_boletim.tex [6 <./boletim/main/figuras/mapaevents
 .png (PNG copy)>]) 
 AED: lastpage setting LastPage
+<<<<<<< HEAD
 [7] (./Boletim_Machadinho.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/
 base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
 ha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
@@ -237,3 +269,14 @@ r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on Boletim_Machadinho.pdf (7 pages, 592001 bytes).
 Transcript written on Boletim_Machadinho.log.
+=======
+[7] (./Boletim_Salto_Pilão.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Salto_Pilão.pdf (7 pages, 591686 bytes).
+>>>>>>> 157db0ea11ef4bcaca122b47262699549e3e7111:boletim/main/logslog_normal.txt
+Transcript written on Boletim_Salto_Pilão.log.
+>>>>>>> 1c37482a8b3111c4aec852e32f26a482f0de042c

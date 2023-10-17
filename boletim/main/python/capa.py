@@ -2,9 +2,9 @@ import argparse
 
 # Define the possible reservoir names
 reservoir_names = {
-    "1": "Reservatório de Machadinho, SC/RS",
+    "1": "UHE Machadinho SC/RS",
     "2": "Reservatório de Itá, SC/RS",
-    "3": "Reservatório Salto Pilão, RS"
+    "3": "UHE Salto Pilão, SC"
 }
 
 # Parse the command-line argument to get the reservoir name
@@ -21,9 +21,9 @@ tex_content = f"""\
 % Params
 \\tipo{{BOLETIM SISMOLÓGICO}}
 \\data{{2023}}
-\\titulo{{\\textbf{{UHE Salto Pilão}} \\\\
+\\titulo{{\\textbf{{Estação Sismológica SP7, SC }} \\\\
 \\textbf{{{selected_reservoir}}} \\\\
-\\textbf{{BOLETIM SÍSMICO Nº 25/36-2024 Ago.23}}}}
+\\textbf{{BOLETIM SÍSMICO Nº 26/36-2024 Ago.23 }}}}
 \\unidade{{Cidades Infraestruturas e Meio Ambiente}}{{CIMA}}
 \\lab{{Seção de Obras Civis - SOC}}
 \\periodo{{01/08/2023}}{{31/08/2023}}
