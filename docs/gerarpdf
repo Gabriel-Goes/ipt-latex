@@ -175,17 +175,22 @@ completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
 elif [ "$opcao" == "3" ]; then
 input_tex=~/projetos/ipt-latex/relatorio/relatórios_tecnicos.tex
 logs=~/projetos/ipt-latex/relatorio/logs/
-#tabela=~/projetos/ipt-latex/relatorio/python/tabela_baesa.py
-#mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
-#completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
-# && [ -f "$tabela" ] && [ -f "$mapa" ] && [ -f "$completude" ]
-    if [ -f "$input_tex" ];then
-       # echo "Executando $tabela"
-       # python3 "$tabela"
-       # echo "Executando $mapa"
-       # python3 "$mapa"
-       # echo "Executando $completude"
-       # python3 "$completude"
+tabela=~/projetos/ipt-latex/relatorio/python/tabela.py
+mapa=~/projetos/ipt-latex/relatorio/python/mapa.py
+regional=~/projetos/ipt-latex/relatorio/python/regional.py
+completude=~/projetos/ipt-latex/relatorio/python/completude.py
+ 
+    if [ -f "$input_tex" ] && [ -f "$completude" ] && [ -f "$mapa" ] && [ -f "$regional" ] && [ -f "$tabela" ];then
+        echo " ---> Iniciando Python scripts"
+        echo "Executando $tablea"
+        python3 "$tabela"
+        echo "Executando $mapa"
+        python3 "$mapa"
+        echo "Executando $completude"
+        python3 "$completude"
+        echo "Executando $regional"
+        python3 "$regional"
+        echo ""
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
         echo " ---> Iniciando pdflatex"

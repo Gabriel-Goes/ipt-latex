@@ -147,7 +147,7 @@ Package hyperref Warning: Option `pdfa' has already been used,
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
-** pdfx: No file Boletim_Salto_Pilão.xmpdata . Metadata will be incomplete!
+** pdfx: No file Boletim_Machadinho.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
@@ -186,9 +186,8 @@ Using XMP template file: pdfa.xmp
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./Boletim_Salto_Pilão.aux) (./Boletim_Salto_Pilão.out)
-(./Boletim_Salto_Pilão.out)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(./Boletim_Machadinho.aux) (./Boletim_Machadinho.out) (./Boletim_Machadinho.out
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
@@ -200,8 +199,18 @@ nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 (./boletim/main/tex/capa_main_boletim.tex
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
-age.pdf> <./figuras/footImageCalibr.png>])
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd)
+! Undefined control sequence.
+\capa ...ifdefined \PeriodoAnalise \inserirComeco 
+                                                  e \inserirFinal \\ na esta...
+l.12 \capa
+          
+? ! Undefined control sequence.
+\capa ...doAnalise \inserirComeco e \inserirFinal 
+                                                  \\ na estação Sismológi...
+l.12 \capa
+          
+? [1 <./figuras/headImage.pdf> <./figuras/footImageCalibr.png>])
 (./boletim/main/tex/corpo_main_boletim.tex [2]
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
@@ -221,11 +230,10 @@ Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =N�o-localiz�vel. O
 (./boletim/main/tex/mapa_main_boletim.tex [6 <./boletim/main/figuras/mapaevents
 .png (PNG copy)>]) 
 AED: lastpage setting LastPage
-[7] (./Boletim_Salto_Pilão.aux) )
-(see the transcript file for additional information){/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Salto_Pilão.pdf (7 pages, 591686 bytes).
-Transcript written on Boletim_Salto_Pilão.log.
+[7] (./Boletim_Machadinho.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
+ha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Boletim_Machadinho.pdf (7 pages, 592001 bytes).
+Transcript written on Boletim_Machadinho.log.

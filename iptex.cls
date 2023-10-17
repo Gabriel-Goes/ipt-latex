@@ -29,6 +29,7 @@
 
 % Incluindo pacotes
 %\RequirePackage{bookmark}
+\RequirePackage{mdframed}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
@@ -163,8 +164,6 @@
 	\newcommand{\dummylabel}[2]{\def\@currentlabel{#2}\label{#1}} % criando referências "falsas"
     \newcommand{\periodo}[2]{\gdef\inserirInicio{#1}
                              \gdef\inserirFim{#2}}
-    \newcommand{\PeriodoAnalise}[2]{\gdef\inserirComeco{#1}
-                                    \gdef\inserirFinal{#2}}
 
 	\newcommand\firstup[1]{\firstupaux#1\relax}
 	\def\firstupaux#1#2\relax{\MakeUppercase{#1}\MakeLowercase{#2}}	%para forçar apenas a primeira letra maiúscula
@@ -306,11 +305,6 @@
 				\vspace{3cm}
 
 				\inserirTitulo \\
-
-                \ifdefined\PeriodoAnalise
-                    \textbf{\inserirComeco}\textbf{ e }\textbf{\inserirFinal} \\
-                \fi
-
 
 				\ifdefined\inserirNomeCliente
 					\vspace{3cm}
@@ -674,6 +668,44 @@
 
 		\pagebreak
 	}
+
+%% Duas assinaturas digitais Relatório Técnico
+	\newcommand{\assinaturaDoisDigitalRelatorio}{
+		\begin{flushright}
+			\textbf{São Paulo, \inserirData.}
+		% Assinaturas
+			{\scriptsize\singlespacing
+            \begin{tabular}{p{8cm}p{8cm}}
+                \hline
+                \begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
+                               \textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
+                               \textbf{Engº Civil Diego Lapolli Bressan} \\ \vspace{0.1cm}
+                               \textbf{Gerente Técnico} \\ \vspace{0.1cm}
+                               \textbf{CREA 170028342-1 – RE 08733} \\ \vspace{0.1cm}
+                               {\color{blue} Assinado Digitalmente} \\ \vspace{0.1cm}
+                               \hline \\ \vspace{1.5cm}
+                               \hline \\
+                               \end{center} &
+                \begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
+                               \textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
+                               \textbf{Geól. Me. Fabrício Araujo Mirandola} \\ \vspace{0.1cm}
+                               \textbf{Diretor Técnico} \\ \vspace{0.1cm}
+                               \textbf{CREASP Nº 5062055808 – RE 8658} \\ \vspace{0.1cm}
+                               {\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm} 
+                               \hline \\ \vspace{1.5cm}
+                               \hline \\
+                               \end{center}
+			\end{tabular}
+			}
+		\end{flushright}
+
+		\begin{center}
+			\includegraphics[scale=1]{./figuras/digital.png}
+		\end{center}
+
+		\pagebreak
+	}
+
 
 %% Duas assinaturas digitais
 	\newcommand{\assinaturaDoisDigital}[4]{

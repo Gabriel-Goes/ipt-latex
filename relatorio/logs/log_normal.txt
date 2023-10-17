@@ -8,30 +8,43 @@ Document Class: iptex 2022/06/03 IPT Document Class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -56,14 +69,10 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)
@@ -79,9 +88,7 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 
@@ -96,8 +103,7 @@ LaTeX Warning: Command \underline  has changed.
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -186,12 +192,12 @@ Using XMP template file: pdfa.xmp
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./Relatóiro_Técnico.aux) (./Relatóiro_Técnico.out)
-(./Relatóiro_Técnico.out)
+(./Relatóiro_Técnico.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./Relatóiro_Técnico.out) (./Relatóiro_Técnico.out)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-brazil.trsl)
@@ -199,36 +205,8 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/home/ipt/projetos/ipt-latex/relatorio/tex/capa_relatorios.tex
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \PeriodoAnalise
-                   {01 de dezembro de 2022}{30 de junho de 2023} \\
-? 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \unidade
-             {Cidades Infraestruturas e Meio Ambiente}{CIMA}
-? ! Undefined control sequence.
-<recently read> \inserirInicio 
-                               
-l.16 \capa
-          
-? ! Undefined control sequence.
-<recently read> \inserirFim 
-                            
-l.16 \capa
-          
-? [1 <./figuras/headImage.pdf> <./figuras/footImageCalibr.png>]
+(/home/ipt/projetos/ipt-latex/relatorio/tex/capa_relatorios.tex [1 <./figuras/h
+eadImage.pdf> <./figuras/footImageCalibr.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1]
 (./Relatóiro_Técnico.toc
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
@@ -241,13 +219,100 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10     \item S
-                istema interno de gravação (DRS – Data Recording Sub-sys...
-[1] [2] [3] [4] [5]) [6]) 
+l.10     \item
+               Digitalizador (DAS – Data Acquisition Sub-system), modelo 1...
+[1] [2] [3] [4] [5]) (./relatorio/tex/quadro_simotectonico.tex) [6]
+(./relatorio/tex/consideracoes_finais.tex [7]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? ! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? ! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? ! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \assinaturaDoisDigitalRelatorio
+                                    
+? ) [8 <./figuras/digital.png>] (./relatorio/tex/equipe_tecnica.tex
+Runaway argument?
+{sec{equip_tec} 
+! Paragraph ended before \label was complete.
+<to be read again> 
+                   \par 
+l.3 
+    
+? ) [9])
+No file Relatóiro_Técnico.bbl.
+(/home/ipt/projetos/ipt-latex/relatorio/tex/apendice_figuras.tex [10] [11]
+(/home/ipt/projetos/ipt-latex/relatorio/tex/completude.tex) [12 <./relatorio/fi
+guras/completude.png>] (/home/ipt/projetos/ipt-latex/relatorio/tex/mapa.tex)
+[13 <./relatorio/figuras/mapa.png (PNG copy)>]
+(/home/ipt/projetos/ipt-latex/relatorio/tex/regional.tex))
+(/home/ipt/projetos/ipt-latex/relatorio/tex/apendice_tabelas.tex [14 <./relator
+io/figuras/regiao.png> <./relatorio/figuras/evento_regional.png>] [15]
+(/home/ipt/projetos/ipt-latex/relatorio/tex/tabela_relatorio.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-sen
+-ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
+
+Underfull \hbox (badness 1009) in paragraph at lines 6--6
+\T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =Detona��o/Desmontes, \T1/phv/m/sl/10.95 
+E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
+Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =N�o-localiz�vel. O
+[16])) (/home/ipt/projetos/ipt-latex/relatorio/tex/anexos.tex [17]
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored))
+
 AED: lastpage setting LastPage
-[7] (./Relatóiro_Técnico.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Relatóiro_Técnico.pdf (10 pages, 144418 bytes).
+(./Relatóiro_Técnico.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Relatóiro_Técnico.pdf (20 pages, 1001780 bytes).
 Transcript written on Relatóiro_Técnico.log.
