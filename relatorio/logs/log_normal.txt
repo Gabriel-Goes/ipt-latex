@@ -219,7 +219,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10     \item
+l.11     \item
                Digitalizador (DAS – Data Acquisition Sub-system), modelo 1...
 [1] [2] [3] [4] [5]) (./relatorio/tex/quadro_simotectonico.tex) [6]
 (./relatorio/tex/consideracoes_finais.tex [7]
@@ -242,15 +242,6 @@ l.20 \assinaturaDoisDigitalRelatorio
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
 l.20 \assinaturaDoisDigitalRelatorio
                                     
-? 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \assinaturaDoisDigitalRelatorio
-                                    
 ? ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
@@ -279,15 +270,7 @@ Type  H <return>  for immediate help.
                                                   
 l.20 \assinaturaDoisDigitalRelatorio
                                     
-? ) [8 <./figuras/digital.png>] (./relatorio/tex/equipe_tecnica.tex
-Runaway argument?
-{sec{equip_tec} 
-! Paragraph ended before \label was complete.
-<to be read again> 
-                   \par 
-l.3 
-    
-? ) [9])
+? ) [8 <./figuras/digital.png>] (./relatorio/tex/equipe_tecnica.tex) [9])
 No file Relatóiro_Técnico.bbl.
 (/home/ipt/projetos/ipt-latex/relatorio/tex/apendice_figuras.tex [10] [11]
 (/home/ipt/projetos/ipt-latex/relatorio/tex/completude.tex) [12 <./relatorio/fi
@@ -314,5 +297,5 @@ e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Relatóiro_Técnico.pdf (20 pages, 1001780 bytes).
+Output written on Relatóiro_Técnico.pdf (20 pages, 1001781 bytes).
 Transcript written on Relatóiro_Técnico.log.

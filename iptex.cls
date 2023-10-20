@@ -684,8 +684,8 @@
                                \textbf{CREA 170028342-1 – RE 08733} \\ \vspace{0.1cm}
                                {\color{blue} Assinado Digitalmente} \\ \vspace{0.1cm}
                                \hline \\ \vspace{1.5cm}
-                               \hline \\
-                               \end{center} &
+                               \hline
+                \end{center} &
                 \begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
                                \textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
                                \textbf{Geól. Me. Fabrício Araujo Mirandola} \\ \vspace{0.1cm}
@@ -694,7 +694,7 @@
                                {\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm} 
                                \hline \\ \vspace{1.5cm}
                                \hline \\
-                               \end{center}
+                \end{center}
 			\end{tabular}
 			}
 		\end{flushright}
