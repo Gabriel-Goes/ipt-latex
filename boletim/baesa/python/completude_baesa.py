@@ -12,7 +12,7 @@ def generate_map_latex(output_filename):
 """
     with open(output_filename, "w") as output_file:
         output_file.write(latex_code)
-    print(f" -> Mapa '{output_filename}' gerado com sucesso!")
+    print(f" -> Completude '{output_filename}' gerada com sucesso!")
 
 
 generate_map_latex("./boletim/baesa/tex/completude_baesa.tex")
