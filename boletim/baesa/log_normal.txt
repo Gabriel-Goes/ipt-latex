@@ -187,12 +187,7 @@ Using XMP template file: pdfa.xmp
 ) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-
-LaTeX Warning: Unused global option(s):
-    [openany].
-
-(./Boletim_Baesa.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Boletim_Baesa.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -205,10 +200,9 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/capa_baesa_boletim.tex [1 <./fi
-guras/headImage.pdf> <./figuras/footImageCalibr.png>])
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/corpo_baesa_boletim.tex
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/info_gerais_baesa_boletim.tex
+(./boletim/baesa/tex/capa_baesa_boletim.tex [1 <./figuras/headImage.pdf> <./fig
+uras/footImageCalibr.png>]) (./boletim/baesa/tex/corpo_baesa_boletim.tex
+(./boletim/baesa/tex/info_gerais_baesa_boletim.tex
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
@@ -216,13 +210,10 @@ guras/headImage.pdf> <./figuras/footImageCalibr.png>])
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [3] [4] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
-) [6]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/ultimos_relatorios_baesa_boleti
-m.tex)
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/atividades_realizadas_baesa_bol
-etim.tex)
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/resultados_baesa_boletim.tex
-[7] (./boletim/baesa/tex/tabela_baesa_boletim.tex
+) [6] (./boletim/baesa/tex/ultimos_relatorios_baesa_boletim.tex)
+(./boletim/baesa/tex/atividades_realizadas_baesa_boletim.tex)
+(./boletim/baesa/tex/resultados_baesa_boletim.tex [7]
+(./boletim/baesa/tex/tabela_baesa_boletim.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 \T1/phv/m/n/10.95 A co-luna \T1/phv/m/sl/10.95 Cat \T1/phv/m/n/10.95 re-pre-sen
 -ta-ria a ca-te-go-ria na qual o evento foi clas-si-fi-cado sendo
@@ -231,14 +222,13 @@ Underfull \hbox (badness 1009) in paragraph at lines 6--6
 \T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =DetonaÁ„o/Desmontes, \T1/phv/m/sl/10.95 
 E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
 Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =N„o-localiz·vel. O
-)) [8]
-(/home/ipt/projetos/ipt-latex/boletim/baesa/tex/considera√ß√µes_baesa_boletim.t
-ex) (/home/ipt/projetos/ipt-latex/boletim/baesa/tex/anexo_baesa_boletim.tex
-[9 <./figuras/assinatura.png>] [10] (./boletim/baesa/tex/mapa_baesa.tex)
-[11 <./boletim/baesa/figuras/mapa_baesa.png (PNG copy)>]
-(./boletim/baesa/tex/completude_baesa.tex) [12 <./boletim/baesa/figuras/bc4_com
-pletude.png> <./boletim/baesa/figuras/bc9_completude.png> <./boletim/baesa/figu
-ras/bc12_completude.png>] [13] [14 <./boletim/baesa/docs/cr_ibama.pdf>]
+)) [8] (./boletim/baesa/tex/considera√ß√µes_baesa_boletim.tex)
+(./boletim/baesa/tex/anexo_baesa_boletim.tex [9 <./figuras/assinatura.png>]
+[10] (./boletim/baesa/tex/mapa_baesa.tex) [11 <./boletim/baesa/figuras/mapa_bae
+sa.png (PNG copy)>] (./boletim/baesa/tex/completude_baesa.tex) [12 <./boletim/b
+aesa/figuras/bc4_completude.png> <./boletim/baesa/figuras/bc9_completude.png> <
+./boletim/baesa/figuras/bc12_completude.png>] [13] [14 <./boletim/baesa/docs/cr
+_ibama.pdf>]
 
 pdfTeX warning: pdflatex (file ./boletim/baesa/docs/ART_Enercan_Ass.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
