@@ -222,7 +222,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 6--6
 \T1/phv/m/sl/10.95 Q\T1/phv/m/n/10.95 =Detonação/Desmontes, \T1/phv/m/sl/10.95 
 E\T1/phv/m/n/10.95 =Sismo Re-gi-o-nal e \T1/phv/m/sl/10.95 I\T1/phv/m/n/10.95 =
 Sismo in-du-zido e \T1/phv/m/sl/10.95 N\T1/phv/m/n/10.95 =Não-localizável. O
-)) [8] (./boletim/baesa/tex/consideraÃ§Ãµes_baesa_boletim.tex)
+)) [8] (./boletim/baesa/tex/consideracoes_baesa_boletim.tex)
 (./boletim/baesa/tex/anexo_baesa_boletim.tex [9 <./figuras/assinatura.png>]
 [10] (./boletim/baesa/tex/mapa_baesa.tex) [11 <./boletim/baesa/figuras/mapa_bae
 sa.png (PNG copy)>] (./boletim/baesa/tex/completude_baesa.tex) [12 <./boletim/b
