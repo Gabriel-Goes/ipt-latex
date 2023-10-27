@@ -1,5 +1,7 @@
 def generate_map_latex(output_filename):
     latex_code = r"""
+    \newpage
+    \section{Mapa de eventos}
     \begin{figure}[ht!]
     \centering
     \captionsetup{justification=justified, singlelinecheck=false, width=1\textwidth}
