@@ -21,9 +21,11 @@ tex_content = f"""\
 % Params
 \\tipo{{BOLETIM SISMOLÓGICO}}
 \\data{{2023}}
-\\titulo{{\\textbf{{Estação Sismológica SP7, SC }} \\\\
-\\textbf{{{selected_reservoir}}} \\\\
-\\textbf{{BOLETIM SÍSMICO Nº 26/36-2024 Ago.23 }}}}
+
+\\titulo{{Estação Sismológica SP7, SC \\\\
+          {selected_reservoir} \\\\
+          BOLETIM SÍSMICO Nº 26/36-2024 Ago.23 }}
+
 \\unidade{{Cidades Infraestruturas e Meio Ambiente}}{{CIMA}}
 \\lab{{Seção de Obras Civis - SOC}}
 \\periodo{{01/08/2023}}{{31/08/2023}}

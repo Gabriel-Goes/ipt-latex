@@ -25,7 +25,7 @@
 \DeclareOption{12pt}{\def\@@ptsize{12pt}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
-\LoadClass[a4paper,oneside,onecolumn,final,openany,\@@ptsize]{article}
+\LoadClass[a4paper,oneside,onecolumn,final,\@@ptsize]{article}
 
 % Incluindo pacotes
 %\RequirePackage{bookmark}
@@ -41,7 +41,7 @@
 \RequirePackage{amssymb}
 \RequirePackage{latexsym}
 \RequirePackage{mathabx}
-\RequirePackage[pdftex]{graphicx}
+\RequirePackage{graphicx}
 \RequirePackage[scaled]{helvet} % Mudar de "helvet" para "uarial" caso fonte arial esteja instalada
 \RequirePackage{url}
 \RequirePackage{fancyhdr}
