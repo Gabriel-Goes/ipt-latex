@@ -11,7 +11,7 @@ read opcao
 
 # Verifica a opção escolhida e executa o arquivo correspondente
 if [ "$opcao" == "1" ]; then
-    logs=~/projetos/ipt-latex/boletim/main/logs
+    logs=~/projetos/ipt-latex/boletim/main/logs/
     tabela=~/projetos/ipt-latex/boletim/main/python/tabela_main.py
     mapa=~/projetos/ipt-latex/boletim/main/python/mapa_main.py
     input_tex=~/projetos/ipt-latex/boletim/main/main_boletim.tex
@@ -139,7 +139,7 @@ if [ "$opcao" == "1" ]; then
 # ---------------- TEMPLATE BAESA -------------------------------------------------------------------------------------
 elif [ "$opcao" == "2" ]; then
 input_tex=~/projetos/ipt-latex/boletim/baesa/baesa_boletim.tex
-logs=~/projetos/ipt-latex/boletim/baesa/
+logs=~/projetos/ipt-latex/boletim/baesa/logs/
 tabela=~/projetos/ipt-latex/boletim/baesa/python/tabela_baesa.py
 mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
 completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
