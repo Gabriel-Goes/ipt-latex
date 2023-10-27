@@ -46,13 +46,13 @@ if [ "$opcao" == "1" ]; then
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo ""
             echo " ---> Iniciando pdflatex "$input_tex""
-            pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo " -> Primeiro print"
-            pdflatex -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo " -> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
-            rm -f *.aux *.log *.out *.xmpi *.toc
+            rm -f ./final_boletins/*.aux ./final_boletins/*.log ./final_boletins/*.out ./final_boletins/*.xmpi *./final_boletins/.toc
             echo "Arquivo PDF gerado"
 
         else
@@ -82,13 +82,13 @@ if [ "$opcao" == "1" ]; then
         if [ -f "$input_tex" ]; then 
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo " ---> Iniciando pdflatex "$input_tex""
-            pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Primeiro print"
-            pdflatex -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
-            rm -f *.aux *.log *.out *.xmpi *.toc
+            rm -f ./final_boletins/*.aux ./final_boletins/*.log ./final_boletins/*.out ./final_boletins/*.xmpi *./final_boletins/.toc
             echo "Arquivo PDF gerado"
 
         else
@@ -117,13 +117,13 @@ if [ "$opcao" == "1" ]; then
         if [ -f "$input_tex" ]; then 
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo " ---> Iniciando pdflatex "$input_tex""
-            pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Primeiro print"
-            pdflatex -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Salto_Pilão "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
-            rm -f *.aux *.log *.out *.xmpi *.toc
+            rm -f ./final_boletins/*.aux ./final_boletins/*.log ./final_boletins/*.out ./final_boletins/*.xmpi *./final_boletins/.toc
             echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
 
         else
@@ -156,14 +156,14 @@ completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
         echo "---> Iniciando pdflatex "$input_tex""
-        pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "-> Primeiro print"
-        pdflatex -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Baesa "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "-> Segundo print"
         echo " "
 
         # Remove arquivos temporários gerados pelo pdflatex
-        rm -f *.aux *.log *.out *.xmpi *.toc
+        rm -f ./final_boletins/*.aux ./final_boletins/*.log ./final_boletins/*.out ./final_boletins/*.xmpi *./final_boletins/.toc
 
         echo "Arquivo PDF gerado: ${input_tex%.tex}.pdf"
     else
@@ -194,14 +194,14 @@ completude=~/projetos/ipt-latex/relatorio/python/completude.py
         
         # Gera o arquivo PDF a partir do arquivo LaTeX
         echo " ---> Iniciando pdflatex"
-        pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -output-directory=./final_boletins/ -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "-> Primeiro print"
-        pdflatex -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+        pdflatex -output-directory=./final_boletins/ -jobname=Relatóiro_Técnico "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
         echo "-> Segundo print"
         echo " "
 
         # Remove arquivos temporários gerados pelo pdflatex
-        rm -f *.aux *.log *.out *.xmpi *.toc
+        rm -f ./final_boletins/*.aux ./final_boletins/*.log ./final_boletins/*.out ./final_boletins/*.xmpi *./final_boletins/.toc
 
         echo "Arquivo PDF gerado."
     else
