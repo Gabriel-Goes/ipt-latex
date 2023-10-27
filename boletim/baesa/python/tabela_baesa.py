@@ -148,4 +148,4 @@ round-mode=figures,scientific\
     tex_file.write("\\label{tab:tabela_baesa}\n")
     tex_file.write("\\end{longtable}\n")
     tex_file.write("\\end{center}\n")
-print(" -> Tabela '{output_tex}' gerada com sucesso!")
+print(f" -> Tabela '{output_tex}' gerada com sucesso!")
