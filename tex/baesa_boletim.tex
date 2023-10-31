@@ -1,0 +1,54 @@
+\documentclass[12pt]{iptex}
+% IDIOMA
+% Se necessário, inserir línguas e indicar língua principal (main)
+\usepackage[main=brazil,english]{babel}
+\usepackage[italic]{mathastext}
+\usepackage{siunitx}
+\sisetup{
+    group-separator={.},
+    group-minimum-digits=3,
+    output-decimal-marker={,}}
+
+% Alterando nome do TOC (adicionar em outras línguas, se necessário)
+\addto\captionsbrazil{%
+	\renewcommand{\contentsname}{SUMÁRIO}
+	\renewcommand{\refname}{REFERÊNCIAS}
+}
+\addto\captionsenglish{%
+	\renewcommand{\contentsname}{CONTENTS}
+	\renewcommand{\refname}{REFERENCES}
+}
+% BIBLIOGRAFIA
+\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+% Para bibliografia ABNT com números
+%\usepackage[abnt-emphasize=bf,num]{abntex2cite}
+%\citebrackets[]
+
+% Para outros estilos o autor deve definir o \bibliographystyle dentro do documento
+
+% Ajustes adicionais
+\setlist[enumerate]{itemsep=3mm} % espaçamento enumerate
+\setlist[itemize]{itemsep=3mm} % espaçamento itemize
+
+
+% Início do documento
+\begin{document}
+
+% CAPA 
+\input{../boletim/baesa/tex/capa_baesa_boletim.tex}
+
+% Corpo
+\input{../boletim/baesa/tex/corpo_baesa_boletim.tex}
+
+\clearpage
+\newpage
+
+% Bibliografia
+\section{REFERÊNCIAS BIBLIOGRÁFICAS}
+C. F. RICHTER, \textit{Elementary Seismology}, W. H. Freeman and Co., San Francisco, 1958, 768 pp.
+%\renewcommand{\refname}{REFERÊNCIAS}
+%\addcontentsline{toc}{section}{REFERÊNCIAS}
+%\bibliography{ref}
+
+
+\end{document}

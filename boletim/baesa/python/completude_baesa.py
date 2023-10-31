@@ -1,3 +1,8 @@
+import os
+
+meu_dir = os.path.expanduser("~/projetos/ipt-latex/boletim/baesa/")
+
+
 def generate_map_latex(output_filename):
     latex_code = r"""
 \begin{figure}[ht!]
@@ -9,9 +14,9 @@ def generate_map_latex(output_filename):
         linewidth=1pt,
         roundcorner=10pt,
     ]
-    \includegraphics[width=1.0\textwidth]{./boletim/baesa/figuras/bc4_completude.png}
-    \includegraphics[width=1.0\textwidth]{./boletim/baesa/figuras/bc9_completude.png}
-    \includegraphics[width=1.0\textwidth]{./boletim/baesa/figuras/bc12_completude.png}
+    \includegraphics[width=1.0\textwidth]{../boletim/baesa/figuras/bc4_completude.png}
+    \includegraphics[width=1.0\textwidth]{../boletim/baesa/figuras/bc9_completude.png}
+    \includegraphics[width=1.0\textwidth]{../boletim/baesa/figuras/bc12_completude.png}
     \end{mdframed}
     \caption*{Fonte: IPT}
 \end{figure}
@@ -21,4 +26,4 @@ def generate_map_latex(output_filename):
     print(f" -> Completude '{output_filename}' gerada com sucesso!")
 
 
-generate_map_latex("./boletim/baesa/tex/completude_baesa.tex")
+generate_map_latex(meu_dir+"/tex/completude_baesa.tex")

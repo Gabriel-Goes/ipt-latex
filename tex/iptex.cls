@@ -212,12 +212,12 @@
 
 % Cabeçalhos e rodapé
 
-	\lhead{\includegraphics[scale=0.9]{./figuras/headImage.pdf}}
+	\lhead{\includegraphics[scale=0.9]{../figuras/headImage.pdf}}
 	\chead{}
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
-	\rfoot{\includegraphics[scale=1.0]{./figuras/footImageCalibr.png}}
+	\rfoot{\includegraphics[scale=1.0]{../figuras/footImageCalibr.png}}
 	\pagestyle{fancy}
 
 	\fancypagestyle{geral}{
@@ -241,7 +241,7 @@
 	\fancypagestyle{calibr_pag1}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{./figuras/headImage.pdf}\\
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade}\\
 				\footnotesize\textbf{}
 			\end{tabular}
@@ -253,13 +253,13 @@
 				  \small\textbf{}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{./figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
 
 	\fancypagestyle{calibr_doc}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{./figuras/headImage.pdf}\\
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -275,7 +275,7 @@
 			 	\footnotesize\textbf{\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{./figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
 
 
@@ -485,7 +485,7 @@
 			}
 			\captionsetup{#3}
 			\caption{#4}
-			\includegraphics[#3]{./figuras/#2}
+			\includegraphics[#3]{../figuras/#2}
 			\caption*{#5}
 			#6
 		\end{figure}
@@ -593,7 +593,7 @@
             \hline
             Seção de Obras Civis \\
             \hline \\[1.0pt]
-            \includegraphics{./figuras/assinatura.png} \\[5.0pt]
+            \includegraphics{../figuras/assinatura.png} \\[5.0pt]
             \hline \\[-25.0pt]
             Físico Me. Lucas Alexandre Schirbel \\[-7.0pt]
             Pesquisador \\[-7.0pt]
@@ -622,7 +622,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\pagebreak
@@ -661,7 +661,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{/home/suporte/projetos/ipt-latex/figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
@@ -701,7 +701,7 @@
 	\end{flushright}
 
 	\begin{center}
-		\includegraphics[scale=1]{./figuras/digital.png}
+		\includegraphics[scale=1]{../figuras/digital.png}
 	\end{center}
 
 	\pagebreak
@@ -722,7 +722,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\pagebreak
@@ -760,7 +760,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
@@ -782,7 +782,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\pagebreak
@@ -819,7 +819,7 @@
 		\end{flushright}
 
 		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
+			\includegraphics[scale=1]{../figuras/digital.png}
 		\end{center}
 
 		\noindent\textbf{“Este certificado atende aos requisitos de acreditação pela Cgcre, que avaliou a competência do laboratório e 		comprovou sua rastreabilidade a padrões nacionais de medida (ou ao Sistema Internacional de Unidades – SI).”}
@@ -907,7 +907,7 @@
 	\fancypagestyle{anexo_sfr}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{./figuras/headImage.pdf}\\
+				\includegraphics[scale=0.9]{../figuras/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -923,7 +923,7 @@
 			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{./figuras/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{../figuras/footImageCalibr.png}}
 	}
 
 	\pagestyle{anexo_sfr}

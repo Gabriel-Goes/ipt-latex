@@ -1,3 +1,6 @@
+import os
+meu_dir = os.path.expanduser("~/projetos/ipt-latex/boletim/baesa/")
+
 def generate_map_latex(output_filename):
     latex_code = r"""
 \begin{figure}[ht!]
@@ -10,7 +13,7 @@ def generate_map_latex(output_filename):
         roundcorner=10pt,
     ]
     \begin{center}
-    \includegraphics[width=0.8\textwidth]{./boletim/baesa/figuras/mapa_baesa.png}
+    \includegraphics[width=0.8\textwidth]{../boletim/baesa/figuras/mapa_baesa.png}
     \end{center}
     \end{mdframed}
     \caption*{Fonte: IPT}
@@ -21,4 +24,4 @@ def generate_map_latex(output_filename):
     print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
-generate_map_latex("./boletim/baesa/tex/mapa_baesa.tex")
+generate_map_latex(meu_dir+"tex/mapa_baesa.tex")

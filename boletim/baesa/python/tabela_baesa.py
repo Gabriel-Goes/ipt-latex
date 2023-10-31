@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 import csv
+import os
+
+meu_dir = os.path.expanduser("~/projetos/ipt-latex/boletim/baesa/")
+
 
 # Nome do arquivo de entrada CSV
-input_csv = "./boletim/baesa/csv/events.csv"
+input_csv = meu_dir+"csv/events.csv"
 
 # Nome do arquivo de saída LaTeX
-output_tex = "./boletim/baesa/tex/tabela_baesa_boletim.tex"
+output_tex = meu_dir+"tex/tabela_baesa_boletim.tex"
 
 # Abre o arquivo CSV para leitura
 with open(input_csv, "r") as csv_file:

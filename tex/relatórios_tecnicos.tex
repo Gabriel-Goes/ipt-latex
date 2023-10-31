@@ -20,35 +20,29 @@
 }
 % BIBLIOGRAFIA
 \usepackage[abnt-emphasize=bf,alf]{abntex2cite}
-% Para bibliografia ABNT com números
-%\usepackage[abnt-emphasize=bf,num]{abntex2cite}
-%\citebrackets[]
-
-% Para outros estilos o autor deve definir o \bibliographystyle dentro do documento
-
-% Ajustes adicionais
-\setlist[enumerate]{itemsep=3mm} % espaçamento enumerate
-\setlist[itemize]{itemsep=3mm} % espaçamento itemize
-
 
 % Início do documento
 \begin{document}
 
 % CAPA 
-\input{./boletim/baesa/tex/capa_baesa_boletim.tex}
+\input{./relatorio/tex/capa_relatorios.tex}
 
 % Corpo
-\input{./boletim/baesa/tex/corpo_baesa_boletim.tex}
-
-\clearpage
-\newpage
+\input{./relatorio/tex/corpo_relatorios.tex}
 
 % Bibliografia
 \section{REFERÊNCIAS BIBLIOGRÁFICAS}
-C. F. RICHTER, \textit{Elementary Seismology}, W. H. Freeman and Co., San Francisco, 1958, 768 pp.
 %\renewcommand{\refname}{REFERÊNCIAS}
 %\addcontentsline{toc}{section}{REFERÊNCIAS}
-%\bibliography{ref}
+\bibliography{ref}
 
+% APENDICE A
+\input{./relatorio/tex/apendice_figuras.tex}
+
+% APENDICE B
+\input{./relatorio/tex/apendice_tabelas.tex}
+
+% ANEXOS 
+\input{./relatorio/tex/anexos.tex}
 
 \end{document}
