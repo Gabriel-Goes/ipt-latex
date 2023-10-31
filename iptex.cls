@@ -670,41 +670,42 @@
 	}
 
 %% Duas assinaturas digitais Relatório Técnico
-	\newcommand{\assinaturaDoisDigitalRelatorio}{
-		\begin{flushright}
-			\textbf{São Paulo, \inserirData.}
+\newcommand{\assinaturaDoisDigitalRelatorio}{
+	\begin{flushright}
+		\textbf{São Paulo, \inserirData.}
 		% Assinaturas
-			{\scriptsize\singlespacing
-            \begin{tabular}{p{8cm}p{8cm}}
-                \hline
-                \begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
-                               \textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
-                               \textbf{Engº Civil Diego Lapolli Bressan} \\ \vspace{0.1cm}
-                               \textbf{Gerente Técnico} \\ \vspace{0.1cm}
-                               \textbf{CREA 170028342-1 – RE 08733} \\ \vspace{0.1cm}
-                               {\color{blue} Assinado Digitalmente} \\ \vspace{0.1cm}
-                               \hline \\ \vspace{1.5cm}
-                               \hline
-                \end{center} &
-                \begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
-                               \textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
-                               \textbf{Geól. Me. Fabrício Araujo Mirandola} \\ \vspace{0.1cm}
-                               \textbf{Diretor Técnico} \\ \vspace{0.1cm}
-                               \textbf{CREASP Nº 5062055808 – RE 8658} \\ \vspace{0.1cm}
-                               {\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm} 
-                               \hline \\ \vspace{1.5cm}
-                               \hline \\
-                \end{center}
+		{\scriptsize\singlespacing
+			\begin{tabular}{p{8cm}p{8cm}}
+				\hline
+				\begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
+					\textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
+					\textbf{Engº Civil Diego Lapolli Bressan} \\ \vspace{0.1cm}
+					\textbf{Gerente Técnico} \\ \vspace{0.1cm}
+					\textbf{CREA 170028342-1 – RE 08733} \\ \vspace{0.1cm}
+					{\color{blue} Assinado Digitalmente} \\ \vspace{0.1cm}
+                    %\hline \\ \vspace{1.5cm}
+                    %\hline
+				\end{center} &
+
+				\begin{center} \textbf{CIDADES, INFRAESTRUTURA E MEIO AMBIENTE} \\ \vspace{0.1cm}
+					\textbf{Seção de Obras Civis} \\ \vspace{0.1cm}
+					\textbf{Geól. Me. Fabrício Araujo Mirandola} \\ \vspace{0.1cm}
+					\textbf{Diretor Técnico} \\ \vspace{0.1cm}
+					\textbf{CREASP Nº 5062055808 – RE 8658} \\ \vspace{0.1cm}
+					{\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm} 
+                    %\hline \\ \vspace{1.5cm} 
+                    %\hline
+				\end{center}
 			\end{tabular}
-			}
-		\end{flushright}
+		}
+	\end{flushright}
 
-		\begin{center}
-			\includegraphics[scale=1]{./figuras/digital.png}
-		\end{center}
+	\begin{center}
+		\includegraphics[scale=1]{./figuras/digital.png}
+	\end{center}
 
-		\pagebreak
-	}
+	\pagebreak
+}
 
 
 %% Duas assinaturas digitais
