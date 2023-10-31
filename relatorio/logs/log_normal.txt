@@ -245,6 +245,6 @@ ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on ./final_boletins//Relatóiro_Técnico.pdf (20 pages, 1001758 
+Output written on ./final_boletins//Relatóiro_Técnico.pdf (20 pages, 1001759 
 bytes).
 Transcript written on ./final_boletins//Relatóiro_Técnico.log.
