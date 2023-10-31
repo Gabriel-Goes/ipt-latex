@@ -12,7 +12,7 @@ def generate_map_latex(output_filename):
         roundcorner=10pt,
     ]
     \begin{center}
-    \includegraphics[width=1.0\textwidth]{./boletim/main/figuras/mapaevents.png}
+    \includegraphics[width=1.0\textwidth]{./boletim/ita/figuras/mapaevents.png}
     \end{center}
     \end{mdframed}
     \caption*{Fonte: IPT}
@@ -25,4 +25,4 @@ def generate_map_latex(output_filename):
     print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
-generate_map_latex("./boletim/main/tex/mapa_main_boletim.tex")
+generate_map_latex("./boletim/ita/tex/mapa_ita_boletim.tex")

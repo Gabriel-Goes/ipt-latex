@@ -1,7 +1,7 @@
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/home/ipt/projetos/ipt-latex/boletim/main/main_boletim.tex
+(/home/ipt/projetos/ipt-latex/boletim/ita/ita_boletim.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./iptex.cls
 Document Class: iptex 2022/06/03 IPT Document Class
@@ -153,7 +153,7 @@ Package hyperref Warning: Option `pdfa' has already been used,
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
-** pdfx: No file Boletim_Machadinho.xmpdata . Metadata will be incomplete!
+** pdfx: No file Boletim_Itá.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
@@ -188,12 +188,12 @@ Using XMP template file: pdfa.xmp
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(./Boletim_Machadinho.aux)
+(./final_boletins//Boletim_Itá.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./Boletim_Machadinho.out) (./Boletim_Machadinho.out)
+(./final_boletins//Boletim_Itá.out) (./final_boletins//Boletim_Itá.out)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-brazil.trsl)
@@ -201,23 +201,23 @@ nary-brazil.trsl)
 nary-english.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(./boletim/main/tex/capa_main_boletim.tex
+(./boletim/ita/tex/capa_ita_boletim.tex
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1 <./figuras/headIm
 age.pdf> <./figuras/footImageCalibr.png>])
-(./boletim/main/tex/corpo_main_boletim.tex [2]
+(./boletim/ita/tex/corpo_ita_boletim.tex [2]
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [3 <./figuras/assi
-natura.png>]) (./boletim/main/tex/completude_main_boletim.tex)
-(./boletim/main/tex/tabela_main_boletim.tex [4 <./boletim/main/figuras/completu
-de_SP7.png>]) (./boletim/main/tex/mapa_main_boletim.tex [5] [6 <./boletim/main/
-figuras/mapaevents.png (PNG copy)>]) 
+natura.png>]) (./boletim/ita/tex/completude_ita_boletim.tex)
+(./boletim/ita/tex/tabela_ita_boletim.tex [4 <./boletim/ita/figuras/completude_
+SP7.png>]) (./boletim/ita/tex/mapa_ita_boletim.tex [5] [6 <./boletim/ita/figura
+s/mapaevents.png (PNG copy)>]) 
 AED: lastpage setting LastPage
-[7] (./Boletim_Machadinho.aux) ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
-ha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Boletim_Machadinho.pdf (7 pages, 412258 bytes).
-Transcript written on Boletim_Machadinho.log.
+[7] (./final_boletins//Boletim_Itá.aux) ){/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathabx
+-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on ./final_boletins//Boletim_Itá.pdf (7 pages, 412253 bytes).
+Transcript written on ./final_boletins//Boletim_Itá.log.

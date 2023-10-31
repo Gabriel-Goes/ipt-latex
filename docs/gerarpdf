@@ -11,27 +11,27 @@ read opcao
 
 # Verifica a opção escolhida e executa o arquivo correspondente
 if [ "$opcao" == "1" ]; then
-    logs=~/projetos/ipt-latex/boletim/main/logs/
-    tabela=~/projetos/ipt-latex/boletim/main/python/tabela_main.py
-    mapa=~/projetos/ipt-latex/boletim/main/python/mapa_main.py
-    input_tex=~/projetos/ipt-latex/boletim/main/main_boletim.tex
-    capa=~/projetos/ipt-latex/boletim/main/python/capa.py
-    # Verifica se o arquivo existe antes de executá-lo
+     # Verifica se o arquivo existe antes de executá-lo
     echo "Selecione o Reservatório Desejado:"
-    echo "1 - Machadinho"
-    echo "2 - Itá"
+    echo "1 - Itá"
+    echo "2 - Machadinho"
     echo "3 - Salto Pilão"
     echo ""
     read opcao2
 
     # ---------   RELATÓRIO DE MACHADINHO    -----------------------------------------------------------------------------
     if [ "$opcao2" == "1" ];then
-        echo " Modelo Machadinho Selecionado"
+        logs=~/projetos/ipt-latex/boletim/ita/logs/
+        tabela=~/projetos/ipt-latex/boletim/ita/python/tabela_ita.py
+        mapa=~/projetos/ipt-latex/boletim/ita/python/mapa_ita.py
+        input_tex=~/projetos/ipt-latex/boletim/ita/ita_boletim.tex
+        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
+        echo " Modelo Itá Selecionado"
         echo " "
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
-            echo "Executando "$capa""
-            python3 "$capa" 1
+            # echo "Executando "$capa""
+            # python3 "$capa" 1
             echo "Executando $tabela"
             python3 "$tabela"
             echo "Executando $mapa"
@@ -46,9 +46,9 @@ if [ "$opcao" == "1" ]; then
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo ""
             echo " ---> Iniciando pdflatex "$input_tex""
-            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo " -> Primeiro print"
-            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo " -> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
@@ -62,12 +62,17 @@ if [ "$opcao" == "1" ]; then
 
     # -------------   RELATÓRIO DE ITÁ   ----------------------------------------------------------------------------------
     elif [ "$opcao2" == "2" ];then
-        echo " Modelo Itá Selecionado"
+        logs=~/projetos/ipt-latex/boletim/machadinho/logs/
+        tabela=~/projetos/ipt-latex/boletim/machadinho/python/tabela_machadinho.py
+        mapa=~/projetos/ipt-latex/boletim/machadinho/python/mapa_machadinho.py
+        input_tex=~/projetos/ipt-latex/boletim/machadinho/machadinho_boletim.tex
+        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
+        echo " Modelo Machadinho Selecionado"
         echo ""
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
-            echo "Executando "$capa""
-            python3 "$capa" 2
+            # echo "Executando "$capa""
+            # python3 "$capa" 2
             echo "Executando $tabela"
             python3 "$tabela"
             echo "Executando $mapa"
@@ -82,9 +87,9 @@ if [ "$opcao" == "1" ]; then
         if [ -f "$input_tex" ]; then 
             # Gera o arquivo PDF a partir do arquivo LaTeX
             echo " ---> Iniciando pdflatex "$input_tex""
-            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Primeiro print"
-            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Itá "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
+            pdflatex -output-directory=./final_boletins/ -jobname=Boletim_Machadinho "$input_tex" > ""$logs"log_normal.txt" 2> ""$logs"log_erros.txt" 
             echo "-> Segundo print"
             echo " "
             # Remove arquivos temporários gerados pelo pdflatex
@@ -97,12 +102,17 @@ if [ "$opcao" == "1" ]; then
         fi
         # ---------   RELATÓRIO DE SALTO PILÃO    -----------------------------------------------------------------------------
     elif [ "$opcao2" == "3" ];then
+        logs=~/projetos/ipt-latex/boletim/salto_pilao/logs/
+        tabela=~/projetos/ipt-latex/boletim/salto_pilao/python/tabela_salto.py
+        mapa=~/projetos/ipt-latex/boletim/salto_pilao/python/mapa_salto.py
+        input_tex=~/projetos/ipt-latex/boletim/salto_pilao/salto_pilao_boletim.tex
+        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
         echo " Modelo Salto Pilão Selecionado"
         echo ""
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
-            echo "Executando "$capa""
-            python3 "$capa" 3
+            # echo "Executando "$capa""
+            # python3 "$capa" 3
             echo "Executando $tabela"
             python3 "$tabela"
             echo "Executando $mapa"
