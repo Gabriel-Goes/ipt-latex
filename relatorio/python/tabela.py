@@ -20,11 +20,11 @@ with open(output_tex, "w") as tex_file:
     tex_file.write("\\setlength{\\arrayrulewidth}{0.05pt}\n")
     tex_file.write("\\begin{longtable}\
 {ccccS[table-format=6.0]S[table-format=7.0]ccc}\n")
-	#tex_file.write("\fontsize{12}{12}\selectfont\n")
+    # tex_file.write("\fontsize{12}{12}\selectfont\n")
     tex_file.write("\\captionsetup{justification=justified,\
 singlelinecheck=false}\n")
     tex_file.write("\\caption{Listagem de eventos detectados e categorizados durante o período de interesse.\\\\ A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q}=Detonação/Desmontes, \\textit{E}=Sismo Regional e \\textit{I}=Sismo induzido e \\textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).}\\\\\n")
-#    tex_file.write("\\caption*{A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q}=Detonação/Desmontes, \\textit{E}=Sismo Regional e \\textit{I}=Sismo induzido e \\textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).}\n")
+    # tex_file.write("\\caption*{A coluna \\textit{Cat} representaria a categoria na qual o evento foi classificado sendo \\textit{Q}=Detonação/Desmontes, \\textit{E}=Sismo Regional e \\textit{I}=Sismo induzido e \\textit{N}=Não-localizável. O valor da energia para os sismos foi obtido a partir da magnitude através da relação proposta por Richter (1958).}\n")
     tex_file.write("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
     tex_file.write("\\hline \\\\[-4ex]\n")
     tex_file.write("\\hline \\\\[-5ex]\n")
