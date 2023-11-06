@@ -1,14 +1,11 @@
 #!/bin/bash
 
-
-# Obtém o diretório home do usuário atual
-home_dir="$HOME"
 # Concatena o caminho para o seu diretório específico no home do usuário
-
-meu_dir="$home_dir/projetos/ipt-latex/"
+meu_dir="$HOME/projetos/ipt-latex/"
 
 # Use o caminho $meu_dir conforme necessário no seu script
 echo "O diretório do projeto é: $meu_dir"
+echo "" 
 
 # Solicita ao usuário que selecione uma opção
 echo "Selecione o documento desejado:"
@@ -31,23 +28,17 @@ if [ "$opcao" == "1" ]; then
 
     # ---------   RELATÓRIO DE MACHADINHO    -----------------------------------------------------------------------------
     if [ "$opcao2" == "1" ];then
-        logs=~/projetos/ipt-latex/boletim/ita/logs/
-        tabela=~/projetos/ipt-latex/boletim/ita/python/tabela_ita.py
-        mapa=~/projetos/ipt-latex/boletim/ita/python/mapa_ita.py
+        logs=~/projetos/ipt-latex/tex/ita/logs/
+        tabela=~/projetos/ipt-latex/tex/ita/python/tabela_ita.py
         input_tex=~/projetos/ipt-latex/tex/ita_boletim.tex
-        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
         echo " Modelo Itá Selecionado"
         echo " "
-        if [ -f "$tabela" ] && [ -f "$mapa" ];then
+        if [ -f "$tabela" ];then
             echo " ---> Iniciando Python scripts"
-            # echo "Executando "$capa""
-            # python3 "$capa" 1
             echo "Executando $tabela"
             python3 "$tabela"
-            echo "Executando $mapa"
-            python3 "$mapa"
         else
-            echo ""$tabela" e "$mapa""
+            echo ""$tabela""
             echo "Script python não encontrado"
             exit 1
         fi
@@ -66,30 +57,24 @@ if [ "$opcao" == "1" ]; then
             echo "Arquivo PDF gerado"
 
         else
-            echo "Script "$input_tex"  não encontrado"
+            echo "Script "$input_tex"  não encontrado"re ar
             exit 1
         fi
 
     # -------------   RELATÓRIO DE ITÁ   ----------------------------------------------------------------------------------
     elif [ "$opcao2" == "2" ];then
-        logs=~/projetos/ipt-latex/boletim/machadinho/logs/
-        tabela=~/projetos/ipt-latex/boletim/machadinho/python/tabela_machadinho.py
-        mapa=~/projetos/ipt-latex/boletim/machadinho/python/mapa_machadinho.py
+        logs=~/projetos/ipt-latex/tex/machadinho/logs/
+        tabela=~/projetos/ipt-latex/tex/machadinho/python/tabela_machadinho.py
         input_tex=~/projetos/ipt-latex/tex/machadinho_boletim.tex
-        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
         echo " Modelo Machadinho Selecionado"
         echo ""
-        if [ -f "$tabela" ] && [ -f "$mapa" ];then
+        if [ -f "$tabela" ];then
             echo " ---> Iniciando Python scripts"
-            # echo "Executando "$capa""
-            # python3 "$capa" 2
             echo "Executando $tabela"
             python3 "$tabela"
-            echo "Executando $mapa"
-            python3 "$mapa"
             echo ""
         else
-            echo ""$tabela" e "$mapa""
+            echo ""$tabela""
             echo "Script python não encontrado"
             exit 1
         fi
@@ -112,24 +97,18 @@ if [ "$opcao" == "1" ]; then
         fi
         # ---------   RELATÓRIO DE SALTO PILÃO    -----------------------------------------------------------------------------
     elif [ "$opcao2" == "3" ];then
-        logs=~/projetos/ipt-latex/boletim/salto_pilao/logs/
-        tabela=~/projetos/ipt-latex/boletim/salto_pilao/python/tabela_salto.py
-        mapa=~/projetos/ipt-latex/boletim/salto_pilao/python/mapa_salto.py
+        logs=~/projetos/ipt-latex/tex/salto_pilao/logs/
+        tabela=~/projetos/ipt-latex/tex/salto_pilao/python/tabela_salto.py
         input_tex=~/projetos/ipt-latex/tex/salto_pilao_boletim.tex
-        # capa=~/projetos/ipt-latex/boletim/main/python/capa.py
         echo " Modelo Salto Pilão Selecionado"
         echo ""
         if [ -f "$tabela" ] && [ -f "$mapa" ];then
             echo " ---> Iniciando Python scripts"
-            # echo "Executando "$capa""
-            # python3 "$capa" 3
             echo "Executando $tabela"
             python3 "$tabela"
-            echo "Executando $mapa"
-            python3 "$mapa"
             echo ""
         else
-            echo ""$tabela" e "$mapa""
+            echo ""$tabela""
             echo "Script python não encontrado"
             exit 1
         fi
@@ -159,17 +138,14 @@ if [ "$opcao" == "1" ]; then
 # ---------------- TEMPLATE BAESA -------------------------------------------------------------------------------------
 elif [ "$opcao" == "2" ]; then
 input_tex=~/projetos/ipt-latex/tex/baesa_boletim.tex
-logs=~/projetos/ipt-latex/boletim/baesa/logs/
-tabela=~/projetos/ipt-latex/boletim/baesa/python/tabela_baesa.py
-mapa=~/projetos/ipt-latex/boletim/baesa/python/mapa_baesa.py
-completude=~/projetos/ipt-latex/boletim/baesa/python/completude_baesa.py
-    if [ -f "$input_tex" ] && [ -f "$tabela" ] && [ -f "$mapa" ] && [ -f "$completude" ];then
+logs=~/projetos/ipt-latex/tex/baesa/logs/
+tabela=~/projetos/ipt-latex/tex/baesa/python/tabela_baesa.py
+completude=~/projetos/ipt-latex/tex/baesa/python/completude_baesa.py
+    if [ -f "$input_tex" ] && [ -f "$tabela" ] && [ -f "$completude" ];then
         echo " Modelo Baesa Selecionado"
         echo ""
         echo "Executando $tabela"
         python3 "$tabela"
-        echo "Executando $mapa"
-        python3 "$mapa"
         echo "Executando $completude"
         python3 "$completude"
         echo ""
@@ -195,16 +171,13 @@ elif [ "$opcao" == "3" ]; then
 input_tex=~/projetos/ipt-latex/tex/relatórios_tecnicos.tex
 logs=~/projetos/ipt-latex/relatorio/logs/
 tabela=~/projetos/ipt-latex/relatorio/python/tabela.py
-mapa=~/projetos/ipt-latex/relatorio/python/mapa.py
 regional=~/projetos/ipt-latex/relatorio/python/regional.py
 completude=~/projetos/ipt-latex/relatorio/python/completude.py
  
-    if [ -f "$input_tex" ] && [ -f "$completude" ] && [ -f "$mapa" ] && [ -f "$regional" ] && [ -f "$tabela" ];then
+    if [ -f "$input_tex" ] && [ -f "$completude" ] && [ -f "$regional" ] && [ -f "$tabela" ];then
         echo " ---> Iniciando Python scripts"
         echo "Executando $tablea"
         python3 "$tabela"
-        echo "Executando $mapa"
-        python3 "$mapa"
         echo "Executando $completude"
         python3 "$completude"
         echo "Executando $regional"
