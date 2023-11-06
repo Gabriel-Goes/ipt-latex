@@ -2,7 +2,7 @@
 import csv
 
 # Nome do arquivo de entrada CSV
-input_csv = "./ita/csv/events.csv"
+input_csv = "./"
 
 # Nome do arquivo de saída LaTeX
 output_tex = "./ita/tex/tabela_ita_boletim.tex"
