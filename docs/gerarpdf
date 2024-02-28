@@ -29,7 +29,7 @@ if [ "$opcao" == "1" ]; then
     # ---------   RELATÓRIO DE MACHADINHO    -----------------------------------------------------------------------------
     if [ "$opcao2" == "1" ];then
         logs=~/projetos/ipt-latex/tex/ita/logs/
-        tabela=~/projetos/ipt-latex/tex/ita/python/tabela_ita.py
+        tabela=~/projetos/ipt-latex/python/tabela_tex.py
         input_tex=~/projetos/ipt-latex/tex/ita_boletim.tex
         echo " Modelo Itá Selecionado"
         echo " "

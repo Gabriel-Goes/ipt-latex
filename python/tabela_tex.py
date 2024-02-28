@@ -2,10 +2,10 @@
 import csv
 
 # Nome do arquivo de entrada CSV
-input_csv = "/home/suporte/map_dir/files/"
+input_csv = "/home/suporte/map_dir/files/events-2023-07-01-MC.csv"
 
 # Nome do arquivo de saída LaTeX
-output_tex = "/home/suporte/projetos/tex/tabela_machadinho_boletim.tex"
+output_tex = "/home/suporte/projetos/tex/machadinho/tex/tabela_machadinho_boletim.tex"
 
 # Abre o arquivo CSV para leitura
 with open(input_csv, "r") as csv_file:

@@ -1,0 +1,39 @@
+\documentclass[12pt]{iptex}
+% IDIOMA
+% Se necessário, inserir línguas e indicar língua principal (main)
+\usepackage[main=brazil,english]{babel}
+\usepackage[italic]{mathastext}
+\usepackage{siunitx}
+\sisetup{
+    group-separator={.},
+    group-minimum-digits=3,
+    output-decimal-marker={,}}
+
+% Alterando nome do TOC (adicionar em outras línguas, se necessário)
+\addto\captionsbrazil{%
+	\renewcommand{\contentsname}{SUMÁRIO}
+	\renewcommand{\refname}{REFERÊNCIAS}
+}
+\addto\captionsenglish{%
+	\renewcommand{\contentsname}{CONTENTS}
+	\renewcommand{\refname}{REFERENCES}
+}
+% BIBLIOGRAFIA
+\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+
+% Início do documento
+\begin{document}
+
+% CAPA 
+\input{./preditivo_relatorio/tex/capa.tex}
+
+% Corpo
+\input{./preditivo_relatorio/tex/corpo.tex}
+
+% Bibliografia
+\section{REFERÊNCIAS BIBLIOGRÁFICAS}
+%\renewcommand{\refname}{REFERÊNCIAS}
+%\addcontentsline{toc}{section}{REFERÊNCIAS}
+\bibliography{ref}
+
+\end{document}

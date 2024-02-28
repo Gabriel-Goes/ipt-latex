@@ -28,12 +28,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{siunitx}
 
-\def\filename{iagtese_en}
+\def\filename{iagtese}
 \def\fileversion{versao 2.12}
 \def\filedate{18/06/2010}
 \def\docdate{05/03/2012}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{iagtese_en}[\filedate\space\fileversion\space%
+\ProvidesClass{iagtese}[\filedate\space\fileversion\space%
         Classe LaTeX para teses IAG/USP]
 \newcommand\@ptsize{}
 \newif\if@restonecol
