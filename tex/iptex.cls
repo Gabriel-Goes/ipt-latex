@@ -230,7 +230,7 @@
 
 	\fancypagestyle{tipo_pre}{
 		\rhead{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage}
-	}
+    }
 
 	\fancypagestyle{tipo_doc}{
 		\rhead{{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage /\pageref{LastPage}}}

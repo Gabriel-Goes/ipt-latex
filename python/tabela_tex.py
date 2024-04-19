@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import pandas as pd
 import csv
 
 # Nome do arquivo de entrada CSV
@@ -149,3 +150,15 @@ round-mode=figures,scientific\
     tex_file.write("\\end{center}\n")
 
 print(f" -> Tabela '{output_tex}' gerada com sucesso!")
+
+
+# Nome do arquivo de saída Excel
+output_xls = "/home/suporte/projetos/tex/machadinho/tex/tabela_machadinho_boletim.xls"
+
+# Format the excel table with the same format as the LaTeX table
+df = pd.read_csv(input_csv, sep=';')
+df.columns = modified_header
+df.columns = modified_subheader
+df.to_excel(output_xls, index=False)
+
+print(f" -> Tabela '{output_xls}' gerada com sucesso!")
