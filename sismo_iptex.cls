@@ -11,7 +11,7 @@
 % Modelo originariamente baseado no modelo de Relatório Técnico criado para o túnel de
 % vento pelo Pesquisador Paulo Jabardo. E adaptado de IPT Document Class.
 %
-% --------------------------------------------------------------------------------------
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{sismo_iptex}[2024/04/23 Classe Sismologia IPT]
 \DeclareOption{10pt}{\def\@@ptsize{10pt}}
@@ -21,9 +21,13 @@
 \ProcessOptions\relax
 \LoadClass[a4paper, oneside, onecolumn, final,\@@ptsize]{article}
 
-% Incluindo pacotes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Carregar xcolor com todas as opções necessárias
+\RequirePackage[table, x11names]{xcolor}
+% Carregando pdfx para conformidade PDF/A
+\RequirePackage[a-1b]{pdfx}
+% Outros pacotes
 \RequirePackage{mdframed}
-\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{mathtools}
@@ -39,7 +43,6 @@
 \RequirePackage{url}
 \RequirePackage{fancyhdr}
 \RequirePackage{indentfirst}
-\RequirePackage{color}
 \RequirePackage{float}
 \RequirePackage{multirow}
 \RequirePackage{lscape}
@@ -58,20 +61,22 @@
 \RequirePackage{stmaryrd}
 \RequirePackage{siunitx}
 \RequirePackage{upgreek} % Para letras gregas não itálicas no texto
-\RequirePackage[table]{xcolor}
 \RequirePackage{tabularx}
 \RequirePackage{enumitem}
 \RequirePackage{geometry}
-\RequirePackage{capt-of}
 \RequirePackage{xargs}
-% Tabelas longas
 \RequirePackage{longtable}
 \RequirePackage{makecell}
 \RequirePackage{adjustbox}
-% Página no modo paisagem
 \RequirePackage{pdflscape}
-\RequirePackage[a-1b]{pdfx}
 \RequirePackage{array}
+
+% Configurações de hyperref
+\hypersetup{
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	\setlist{nolistsep}
 	\definecolor{green}{HTML}{66FF66}
 	\definecolor{myGreen}{HTML}{009900}
@@ -242,10 +247,10 @@
 	\newcommand{\capa}{
 	\thispagestyle{timbrado}
 	\begin{adjustwidth*}{1.5cm}{1.5cm}
-		{\setstretch{1.0}
-			\begin{flushright}
-				\textbf{\large\MakeUppercase{\inserirTipo}}\\
-				\ifdefined\inserirDocNum
+        {\setstretch{1.0}
+            \begin{flushright}
+            \textbf{\large\MakeUppercase{\inserirTipo}}
+                \ifdefined\inserirDocNum
 					\textbf{\large\inserirDocNum}\\
 				\fi
 
@@ -254,16 +259,14 @@
 				\fi
 
 				\inserirData \\
-				\vspace{3cm}
+				\vspace{6cm}
 				\inserirTitulo \\
+				\vspace{6cm}
 
 				\ifdefined\inserirNomeCliente
-					\vspace{3cm}
 					\textbf{CLIENTE} \\
 					\inserirNomeCliente \\
 				\fi
-
-				\vspace{3cm}
 
 				\ifdefined\inserirUnidade
 					\textbf{UNIDADE RESPONSÁVEL} \\
