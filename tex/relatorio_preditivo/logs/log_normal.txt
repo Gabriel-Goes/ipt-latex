@@ -1,0 +1,262 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/ipt/projetos/ipt-latex/relatorio_preditivo.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (./sismo_iptex.cls
+Document Class: sismo_iptex 2024/04/23 Classe Sismologia IPT
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.sty
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.dcl))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+
+! LaTeX Error: Command \captionof already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nd\captionof[1]{\def\@captype{#1}\caption}
+                                                  
+? ) (/usr/share/texlive/texmf-dist/tex/latex/xargs/xargs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/pdfx.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty){/var/lib/texmf/f
+onts/map/pdftex/updmap/pdftex.map}
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/l8u-penc.def)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1461.
+
+
+Package hyperref Warning: Option `pdfa' has already been used,
+(hyperref)                setting the option has no effect on input line 1461.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/psdextra.def)
+(/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.sty
+(/usr/share/texlive/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
+** pdfx: No file Relatóiro_Preditivo.xmpdata . Metadata will be incomplete!
+<<sRGB.icc>> (/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/glyphtounicode-ntx.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/xmpincl/xmpincl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfx/8bit.def)
+Using XMP template file: pdfa.xmp
+<<pdfa.xmpi>>)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+** ! and ?
+** punctuation: , . : ; and \colon
+** + and =
+** adding = ; and + to \nfss@catcodes
+** parentheses ( ) [ ] and slash /
+** alldelims: < > \backslash \setminus | \vert \mid \{ and \}
+** \# \mathdollar \% \& 
+** \imath and \jmath 
+** Latin letters in the `normal' (resp. `bold') math versions are now
+** set up to use the fonts T1/phv/m(b)/it
+** Other characters (digits, ...) and \log-like names will be
+** typeset with the n shape.
+** \hbar
+** minus as endash
+** \Huge and \HUGE have been (re)-defined.
+** mathastext has declared larger sizes for subscripts.
+** To keep LaTeX defaults, use option `defaultmathsizes'.
+) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(final_relatorios/preditivos/Relatóiro_Preditivo.aux)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(final_relatorios/preditivos/Relatóiro_Preditivo.out)
+(final_relatorios/preditivos/Relatóiro_Preditivo.out)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-brazil.trsl)
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(./tex/relatorio_preditivo/tex/capa.tex [1 <./tex/figuras_tex/headImage.pdf> <.
+/tex/figuras_tex/footImageCalibr.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1]
+(final_relatorios/preditivos/Relatóiro_Preditivo.toc
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)) [2])
+(./tex/relatorio_preditivo/tex/corpo.tex
+
+! LaTeX Error: File `preditivo_relatorio/tex/introducao.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `preditivo_relatorio/tex/atividades_resultados.tex' not fou
+nd.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `preditivo_relatorio/tex/consideracoes_finais.tex' not foun
+d.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored))
+No file Relatóiro_Preditivo.bbl.
+
+AED: lastpage setting LastPage
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \end{document}
+                    [1] (final_relatorios/preditivos/Relatóiro_Preditivo.aux) 
+){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on final_relatorios/preditivos/Relatóiro_Preditivo.pdf (4 pages
+, 111718 bytes).
+Transcript written on final_relatorios/preditivos/Relatóiro_Preditivo.log.
