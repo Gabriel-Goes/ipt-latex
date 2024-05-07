@@ -1,0 +1,10 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUÇÃO}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}ATIVIDADES REALIZADAS E RESULTADOS OBTIDOS}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Desenvolvimento e configuração do sistema}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Testes e validação do Classificador}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Implicações e futuras diretrizes}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Documentação e divulgação}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}CONSIDERAÇÕES FINAIS}{3}{section.3}%
+\contentsline {section}{\numberline {4}REFERÊNCIAS BIBLIOGRÁFICAS}{5}{section.4}%

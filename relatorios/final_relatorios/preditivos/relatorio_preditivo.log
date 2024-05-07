@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.3)  5 MAY 2024 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.3)  5 MAY 2024 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,12 +1513,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 12.
-<tex/figuras_tex/headImage.pdf, id=46, 159.36037pt x 72.1896pt>
+<tex/figuras_tex/headImage.pdf, id=42, 159.36037pt x 72.1896pt>
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 12.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-<tex/figuras_tex/footImageCalibr.png, id=47, 361.6785pt x 48.2895pt>
+<tex/figuras_tex/footImageCalibr.png, id=43, 361.6785pt x 48.2895pt>
 File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 <use tex/figuras_tex/footImageCalibr.png>
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
@@ -1612,72 +1612,36 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (./tex/relatorio_preditivo/tex/atividades_resultados.tex
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 11.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 10.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 <use tex/figuras_tex/footImageCalibr.png>
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 11.
+e 10.
 (pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11     \item D
-                igitalizador (DAS â€“ Data Acquisition Sub-system), modelo 1...
-[1]
+l.10 
+      [1]
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 25.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 26.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 <use tex/figuras_tex/footImageCalibr.png>
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 25.
+e 26.
 (pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
  [2]
-File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 31.
-(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
-<use tex/figuras_tex/footImageCalibr.png>
-Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 31.
-(pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
- [3]
-File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 42.
-(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
-<use tex/figuras_tex/footImageCalibr.png>
-Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 42.
-(pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
- [4]
-File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 50.
-(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
-<use tex/figuras_tex/footImageCalibr.png>
-Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 50.
-(pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
- [5]) (./tex/relatorio_preditivo/tex/consideracoes_finais.tex
-File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 5.
-(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
-<use tex/figuras_tex/footImageCalibr.png>
-Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 5.
-(pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
+Overfull \hbox (19.12613pt too wide) in paragraph at lines 31--32
+[]\T1/phv/m/n/12 Todos os códi-gos e al-go-rit-mos de-sen-volvi-dos es-tão de-v
+-i-da-mente doc-u-men-ta-dos e disponíveis
+ []
 
-[6]
+) (./tex/relatorio_preditivo/tex/consideracoes_finais.tex
 Overfull \hbox (5.58174pt too wide) in paragraph at lines 8--9
 []\T1/phv/m/n/12 Na área de in-fluên-cia do em-preendi-mento foram reg-istra-do
 s sessenta e sete (67) desmontes
@@ -1685,14 +1649,14 @@ s sessenta e sete (67) desmontes
 
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 18.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 9.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 <use tex/figuras_tex/footImageCalibr.png>
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
-e 18.
+e 9.
 (pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
-[7])
+[3])
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 14.
@@ -1702,7 +1666,7 @@ File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
 e 14.
 (pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
- [8])
+ [4])
 No file relatorio_preditivo.bbl.
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
@@ -1713,7 +1677,7 @@ File: tex/figuras_tex/footImageCalibr.png Graphic file (type png)
 Package pdftex.def Info: tex/figuras_tex/footImageCalibr.png  used on input lin
 e 39.
 (pdftex.def)             Requested size: 361.6776pt x 48.28938pt.
-[9
+[5
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1723,22 +1687,22 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `relatorio_preditivo.out' has not changed.
-(rerunfilecheck)             Checksum: DCA53D4A7557E52D3ED9E83FEA284875;766.
+(rerunfilecheck)             Checksum: D070226ACEF0D98D81F66E21B3613210;729.
  ) 
 Here is how much of TeX's memory you used:
- 28539 strings out of 476076
- 512743 string characters out of 5793776
- 1937187 words of memory out of 5000000
- 50117 multiletter control sequences out of 15000+600000
+ 28535 strings out of 476076
+ 512707 string characters out of 5793776
+ 1935187 words of memory out of 5000000
+ 50118 multiletter control sequences out of 15000+600000
  591351 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,17n,107p,1616b,2746s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,107p,1616b,2762s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on final_relatorios/preditivos//relatorio_preditivo.pdf (12 page
-s, 144096 bytes).
+Output written on final_relatorios/preditivos//relatorio_preditivo.pdf (8 pages
+, 132574 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
