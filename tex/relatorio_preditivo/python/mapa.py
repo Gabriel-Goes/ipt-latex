@@ -1,23 +1,35 @@
-def generate_map_latex(output_filename):
-    latex_code = r"""
-\begin{figure}[ht!]
-	\captionsetup{justification=justified, singlelinecheck=false, width=1\textwidth}
-    \caption{Mapa do Brasil mostrando pontos de interesse e os epicentros dos eventos classificados como detonações e sismos. Foram detectados um total de sessenta e sete (67) eventos associados a detonações no período, classificados a partir do horário de ocorrência e da forma de onda, além do plano de fogo fornecido, com magnitudes mínima e máxima de 0.4 e 3.0 MLv, respectivamente.}
-    \begin{mdframed}[
+import os
+
+
+def generate_map_latex(base_path, output_filename):
+    # Construir o caminho relativo para a imagem
+    map_image_path = os.path.join(base_path, 'arquivos/figuras/mapas/catalog_moho_sa.png')
+    latex_code = rf"""
+\begin{{figure}}[ht!]
+	\captionsetup{{justification=justified, singlelinecheck=false, width=1\textwidth}}
+    \caption{{Mapa do Brasil mostrando pontos de interesse e os epicentros dos eventos classificados como detonações e sismos. Foram detectados um total de sessenta e sete (67) eventos associados a detonações no período, classificados a partir do horário de ocorrência e da forma de onda, além do plano de fogo fornecido, com magnitudes mínima e máxima de 0.4 e 3.0 MLv, respectivamente.}}
+    \begin{{mdframed}}[
         linecolor=black,
         linewidth=1pt,
         roundcorner=10pt,
     ]
-    \begin{center}
-    \includegraphics[width=0.8\textwidth]{/home/ggrl/projetos/ClassificadorSismologico/files/figures/maps/mapa.png}
-    \end{center}
-    \end{mdframed}
-    \caption*{Fonte: IPT}
-\end{figure}
+    \begin{{center}}
+    \includegraphics[width=0.8\textwidth]{{{map_image_path}}}
+    \end{{center}}
+    \end{{mdframed}}
+    \caption*{{Fonte: IPT}}
+\end{{figure}}
 """
     with open(output_filename, "w") as output_file:
         output_file.write(latex_code)
     print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
-generate_map_latex("source/sismologia-ipt-latex/tex/relatorio_preditivo/tex/mapa.tex")
+base_path = os.path.abspath(os.path.dirname(__file__))
+generate_map_latex(
+    base_path,
+    os.path.join(
+        base_path,
+        "fonte/sismologia-ipt-latex/tex/relatorio_preditivo/tex/mapa.tex"
+    )
+)
