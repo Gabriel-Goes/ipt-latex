@@ -27,7 +27,7 @@ def generate_latex_for_figures():
     if latex_content:
         figures_tex_path = os.path.join(
             PROJ+'fonte',
-            'sismologia-ipt-latex',
+            'relatorios-sismologia',
             'tex',
             'relatorio_preditivo',
             'tex',
