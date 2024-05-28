@@ -2,7 +2,6 @@ import os
 
 
 def generate_map_latex(base_path, output_filename):
-    # Construir o caminho relativo para a imagem
     map_image_path = os.path.join(base_path, 'arquivos/figuras/mapas/catalog_moho_sa.png')
     latex_code = rf"""
 \begin{{figure}}[ht!]
@@ -25,7 +24,7 @@ def generate_map_latex(base_path, output_filename):
     print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
-base_path = os.path.abspath(os.path.dirname(__file__))
+base_path =
 generate_map_latex(
     base_path,
     os.path.join(
