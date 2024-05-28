@@ -31,6 +31,6 @@ generate_map_latex(
     base_path,
     os.path.join(
         base_path,
-        "fonte/relatorio-sismologia/tex/relatorio_preditivo/tex/mapa.tex"
+        "fonte/relatorios-sismologia/tex/relatorio_preditivo/tex/mapa.tex"
     )
 )

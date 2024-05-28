@@ -180,7 +180,7 @@
 	\setlength{\parindent}{1.25cm}
 
 % Cabeçalhos e rodapé
-	\lhead{\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}}
+	\lhead{\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}}
 	\chead{}
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
@@ -199,7 +199,7 @@
 	\fancypagestyle{calibr_pag1}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 			\noindent\begin{tabular}{@{}l}
-			\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
+			\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
 			\footnotesize\textbf{\inserirLab/\inserirUnidade}\\
 			\footnotesize\textbf{}
 			\end{tabular}
@@ -218,7 +218,7 @@
 		\lhead{
             \renewcommand{\arraystretch}{1.0}
 		    \noindent\begin{tabular}{@{}l}
-			\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
+			\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
 			\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 			\ifdefined
                 \inserirCabecalhoAcred
@@ -723,7 +723,7 @@
 	\fancypagestyle{anexo_sfr}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
+				\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
