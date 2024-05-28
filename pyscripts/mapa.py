@@ -1,9 +1,11 @@
 import os
+HOME = os.getenv('HOME')
+PROJ = HOME+'/projetos/ClassificadorSismologico/'
 
 
 def generate_map_latex(base_path, output_filename):
     # Construir o caminho relativo para a imagem
-    map_image_path = os.path.join(base_path, 'arquivos/figuras/mapas/catalog_moho_sa.png')
+    map_image_path = os.path.join(base_path, 'arquivos/figuras/mapas/mapa.png')
     latex_code = rf"""
 \begin{{figure}}[ht!]
 	\captionsetup{{justification=justified, singlelinecheck=false, width=1\textwidth}}
@@ -25,11 +27,11 @@ def generate_map_latex(base_path, output_filename):
     print(f" -> Mapa '{output_filename}' gerado com sucesso!")
 
 
-base_path = os.path.abspath(os.path.dirname(__file__))
+base_path = os.path.abspath(PROJ)
 generate_map_latex(
     base_path,
     os.path.join(
         base_path,
-        "fonte/relatorios-sismologia/tex/relatorio_preditivo/tex/mapa.tex"
+        "fonte/relatorio-sismologia/tex/relatorio_preditivo/tex/mapa.tex"
     )
 )

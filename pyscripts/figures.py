@@ -5,7 +5,7 @@ PROJ = HOME+'/projetos/ClassificadorSismologico/'
 
 def generate_latex_for_figures():
     latex_content = []
-    base_path = os.path.abspath(PROJ+'arquivos/figuras/pos_processo/')
+    base_path = os.path.abspath(PROJ+'arquivos/figuras/pos_process/')
     print(base_path)
 
     for root, dirs, files in os.walk(base_path):
@@ -27,7 +27,7 @@ def generate_latex_for_figures():
     if latex_content:
         figures_tex_path = os.path.join(
             PROJ+'fonte',
-            'relatorios-sismologia',
+            'relatorio-sismologia',
             'tex',
             'relatorio_preditivo',
             'tex',

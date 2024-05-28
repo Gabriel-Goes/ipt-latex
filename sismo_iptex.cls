@@ -180,7 +180,7 @@
 	\setlength{\parindent}{1.25cm}
 
 % Cabeçalhos e rodapé
-	\lhead{\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}}
+	\lhead{\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}}
 	\chead{}
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
@@ -199,7 +199,7 @@
 	\fancypagestyle{calibr_pag1}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 			\noindent\begin{tabular}{@{}l}
-			\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
+			\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
 			\footnotesize\textbf{\inserirLab/\inserirUnidade}\\
 			\footnotesize\textbf{}
 			\end{tabular}
@@ -212,13 +212,13 @@
 			\end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=1.2]{tex/figuras_tex/footer_IPT.png}}
+            \includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
 	}
 	\fancypagestyle{calibr_doc}{
 		\lhead{
             \renewcommand{\arraystretch}{1.0}
 		    \noindent\begin{tabular}{@{}l}
-			\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
+			\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
 			\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 			\ifdefined
                 \inserirCabecalhoAcred
@@ -235,7 +235,7 @@
             \end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=1.2]{tex/figuras_tex/footer_IPT.png}}
+            \includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
 	}
 
 % Capa
@@ -723,7 +723,7 @@
 	\fancypagestyle{anexo_sfr}{
 		\lhead{\renewcommand{\arraystretch}{1.0}
 				\noindent\begin{tabular}{@{}l}
-				\includegraphics[scale=0.9]{tex/figuras_tex/headImage.pdf}\\
+				\includegraphics[scale=0.01]{tex/figuras_tex/headImage.pdf}\\
 				\footnotesize\textbf{\inserirLab/\inserirUnidade} \\
 				\ifdefined\inserirCabecalhoAcred
 					\footnotesize\textbf{\inserirCabecalhoAcred}\\
@@ -739,7 +739,7 @@
 			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{tex/figuras_tex/footer_IPT.png}}
+		\rfoot{\includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
 	}
 	\pagestyle{anexo_sfr}
 	\begin{center}
