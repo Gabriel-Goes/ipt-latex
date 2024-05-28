@@ -185,7 +185,7 @@
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
-	\rfoot{\includegraphics[scale=1.0]{tex/figuras_tex/footer_IPT.png}}
+	\rfoot{\includegraphics[scale=1.0]{tex/figuras_tex/footImage.pdf}}
 	\pagestyle{fancy}
 	\fancypagestyle{geral}{
     		\rhead{{\footnotesize \thepage /\pageref{LastPage}}}
@@ -212,7 +212,7 @@
 			\end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
+            \includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 	\fancypagestyle{calibr_doc}{
 		\lhead{
@@ -235,7 +235,7 @@
             \end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
+            \includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 
 % Capa
@@ -739,7 +739,7 @@
 			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=0.2]{tex/figuras_tex/footer_IPT.png}}
+		\rfoot{\includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 	\pagestyle{anexo_sfr}
 	\begin{center}

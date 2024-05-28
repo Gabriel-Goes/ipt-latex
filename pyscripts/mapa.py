@@ -4,7 +4,6 @@ PROJ = HOME+'/projetos/ClassificadorSismologico/'
 
 
 def generate_map_latex(base_path, output_filename):
-    # Construir o caminho relativo para a imagem
     map_image_path = os.path.join(base_path, 'arquivos/figuras/mapas/mapa.png')
     latex_code = rf"""
 \begin{{figure}}[ht!]
