@@ -1,8 +1,4 @@
 # arquivos para ignorar
 
-*.png
-*.jpeg
-*.jpg
-*.pdf
 
 __pycache__/
