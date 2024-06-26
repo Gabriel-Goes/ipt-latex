@@ -1,39 +1,40 @@
 \documentclass[12pt]{sismo_iptex}
+\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{pgfplots}
 % IDIOMA
-% Se necessário, inserir línguas e indicar língua principal (main)
-%\usepackage[main=brazil,english]{babel}
+\usepackage[main=brazil,english]{babel}
 \usepackage[italic]{mathastext}
 \usepackage{siunitx}
 \sisetup{
     group-separator={.},
     group-minimum-digits=3,
     output-decimal-marker={,}}
+% \addto\captionsbrazil{%
+% 	\renewcommand{\contentsname}{SUMÁRIO}
+%     \renewcommand{\refname}{REFERÊNCIAS}
+% }
+% \addto\captionsenglish{
+%  	\renewcommand{\contentsname}{CONTENTS}
+%  	\renewcommand{\refname}{REFERENCES}
+% }
 
-% Alterando nome do TOC (adicionar em outras línguas, se necessário)
-\addto\captionsbrazil{%
-	\renewcommand{\contentsname}{SUMÁRIO}
-	\renewcommand{\refname}{REFERÊNCIAS}
-}
-\addto\captionsenglish{%
-	\renewcommand{\contentsname}{CONTENTS}
-	\renewcommand{\refname}{REFERENCES}
-}
-% BIBLIOGRAFIA
-\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
-
-% Início do documento
+% INÍCIO
 \begin{document}
 
 % CAPA 
 \input{tex/relatorio_preditivo/tex/capa.tex}
+\newpage
 
-% Corpo
+% CORPO
 \input{tex/relatorio_preditivo/tex/corpo.tex}
+\newpage
 
-% Bibliografia
+% BIBLIOGRAFIA
 \section{REFERÊNCIAS BIBLIOGRÁFICAS}
-%\renewcommand{\refname}{REFERÊNCIAS}
-%\addcontentsline{toc}{section}{REFERÊNCIAS}
+\renewcommand{\refname}{REFERÊNCIAS}
+\addcontentsline{toc}{section}{REFERÊNCIAS}
 \bibliography{ref}
 
 \end{document}

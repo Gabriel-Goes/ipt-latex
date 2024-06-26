@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  4 JUN 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  19 JUN 2024 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,16 +1262,398 @@ Using XMP template file: pdfa.xmp
 
 <<pdfa.xmpi>>)
 \my@repeat@count=\count352
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen286
+\pgfutil@tempdimb=\dimen287
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box82
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks49
+\pgfkeys@temptoks=\toks50
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks51
+))
+\pgf@x=\dimen288
+\pgf@y=\dimen289
+\pgf@xa=\dimen290
+\pgf@ya=\dimen291
+\pgf@xb=\dimen292
+\pgf@yb=\dimen293
+\pgf@xc=\dimen294
+\pgf@yc=\dimen295
+\pgf@xd=\dimen296
+\pgf@yd=\dimen297
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count353
+\c@pgf@countb=\count354
+\c@pgf@countc=\count355
+\c@pgf@countd=\count356
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count357
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count358
+\pgfsyssoftpath@bigbuffer@items=\count359
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen298
+\pgfmath@count=\count360
+\pgfmath@box=\box83
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count361
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen299
+\pgf@picmaxx=\dimen300
+\pgf@picminy=\dimen301
+\pgf@picmaxy=\dimen302
+\pgf@pathminx=\dimen303
+\pgf@pathmaxx=\dimen304
+\pgf@pathminy=\dimen305
+\pgf@pathmaxy=\dimen306
+\pgf@xx=\dimen307
+\pgf@xy=\dimen308
+\pgf@yx=\dimen309
+\pgf@yy=\dimen310
+\pgf@zx=\dimen311
+\pgf@zy=\dimen312
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen313
+\pgf@path@lasty=\dimen314
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen315
+\pgf@shorten@start@additional=\dimen316
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box84
+\pgf@hbox=\box85
+\pgf@layerbox@main=\box86
+\pgf@picture@serial@count=\count362
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen317
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen318
+\pgf@pt@y=\dimen319
+\pgf@pt@temp=\dimen320
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen321
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen322
+\pgf@sys@shading@range@num=\count363
+\pgf@shadingcount=\count364
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box87
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box88
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen323
+\pgf@nodesepend=\dimen324
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen325
+\pgffor@skip=\dimen326
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count365
+\pgfplotmarksize=\dimen327
+)
+\tikz@lastx=\dimen328
+\tikz@lasty=\dimen329
+\tikz@lastxsaved=\dimen330
+\tikz@lastysaved=\dimen331
+\tikz@lastmovetox=\dimen332
+\tikz@lastmovetoy=\dimen333
+\tikzleveldistance=\dimen334
+\tikzsiblingdistance=\dimen335
+\tikz@figbox=\box89
+\tikz@figbox@bg=\box90
+\tikz@tempbox=\box91
+\tikz@tempbox@bg=\box92
+\tikztreelevel=\count366
+\tikznumberofchildren=\count367
+\tikznumberofcurrentchild=\count368
+\tikz@fig@count=\count369
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count370
+\pgfmatrixcurrentcolumn=\count371
+\pgf@matrix@numberofcolumns=\count372
+)
+\tikz@expandcount=\count373
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks60
+\t@pgfplots@tokb=\toks61
+\t@pgfplots@tokc=\toks62
+\pgfplots@tmpa=\dimen336
+\c@pgfplots@coordindex=\count374
+\c@pgfplots@scanlineindex=\count375
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks63
+\t@pgf@tokb=\toks64
+\t@pgf@tokc=\toks65
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfutil-common-lists.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count376
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count377
+\t@pgfplotstable@a=\toks66
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count378
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen337
+\pgfdecoratedremainingdistance=\dimen338
+\pgfdecoratedinputsegmentcompleteddistance=\dimen339
+\pgfdecoratedinputsegmentremainingdistance=\dimen340
+\pgf@decorate@distancetomove=\dimen341
+\pgf@decorate@repeatstate=\count379
+\pgfdecorationsegmentamplitude=\dimen342
+\pgfdecorationsegmentlength=\dimen343
+)
+\tikz@lib@dec@box=\box93
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
+ntourlua.code.tex)
+\pgfplots@numplots=\count380
+\pgfplots@xmin@reg=\dimen344
+\pgfplots@xmax@reg=\dimen345
+\pgfplots@ymin@reg=\dimen346
+\pgfplots@ymax@reg=\dimen347
+\pgfplots@zmin@reg=\dimen348
+\pgfplots@zmax@reg=\dimen349
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
 Package: mathastext 2022/11/04 v1.3y Use the text font in math mode (JFB)
 \mst@exists@muskip=\muskip18
 \mst@forall@muskip=\muskip19
 \mst@prime@muskip=\muskip20
-\mst@do@nonletters=\toks48
-\mst@do@easynonletters=\toks49
-\mst@do@az=\toks50
-\mst@do@AZ=\toks51
+\mst@do@nonletters=\toks67
+\mst@do@easynonletters=\toks68
+\mst@do@az=\toks69
+\mst@do@AZ=\toks70
 \symmtoperatorfont=\mathgroup12
 \symmtletterfont=\mathgroup13
 
@@ -1328,31 +1710,14 @@ LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `bold'
 ** \Huge and \HUGE have been (re)-defined.
 ** mathastext has declared larger sizes for subscripts.
 ** To keep LaTeX defaults, use option `defaultmathsizes'.
-)
-! Undefined control sequence.
-l.13 \addto
-           \captionsbrazil{%
-? 
-! Undefined control sequence.
-l.13 \addto\captionsbrazil
-                          {%
-? 
-! Undefined control sequence.
-l.17 \addto
-           \captionsenglish{%
-? 
-! Undefined control sequence.
-l.17 \addto\captionsenglish
-                           {%
-? 
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
 
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip189
 \ABCIauxlen=\skip190
-\c@ABCIaux=\count353
-\c@ABCImax=\count354
+\c@ABCIaux=\count381
+\c@ABCImax=\count382
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1360,53 +1725,72 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip191
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks52
+\ABCItoken=\toks71
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 25.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 25
+h' as default language. on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 25.
+(Font)              scaled to size 11.39996pt on input line 27.
 
-No file relatorio_preditivo.aux.
+(./relatorio_preditivo.aux
+
+LaTeX Warning: Label `fig:2:mapa' multiply defined.
+
+
+LaTeX Warning: Label `fig:2:mapa' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2:mapa' multiply defined.
+
+
+LaTeX Warning: Label `fig:2:mapa2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2:mapa2' multiply defined.
+
+
+LaTeX Warning: Label `fig:2:mapa' multiply defined.
+
+)
 \openout1 = `relatorio_preditivo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
-\scratchdimen=\dimen286
-\scratchbox=\box82
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count358
-\MPscratchDim=\dimen287
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count383
+\scratchdimen=\dimen350
+\scratchbox=\box94
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks72
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen351
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks73
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1416,15 +1800,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 25.
-\@outlinefile=\write4
-\openout4 = `relatorio_preditivo.out'.
+Package hyperref Info: Link coloring OFF on input line 27.
 
-LaTeX Info: Command `\dddot' is already robust on input line 25.
-LaTeX Info: Command `\ddddot' is already robust on input line 25.
+(./relatorio_preditivo.out) (./relatorio_preditivo.out)
+\@outlinefile=\write5
+\openout5 = `relatorio_preditivo.out'.
+
+LaTeX Info: Command `\dddot' is already robust on input line 27.
+LaTeX Info: Command `\ddddot' is already robust on input line 27.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 25.
+(lastpage)             ! on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2022/11/13 v3.2 ragged2e Package
@@ -1444,7 +1830,7 @@ Package: ragged2e 2022/11/13 v3.2 ragged2e Package
 \JustifyingParindent=\skip261
 )
 Package caption Info: longtable package v3.15 (or newer) detected on input line
- 25.
+ 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1452,7 +1838,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 25.
+or `english'. on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1488,2785 +1874,299 @@ or `english'. on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 27.
+
 Package mathastext Info: current meaning of amsmath \resetMathstrut@ saved on i
-nput line 25.
+nput line 27.
 (./tex/relatorio_preditivo/tex/capa.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 12.
+<tex/figuras_tex/headImage.pdf, id=45, 159.36037pt x 72.1896pt>
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 12.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+<tex/figuras_tex/footImage.pdf, id=46, 264.30975pt x 28.35594pt>
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 12.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [1
 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 12.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \capa
-          
-? 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-2.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 12.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \capa
-          
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1
-
-]
+ <./tex/figuras_tex/headImage.pdf> <./tex/figuras_tex/footImage.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 16.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 16.41594pt on input line 16.
-
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 17.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \tableofcontents
-                     
-? 
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 17.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 17.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
 7.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 17.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 17.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \tableofcontents
-                     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 17.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [1
 
 ]
-No file relatorio_preditivo.toc.
-\tf@toc=\write5
-\openout5 = `relatorio_preditivo.toc'.
+(./relatorio_preditivo.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 20.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \renewcommand
-                  {\thepage}{\arabic{page}}
-? 
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 20.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \renewcommand
-                  {\thepage}{\arabic{page}}
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]) (./tex/relatorio_preditivo/tex/corpo.tex
-(./tex/relatorio_preditivo/tex/introducao.tex
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 2.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(./tex/relatorio_preditivo/tex/atividades_resultados.tex
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
 
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+.
 
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 7.59998pt on input line 1.
+)
+\tf@toc=\write6
+\openout6 = `relatorio_preditivo.toc'.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 
-     
-? 
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 20.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 20.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [2])
+(./tex/relatorio_preditivo/tex/corpo.tex
+(./tex/relatorio_preditivo/tex/introducao.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 3.
+
+(./tex/relatorio_preditivo/tex/hist_hour_figures.tex
+(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_hora_bruto.pgf
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 1181.
+)
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 11.
+(Font)              scaled to size 9.49997pt on input line 6.
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 11.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_hora_tratado.pgf)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+) (./tex/relatorio_preditivo/tex/mapa.tex
+</home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_evento
+s_bruto.png, id=84, 761.0031pt x 773.0481pt>
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
+ventos_bruto.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
+entos_bruto.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/mapas/mapa_eventos_bruto.png  used on input line 6.
+(pdftex.def)             Requested size: 761.00124pt x 773.04622pt.
+</home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_evento
+s_tratado.png, id=85, 761.0031pt x 772.5663pt>
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
+ventos_tratado.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
+entos_tratado.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/mapas/mapa_eventos_tratado.png  used on input line 10.
+(pdftex.def)             Requested size: 761.00124pt x 772.56442pt.
+)
+(./tex/relatorio_preditivo/tex/hist_prof_figures.tex
+</home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_profundidade_bruto.png, id=86, 505.89pt x 379.4175pt>
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa
+/hist_profundidade_bruto.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/
+hist_profundidade_bruto.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/pre_processa/hist_profundidade_bruto.png  used on input line 7.
+(pdftex.def)             Requested size: 505.88875pt x 379.41656pt.
+</home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_profundidade_tratado.png, id=88, 505.89pt x 379.4175pt>
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa
+/hist_profundidade_tratado.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/
+hist_profundidade_tratado.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/pre_processa/hist_profundidade_tratado.png  used on input line 11.
+(pdftex.def)             Requested size: 505.88875pt x 379.41656pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 12.
+))
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 6.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 6.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 
-      [1]
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 29.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 29.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] (./tex/relatorio_preditivo/tex/mapa.tex
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 4.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 4.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 9.
-
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/mapas/mapa.png' not found on input line 11.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/mapas/mapa.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...smologico/arquivos/figuras/mapas/mapa.png}
-                                                  
-? 
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 13.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 13.
-\CF@figure=\count361
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 42.
-
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 48.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \par{A
-            valida√ß√£o destes resultados foi facilitada pela utiliza√ß√£o d...
-
-? 
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 48.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 48.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \par{A
-            valida√ß√£o destes resultados foi facilitada pela utiliza√ß√£o d...
-
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3] (./tex/relatorio_preditivo/tex/figures.tex
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/1.54008_boxplot_ev_distance_event.png' not found on input line 
-4.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/1.54008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...cess/1.54008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 8.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 
-    
-? 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 8.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 8.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 
-    
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4
+l.6 \newpage
+             [1] (./tex/relatorio_preditivo/tex/metodos.tex
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 9.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 9.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8 
-    ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_4.04008.png' not found on input line 12.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_4.04008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...uras/pos_process/n_sta_recall_4.04008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 16.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 16.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 16.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5
+l.9 
+    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.16 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_2.04008.png' not found on input line 20.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_2.04008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...uras/pos_process/n_sta_recall_2.04008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 24.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 24.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 24.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6
+l.9 
+     </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
+ventos_bruto.png (PNG copy)> </home/ipt/projetos/ClassificadorSismologico/arqui
+vos/figuras/mapas/mapa_eventos_tratado.png (PNG copy)>]
+(./tex/relatorio_preditivo/tex/mapa.tex
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
+ventos_bruto.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
+entos_bruto.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/mapas/mapa_eventos_bruto.png  used on input line 6.
+(pdftex.def)             Requested size: 761.00124pt x 773.04622pt.
+File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
+ventos_tratado.png Graphic file (type png)
+<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
+entos_tratado.png>
+Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
+iguras/mapas/mapa_eventos_tratado.png  used on input line 10.
+(pdftex.def)             Requested size: 761.00124pt x 772.56442pt.
+)
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 26.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 26.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.24 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_04008.png' not found on input line 28.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_04008.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...iguras/pos_process/n_sta_recall_04008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 32.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 32.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 32.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7
+l.26 
+      </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_process
+a/hist_profundidade_bruto.png> </home/ipt/projetos/ClassificadorSismologico/arq
+uivos/figuras/pre_processa/hist_profundidade_tratado.png>]
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 32.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 32.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.32 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/7.04008_boxplot_ev_distance_event.png' not found on input line 
-36.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/7.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...ess/7.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 40.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 40.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 40.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.40 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/04008_hist_ev_distance.png' not found on input line 44.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/04008_hist_ev_distance.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...as/pos_process/04008_hist_ev_distance.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 48.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 48.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 48.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.48 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/4.04008_boxplot_ev_distance_event.png' not found on input line 
-52.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/4.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...ess/4.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 56.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 56.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 56.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.56 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/0.754008_boxplot_ev_distance_event.png' not found on input line
- 60.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/0.754008_boxplot_ev_distance_event.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...ss/0.754008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 64.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 64.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 64.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.64 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/5.04008_boxplot_ev_distance_event.png' not found on input line 
-68.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/5.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...ess/5.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 72.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 72.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 72.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.72 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/3.04008_boxplot_ev_distance_event.png' not found on input line 
-76.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/3.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...ess/3.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 80.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 80.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 80.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.80 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_0.54008.png' not found on input line 84.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_0.54008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...uras/pos_process/n_sta_recall_0.54008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 88.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 88.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 88.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.88 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/04008_boxplot_ev_mag_event.png' not found on input line 92.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/04008_boxplot_ev_mag_event.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...os_process/04008_boxplot_ev_mag_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 96.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 
-     
-? 
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 96.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 96.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 
-     
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.96 
-     ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/dist_ev_cat_mag_recall.png' not found on input line 100.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/dist_ev_cat_mag_recall.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ...s/pos_process/dist_ev_cat_mag_recall.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 104
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 104.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 104
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.104 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/9.04008_boxplot_ev_distance_event.png' not found on input line 
-108.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/9.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 ...ss/9.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 112
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 112.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 112
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.112 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_1.254008.png' not found on input line 116.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_1.254008.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 ...as/pos_process/n_sta_recall_1.254008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 120
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 120.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 120
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.120 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_1.54008.png' not found on input line 124.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_1.54008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ...ras/pos_process/n_sta_recall_1.54008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 128
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 128.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 128
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.128 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/1.04008_boxplot_ev_distance_event.png' not found on input line 
-132.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/1.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 ...ss/1.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 136
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 136.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 136
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.136 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/04008_dist_mean_snrs_recall.png' not found on input line 140.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/04008_dist_mean_snrs_recall.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 ..._process/04008_dist_mean_snrs_recall.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 144
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 144.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 144
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.144 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/1.254008_boxplot_ev_distance_event.png' not found on input line
- 148.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/1.254008_boxplot_ev_distance_event.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 ...s/1.254008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 152
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 152.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 152
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.152 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/2.04008_boxplot_ev_distance_event.png' not found on input line 
-156.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/2.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 ...ss/2.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 160
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 160.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 160
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.160 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/04008_hist_ev_distance_event.png' not found on input line 164.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/04008_hist_ev_distance_event.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...process/04008_hist_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 168
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 168.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 168
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.168 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_1.754008.png' not found on input line 172.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_1.754008.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 ...as/pos_process/n_sta_recall_1.754008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 176
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 176.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 176
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.176 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/hist_ev_hour_recall_event.png' not found on input line 180.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/hist_ev_hour_recall_event.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 ...os_process/hist_ev_hour_recall_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 184
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 184.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 184
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26
-pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.184 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/8.04008_boxplot_ev_distance_event.png' not found on input line 
-188.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/8.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188 ...ss/8.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 192
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 192.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 192
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.192 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/04008_boxplot_ev_distance_event.png' not found on input line 19
-6.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/04008_boxplot_ev_distance_event.png' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...cess/04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 200
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 200.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 200
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.200 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_3.04008.png' not found on input line 204.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_3.04008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 ...ras/pos_process/n_sta_recall_3.04008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 208
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 208.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 208
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.208 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/1.754008_boxplot_ev_distance_event.png' not found on input line
- 212.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/1.754008_boxplot_ev_distance_event.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 ...s/1.754008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 216
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 216.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 216
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30
-pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.216 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_1.04008.png' not found on input line 220.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_1.04008.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 ...ras/pos_process/n_sta_recall_1.04008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 224
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 224.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 224
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31
-pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.224 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_0.254008.png' not found on input line 228.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_0.254008.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...as/pos_process/n_sta_recall_0.254008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 232
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 232.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 232
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32
-pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.232 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/dist_snrs_recall.png' not found on input line 236.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/dist_snrs_recall.png' not found: using draft setti
-ng.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.236 ...figuras/pos_process/dist_snrs_recall.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 240
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 240.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 240
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.240 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/n_sta_recall_0.754008.png' not found on input line 244.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/n_sta_recall_0.754008.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244 ...as/pos_process/n_sta_recall_0.754008.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 248
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 248.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 248
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34
-pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.248 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/region_corr.png' not found on input line 252.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/region_corr.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...ivos/figuras/pos_process/region_corr.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 256
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 256.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 256
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.256 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/10.04008_boxplot_ev_distance_event.png' not found on input line
- 260.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/10.04008_boxplot_ev_distance_event.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 ...s/10.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 264
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 264.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 264
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.264 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/6.04008_boxplot_ev_distance_event.png' not found on input line 
-268.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/6.04008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268 ...ss/6.04008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 272
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 272.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 272
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.272 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/0.254008_boxplot_ev_distance_event.png' not found on input line
- 276.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/0.254008_boxplot_ev_distance_event.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276 ...s/0.254008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 280
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 280.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 280
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38
-pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.280 
-      ]
-
-LaTeX Warning: File `/home/ggrl/projetos/ClassificadorSismologico/arquivos/figu
-ras/pos_process/0.54008_boxplot_ev_distance_event.png' not found on input line 
-284.
-
-
-! Package pdftex.def Error: File `/home/ggrl/projetos/ClassificadorSismologico/
-arquivos/figuras/pos_process/0.54008_boxplot_ev_distance_event.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 ...ss/0.54008_boxplot_ev_distance_event.png}
-                                                  
-? 
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 288
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.288 
-      
-? 
-
-LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 288.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 288
-.
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.288 
-      
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[39
-pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.288 
-      ])
-Overfull \hbox (19.12613pt too wide) in paragraph at lines 57--58
-[]\T1/phv/m/n/12 Todos os cÛdi-gos e al-go-rit-mos de-sen-volvi-dos es-t„o de-v
--i-da-mente doc-u-men-ta-dos e disponÌveis
- []
-
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 59.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \par{O
-           s resultados obtidos e as metodologias empregadas foram submetido...
-
-? 
-
-LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 59.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 59.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \par{O
-           s resultados obtidos e as metodologias empregadas foram submetido...
-
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40
-pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.59 \par{O
-           s resultados obtidos e as metodologias empregadas foram submetido...
-]) (./tex/relatorio_preditivo/tex/consideracoes_finais.tex
-Overfull \hbox (5.58174pt too wide) in paragraph at lines 8--9
-[]\T1/phv/m/n/12 Na ·rea de in-fluÍn-cia do em-preendi-mento foram reg-istra-do
-s sessenta e sete (67) desmontes
- []
-
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 13.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \end{itemize}
-                  
-? 
-
-LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 13.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 13.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \end{itemize}
-                  
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41])
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 14.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \clearpage
-               
-? 
-
-LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 14.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 14.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \clearpage
-               
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42])
+     ])
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 10.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 10.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+ [5])
 No file relatorio_preditivo.bbl.
 
 AED: lastpage setting LastPage
-
-LaTeX Warning: File `tex/figuras_tex/headImage.pdf' not found on input line 39.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/headImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 \end{document}
-                   
-? 
-
-LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 39.
-
-
-LaTeX Warning: File `tex/figuras_tex/footImage.pdf' not found on input line 39.
-
-
-
-! Package pdftex.def Error: File `tex/figuras_tex/footImage.pdf' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 \end{document}
-                   
-? 
-
-Package Fancyhdr Warning: \footskip is too small (71.13188pt): 
- Make it at least 72.26999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 41.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 41.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+[6
 
 ] (./relatorio_preditivo.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `relatorio_preditivo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `relatorio_preditivo.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D3A0A9FDE3C57B3868C8786300567219;851.
+Package rerunfilecheck Info: File `relatorio_preditivo.out' has not changed.
+(rerunfilecheck)             Checksum: A8BD9A4297180A4F2142B0872F1577C3;682.
  ) 
 Here is how much of TeX's memory you used:
- 27940 strings out of 476091
- 614182 string characters out of 5794081
- 1861330 words of memory out of 5000000
- 47666 multiletter control sequences out of 15000+600000
- 541999 words of font info for 56 fonts, out of 8000000 for 9000
+ 46789 strings out of 476091
+ 1045943 string characters out of 5794081
+ 1889330 words of memory out of 5000000
+ 66274 multiletter control sequences out of 15000+600000
+ 561883 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,104p,1613b,2739s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/c
-m-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
-vb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on relatorio_preditivo.pdf (46 pages, 144083 bytes).
+ 99i,16n,104p,1613b,2702s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvro8a.pfb>
+Output written on relatorio_preditivo.pdf (9 pages, 1577616 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
