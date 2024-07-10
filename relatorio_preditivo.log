@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  19 JUN 2024 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.9.18)  10 JUL 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,7 +1262,25 @@ Using XMP template file: pdfa.xmp
 
 <<pdfa.xmpi>>)
 \my@repeat@count=\count352
-) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+\minimumbiblabelwidth=\skip189
+\ABCIauxlen=\skip190
+\c@ABCIaux=\count353
+\c@ABCImax=\count354
+
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip191
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
@@ -1270,7 +1288,7 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks48
+\pgfutil@everybye=\toks49
 \pgfutil@tempdima=\dimen286
 \pgfutil@tempdimb=\dimen287
 )
@@ -1289,12 +1307,12 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks49
-\pgfkeys@temptoks=\toks50
+\pgfkeys@pathtoks=\toks50
+\pgfkeys@temptoks=\toks51
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks51
+\pgfkeys@tmptoks=\toks52
 ))
 \pgf@x=\dimen288
 \pgf@y=\dimen289
@@ -1308,14 +1326,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen297
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count353
-\c@pgf@countb=\count354
-\c@pgf@countc=\count355
-\c@pgf@countd=\count356
-\t@pgf@toka=\toks52
-\t@pgf@tokb=\toks53
-\t@pgf@tokc=\toks54
-\pgf@sys@id@count=\count357
+\c@pgf@counta=\count355
+\c@pgf@countb=\count356
+\c@pgf@countc=\count357
+\c@pgf@countd=\count358
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+\pgf@sys@id@count=\count359
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -1330,8 +1348,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count358
-\pgfsyssoftpath@bigbuffer@items=\count359
+\pgfsyssoftpath@smallbuffer@items=\count360
+\pgfsyssoftpath@bigbuffer@items=\count361
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1344,11 +1362,11 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen298
-\pgfmath@count=\count360
+\pgfmath@count=\count362
 \pgfmath@box=\box83
-\pgfmath@toks=\toks55
-\pgfmath@stack@operand=\toks56
-\pgfmath@stack@operation=\toks57
+\pgfmath@toks=\toks56
+\pgfmath@stack@operand=\toks57
+\pgfmath@stack@operation=\toks58
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1369,7 +1387,7 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count361
+\c@pgfmathroundto@lastzeros=\count363
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -1408,7 +1426,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box84
 \pgf@hbox=\box85
 \pgf@layerbox@main=\box86
-\pgf@picture@serial@count=\count362
+\pgf@picture@serial@count=\count364
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1441,8 +1459,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen322
-\pgf@sys@shading@range@num=\count363
-\pgf@shadingcount=\count364
+\pgf@sys@shading@range@num=\count365
+\pgf@shadingcount=\count366
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1491,8 +1509,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen325
 \pgffor@skip=\dimen326
-\pgffor@stack=\toks58
-\pgffor@toks=\toks59
+\pgffor@stack=\toks59
+\pgffor@toks=\toks60
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1500,7 +1518,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count365
+\pgf@plot@mark@count=\count367
 \pgfplotmarksize=\dimen327
 )
 \tikz@lastx=\dimen328
@@ -1515,18 +1533,18 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box90
 \tikz@tempbox=\box91
 \tikz@tempbox@bg=\box92
-\tikztreelevel=\count366
-\tikznumberofchildren=\count367
-\tikznumberofcurrentchild=\count368
-\tikz@fig@count=\count369
+\tikztreelevel=\count368
+\tikznumberofchildren=\count369
+\tikznumberofcurrentchild=\count370
+\tikz@fig@count=\count371
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count370
-\pgfmatrixcurrentcolumn=\count371
-\pgf@matrix@numberofcolumns=\count372
+\pgfmatrixcurrentrow=\count372
+\pgfmatrixcurrentcolumn=\count373
+\pgf@matrix@numberofcolumns=\count374
 )
-\tikz@expandcount=\count373
+\tikz@expandcount=\count375
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1534,12 +1552,12 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks60
-\t@pgfplots@tokb=\toks61
-\t@pgfplots@tokc=\toks62
+\t@pgfplots@toka=\toks61
+\t@pgfplots@tokb=\toks62
+\t@pgfplots@tokc=\toks63
 \pgfplots@tmpa=\dimen336
-\c@pgfplots@coordindex=\count374
-\c@pgfplots@scanlineindex=\count375
+\c@pgfplots@coordindex=\count376
+\c@pgfplots@scanlineindex=\count377
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1550,9 +1568,9 @@ gfsupp_loader.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks63
-\t@pgf@tokb=\toks64
-\t@pgf@tokc=\toks65
+\t@pgf@toka=\toks64
+\t@pgf@tokb=\toks65
+\t@pgf@tokc=\toks66
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex))
@@ -1563,14 +1581,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count376
+\c@pgfplotsarray@tmp=\count378
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count377
-\t@pgfplotstable@a=\toks66
+\c@pgfplotstable@counta=\count379
+\t@pgfplotstable@a=\toks67
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1582,7 +1600,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count378
+\c@pgfplotslibrarysurf@no=\count380
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1614,7 +1632,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen339
 \pgfdecoratedinputsegmentremainingdistance=\dimen340
 \pgf@decorate@distancetomove=\dimen341
-\pgf@decorate@repeatstate=\count379
+\pgf@decorate@repeatstate=\count381
 \pgfdecorationsegmentamplitude=\dimen342
 \pgfdecorationsegmentlength=\dimen343
 )
@@ -1630,7 +1648,7 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count380
+\pgfplots@numplots=\count382
 \pgfplots@xmin@reg=\dimen344
 \pgfplots@xmax@reg=\dimen345
 \pgfplots@ymin@reg=\dimen346
@@ -1645,15 +1663,47 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+))) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count383
+\U@D=\dimen350
+\l@unhyphenated=\language87
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count384
+Package babel Info: Main language set with 'main='. Except if you have
+(babel)             problems, prefer the default mechanism for setting
+(babel)             the main language. Reported on input line 4316.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language54). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language54). Reported on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language58). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
 Package: mathastext 2022/11/04 v1.3y Use the text font in math mode (JFB)
 \mst@exists@muskip=\muskip18
 \mst@forall@muskip=\muskip19
 \mst@prime@muskip=\muskip20
-\mst@do@nonletters=\toks67
-\mst@do@easynonletters=\toks68
-\mst@do@az=\toks69
-\mst@do@AZ=\toks70
+\mst@do@nonletters=\toks68
+\mst@do@easynonletters=\toks69
+\mst@do@az=\toks70
+\mst@do@AZ=\toks71
 \symmtoperatorfont=\mathgroup12
 \symmtletterfont=\mathgroup13
 
@@ -1710,107 +1760,78 @@ LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `bold'
 ** \Huge and \HUGE have been (re)-defined.
 ** mathastext has declared larger sizes for subscripts.
 ** To keep LaTeX defaults, use option `defaultmathsizes'.
-) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
-
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip189
-\ABCIauxlen=\skip190
-\c@ABCIaux=\count381
-\c@ABCImax=\count382
-
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip191
-LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks71
-)
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 27.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 24
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 27.
+(Font)              scaled to size 11.39996pt on input line 24.
 
-(./relatorio_preditivo.aux
-
-LaTeX Warning: Label `fig:2:mapa' multiply defined.
-
-
-LaTeX Warning: Label `fig:2:mapa' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:2:mapa' multiply defined.
-
-
-LaTeX Warning: Label `fig:2:mapa2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:2:mapa2' multiply defined.
-
-
-LaTeX Warning: Label `fig:2:mapa' multiply defined.
-
-)
+(./relatorio_preditivo.aux)
 \openout1 = `relatorio_preditivo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count383
-\scratchdimen=\dimen350
+\scratchcounter=\count385
+\scratchdimen=\dimen351
 \scratchbox=\box94
-\nofMPsegments=\count384
-\nofMParguments=\count385
+\nofMPsegments=\count386
+\nofMParguments=\count387
 \everyMPshowfont=\toks72
-\MPscratchCnt=\count386
-\MPscratchDim=\dimen351
-\MPnumerator=\count387
-\makeMPintoPDFobject=\count388
+\MPscratchCnt=\count388
+\MPscratchDim=\dimen352
+\MPnumerator=\count389
+\makeMPintoPDFobject=\count390
 \everyMPtoPDFconversion=\toks73
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 24.
 
 (./relatorio_preditivo.out) (./relatorio_preditivo.out)
 \@outlinefile=\write5
 \openout5 = `relatorio_preditivo.out'.
 
-LaTeX Info: Command `\dddot' is already robust on input line 27.
-LaTeX Info: Command `\ddddot' is already robust on input line 27.
+LaTeX Info: Command `\dddot' is already robust on input line 24.
+LaTeX Info: Command `\ddddot' is already robust on input line 24.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 27.
+(lastpage)             ! on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2022/11/13 v3.2 ragged2e Package
@@ -1830,7 +1851,15 @@ Package: ragged2e 2022/11/13 v3.2 ragged2e Package
 \JustifyingParindent=\skip261
 )
 Package caption Info: longtable package v3.15 (or newer) detected on input line
- 27.
+ 24.
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1838,7 +1867,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 27.
+or `english'. on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1878,21 +1907,21 @@ or `english'. on input line 27.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 27.
+ on input line 24.
 
 Package mathastext Info: current meaning of amsmath \resetMathstrut@ saved on i
-nput line 27.
+nput line 24.
 (./tex/relatorio_preditivo/tex/capa.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 12.
-<tex/figuras_tex/headImage.pdf, id=45, 159.36037pt x 72.1896pt>
+<tex/figuras_tex/headImage.pdf, id=48, 159.36037pt x 72.1896pt>
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 12.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-<tex/figuras_tex/footImage.pdf, id=46, 264.30975pt x 28.35594pt>
+<tex/figuras_tex/footImage.pdf, id=49, 264.30975pt x 28.35594pt>
 File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/footImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 12.
@@ -1978,44 +2007,39 @@ Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 20.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 3.
 
-(./tex/relatorio_preditivo/tex/hist_hour_figures.tex
-(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
-_hora_bruto.pgf
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 1181.
-)
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 6.
-
-(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
-_hora_tratado.pgf)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 11.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 11.
-) (./tex/relatorio_preditivo/tex/mapa.tex
+(./tex/relatorio_preditivo/tex/manual_mapa.tex
 </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_evento
-s_bruto.png, id=84, 761.0031pt x 773.0481pt>
+s_bruto.png, id=88, 794.7291pt x 773.0481pt>
 File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
 ventos_bruto.png Graphic file (type png)
 <use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
 entos_bruto.png>
 Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
 iguras/mapas/mapa_eventos_bruto.png  used on input line 6.
-(pdftex.def)             Requested size: 761.00124pt x 773.04622pt.
+(pdftex.def)             Requested size: 794.72716pt x 773.04622pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 6.
 </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_evento
-s_tratado.png, id=85, 761.0031pt x 772.5663pt>
+s_tratado.png, id=89, 794.7291pt x 772.5663pt>
 File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
 ventos_tratado.png Graphic file (type png)
 <use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
 entos_tratado.png>
 Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
 iguras/mapas/mapa_eventos_tratado.png  used on input line 10.
-(pdftex.def)             Requested size: 761.00124pt x 772.56442pt.
+(pdftex.def)             Requested size: 794.72716pt x 772.56442pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 11.
 )
 (./tex/relatorio_preditivo/tex/hist_prof_figures.tex
 </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
-_profundidade_bruto.png, id=86, 505.89pt x 379.4175pt>
+_profundidade_bruto.png, id=90, 505.89pt x 379.4175pt>
 File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa
 /hist_profundidade_bruto.png Graphic file (type png)
 <use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/
@@ -2024,7 +2048,7 @@ Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
 iguras/pre_processa/hist_profundidade_bruto.png  used on input line 7.
 (pdftex.def)             Requested size: 505.88875pt x 379.41656pt.
 </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
-_profundidade_tratado.png, id=88, 505.89pt x 379.4175pt>
+_profundidade_tratado.png, id=92, 505.89pt x 379.4175pt>
 File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa
 /hist_profundidade_tratado.png Graphic file (type png)
 <use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/
@@ -2032,11 +2056,29 @@ hist_profundidade_tratado.png>
 Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
 iguras/pre_processa/hist_profundidade_tratado.png  used on input line 11.
 (pdftex.def)             Requested size: 505.88875pt x 379.41656pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 12.
-))
+)
+File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/headImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 30.
+(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
+File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
+<use tex/figuras_tex/footImage.pdf>
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 30.
+(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 
+      [1] (./tex/relatorio_preditivo/tex/hist_hour_figures.tex
+(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_hora_bruto.pgf
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 1181.
+)
+(/home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist
+_hora_tratado.pgf)))
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 6.
@@ -2045,84 +2087,48 @@ File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/footImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 6.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 \newpage
-             [1] (./tex/relatorio_preditivo/tex/metodos.tex
-File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 9.
-(pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
-File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
-<use tex/figuras_tex/footImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 9.
-(pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
  [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.9 
-    
+l.6 \newpage
+            
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.9 
-     </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
-ventos_bruto.png (PNG copy)> </home/ipt/projetos/ClassificadorSismologico/arqui
-vos/figuras/mapas/mapa_eventos_tratado.png (PNG copy)>]
-(./tex/relatorio_preditivo/tex/mapa.tex
-File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
-ventos_bruto.png Graphic file (type png)
-<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
-entos_bruto.png>
-Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
-iguras/mapas/mapa_eventos_bruto.png  used on input line 6.
-(pdftex.def)             Requested size: 761.00124pt x 773.04622pt.
-File: /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_e
-ventos_tratado.png Graphic file (type png)
-<use /home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapas/mapa_ev
-entos_tratado.png>
-Package pdftex.def Info: /home/ipt/projetos/ClassificadorSismologico/arquivos/f
-iguras/mapas/mapa_eventos_tratado.png  used on input line 10.
-(pdftex.def)             Requested size: 761.00124pt x 772.56442pt.
-)
+l.6 \newpage
+             </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/mapa
+s/mapa_eventos_bruto.png (PNG copy)> </home/ipt/projetos/ClassificadorSismologi
+co/arquivos/figuras/mapas/mapa_eventos_tratado.png (PNG copy)> </home/ipt/proje
+tos/ClassificadorSismologico/arquivos/figuras/pre_processa/hist_profundidade_br
+uto.png> </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_proc
+essa/hist_profundidade_tratado.png>] (./tex/relatorio_preditivo/tex/metodos.tex
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 26.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 18.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/footImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 26.
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 18.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [3
+[3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.26 
-      </home/ipt/projetos/ClassificadorSismologico/arquivos/figuras/pre_process
-a/hist_profundidade_bruto.png> </home/ipt/projetos/ClassificadorSismologico/arq
-uivos/figuras/pre_processa/hist_profundidade_tratado.png>]
+l.18 
+     ])
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 32.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 10.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/footImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 32.
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 10.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
- [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.32 
-     ])
+ [4]
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
 Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 10.
@@ -2137,26 +2143,24 @@ No file relatorio_preditivo.bbl.
 AED: lastpage setting LastPage
 File: tex/figuras_tex/headImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/headImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 41.
+Package pdftex.def Info: tex/figuras_tex/headImage.pdf  used on input line 40.
 (pdftex.def)             Requested size: 143.42297pt x 64.97002pt.
 File: tex/figuras_tex/footImage.pdf Graphic file (type pdf)
 <use tex/figuras_tex/footImage.pdf>
-Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 41.
+Package pdftex.def Info: tex/figuras_tex/footImage.pdf  used on input line 40.
 (pdftex.def)             Requested size: 264.3091pt x 28.35585pt.
-[6
+[6] (./relatorio_preditivo.aux)
 
-] (./relatorio_preditivo.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `relatorio_preditivo.out' has not changed.
-(rerunfilecheck)             Checksum: A8BD9A4297180A4F2142B0872F1577C3;682.
+(rerunfilecheck)             Checksum: B551929539ED44A1385186283061532B;732.
  ) 
 Here is how much of TeX's memory you used:
- 46789 strings out of 476091
- 1045943 string characters out of 5794081
- 1889330 words of memory out of 5000000
- 66274 multiletter control sequences out of 15000+600000
+ 48162 strings out of 476091
+ 1081330 string characters out of 5794081
+ 1888330 words of memory out of 5000000
+ 67622 multiletter control sequences out of 15000+600000
  561883 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,104p,1613b,2702s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2164,9 +2168,9 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on relatorio_preditivo.pdf (9 pages, 1577616 bytes).
+Output written on relatorio_preditivo.pdf (9 pages, 1605995 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
