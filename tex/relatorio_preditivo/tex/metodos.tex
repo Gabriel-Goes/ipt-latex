@@ -4,7 +4,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Aquisição dos dados}
 \label{subsec:aquisi_dado}
-\par{Foi construinda um fluxo de requisição de dados com python utilizando a biblioteca \textit{obspy} para acessar o banco de dados \textit{MOHO} e obter 60 segundos de forma de onda a partir de 10 segundos antes do seleção de onda 'P' e que a origem preferida do epicentro estivesse a pelo menos 400 km de distancia da estação que foi realizada o pick. Por tanto, todos os eventos que foram rotulados, porém estivesse a mais de 400km ou não possuisem a seleção da onda 'P' foram descartados.
+\par{Foi construinda um fluxo de requisição de dados com python utilizando a biblioteca \textit{obspy} para acessar o banco de dados \textit{MOHO} e obter 60 segundos de forma de onda a partir de 10 segundos antes do seleção de onda 'P' e que a origem preferida do epicentro estivesse a pelo menos 400 km de distancia da estação que foi realizada o pick. Por tanto, todos os eventos que foram rotulados, porém estivesse a mais de 400km ou não possuisem a seleção da onda 'P' foram descartados. Na etapa de treino, de acordo com o artigo, a rede neural foi apresentada a 60 segundos de forma de onda, porém, com início igual a 5 à 20 segundos antes da chegada da onda P. Precisamos testar a diferença entre uma janela fixa e uma janela variável entre 5 e 20 segundos antes da onda P para a fase de testes/validação.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

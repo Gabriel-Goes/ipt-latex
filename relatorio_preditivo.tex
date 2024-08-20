@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{pgfplots}
-% IDIOMA
+
 \usepackage[main=brazil,english]{babel}
 \usepackage[italic]{mathastext}
 \usepackage{siunitx}
@@ -11,27 +11,15 @@
     group-separator={.},
     group-minimum-digits=3,
     output-decimal-marker={,}}
-% \addto\captionsbrazil{%
-% 	\renewcommand{\contentsname}{SUMÁRIO}
-%     \renewcommand{\refname}{REFERÊNCIAS}
-% }
-% \addto\captionsenglish{
-%  	\renewcommand{\contentsname}{CONTENTS}
-%  	\renewcommand{\refname}{REFERENCES}
-% }
 
-% INÍCIO
 \begin{document}
 
-% CAPA 
 \input{tex/relatorio_preditivo/tex/capa.tex}
 \newpage
 
-% CORPO
 \input{tex/relatorio_preditivo/tex/corpo.tex}
 \newpage
 
-% BIBLIOGRAFIA
 \section{REFERÊNCIAS BIBLIOGRÁFICAS}
 \renewcommand{\refname}{REFERÊNCIAS}
 \addcontentsline{toc}{section}{REFERÊNCIAS}
