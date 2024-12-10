@@ -1,0 +1,152 @@
+\documentclass[12pt]{iptex}
+% IDIOMA
+% Se necessário, inserir línguas e indicar língua principal (main)
+\usepackage[main=brazil,english]{babel}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\sisetup{
+    group-separator={.},
+    group-minimum-digits=3,
+    output-decimal-marker={,}}
+
+% Alterando nome do TOC (adicionar em outras línguas, se necessário)
+\addto\captionsbrazil{%
+	\renewcommand{\contentsname}{SUMÁRIO}
+	\renewcommand{\refname}{REFERÊNCIAS}
+}
+\addto\captionsenglish{%
+	\renewcommand{\contentsname}{CONTENTS}
+	\renewcommand{\refname}{REFERENCES}
+}
+% BIBLIOGRAFIA
+\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+
+\usepackage[italic]{mathastext}
+
+% Para bibliografia ABNT com números
+%\usepackage[abnt-emphasize=bf,num]{abntex2cite}
+%\citebrackets[]
+
+% Para outros estilos o autor deve definir o \bibliographystyle dentro do documento
+
+% Ajustes adicionais
+%\setlist[enumerate]{itemsep=3mm} % espaçamento enumerate
+%\setlist[itemize]{itemsep=3mm} % espaçamento itemize
+
+% Início do documento
+\begin{document}
+
+% Parâmetros
+%\docNum{}
+\tipo{BOLETIM SISMOLÓGICO}
+%\cancelaDoc{Relatório Técnico nº 123 456-205} % Descomente para opção cancela e substitui
+%\cliente{Instituto de Pesquisas Tecnológicas}{IPT}{Av. Professor Almeida Prado, 532}{55555-555}{São Paulo}{SP}
+\data{2023}
+\titulo{\textbf{RSIS - Rede Sismológica Itá/Machadinho} \\
+\textbf{Reservatório de Machadinho, SC/RS} \\
+\textbf{BOLETIM SÍSMICO Nº XXXXXX}}
+\unidade{Cidades Infraestruturas e Meio Ambiente}{CIMA}
+\lab{Seção de Obras Civis - SOC}
+\periodo{MES/ANO}{MES/ANO}
+
+
+% Inserir capa
+\capa
+\pagestyle{timbrado}
+
+% Inserir resumo
+%\resumo[]{Teste}{}
+
+%\tableofcontents
+
+%\vspace{0.5cm}
+
+%\pagebreak
+%\renewcommand{\thepage}{\arabic{page}}
+%\setcounter{page}{1}
+
+%\thispagestyle{geral}
+
+\pagestyle{geral}
+
+% Corpo do documento
+\section{ÚLTIMOS RELATÓRIOS TÉCNICOS}
+\label{sec:ultimos_relatorios}
+\begin{itemize}
+    \item Relatório Síntese UHMC 2023: Monitoramento sismológico na área do reservatório de Aproveitamento Hidrelétrico de Machadinho, SC/RS, emitido em abril de 2023.
+    \item Relatório IPT Nº 205 166 666-1 - “Análise dos registros obtidos entre 01 de dezembro de 2019 e 31 de dezembro de 2021 na rede Sismológica de Itá/Machadinho, RSIM, SC/RS.”, emitido em novembro de 2022.
+\end{itemize}
+
+\section{ATIVIDADES REALIZADAS}
+\label{sec:atividade}
+\begin{itemize}
+    \item Encaminhamento do Boletim sísmico nº 25/48-2024, Junho-2023;
+    \item Coleta de dados em 01/06/2023 (28/04/2023 a 01/06/2023) e envio dos mesmos para análise no IPT;
+    \item Para o período, não houve acesso ao plano de fogo da obra PCH Tupitinga e das pedreiras Engenhos, Kerbermix e PlanaTerra;
+    \item Análise preliminar do período que inclui a coleta BCM223118 (31/03/2023 a 28/04/2023) e BCM223152 (28/04/2023 a 01/06/2023); e
+    \item Elaboração de gráfico de completeza dos dados, tabela contendo os registros de eventos/detonações detectados.
+\end{itemize}
+
+\section{RESULTADOS}
+\label{sec:resultados}
+Foi detectado um único sismo induzido na região do empreendimento de Machadinho durante o período, na região do remanso do reservatório, com magnitude -0.5 MLv, evento pequeno, em 2023-05-21 21:54:53 (UTC). Não há relatos de eventos que tenham sido sentidos pela população local.
+
+Foram detectados 4 (quatro) desmontes durante o período, sendo o de maior magnitude em 2023-05-19 16:05:43 (UTC) com magnitude 2.0 MLv. Três dos desmontes ocorreram longe da região do reservatório (incluindo o de maior magnitude) e um próximo à cidade de Campos Novos – SC.
+
+Não foram detectados sismos naturais regionais e/ou telessismos no território brasileiro durante o período englobado por este boletim na estação BCM2.
+
+Os parâmetros sísmicos dos eventos detectados são detalhados na Tabela 1. O gráfico de completeza dos dados para a estação BCM2 no mês de maio/2023 é mostrado na Figura 1.
+
+O funcionamento da estação BCM2 foi adequado no mês de maio/2023. A estação MC9 se encontra avariada, conforme detalhado no boletim sísmico Nº 38/48-2021 Jul.20. O digitalizador da estação se encontra na sede do IPT em São Paulo. Recomendações para resumir o funcionamento da estação já foram repassadas pelo IPT à ENGIE, e a empresa já iniciou o processo de aquisição de novos equipamentos.
+
+\section{CONSIDERAÇÕES}
+\label{sec:consideracoes}
+Continuam válidas as considerações e orientações anteriores a respeito das medidas a serem tomadas em caso ocorrência de um sismo local sentido pela população, i.e., coletar os relatos da população local através de questionários macrossísmicos, contactar a defesa civil para avaliar possíveis danos em estruturas e fornecer orientações e informações à população.
+
+A estação MC9, conforme discutido em boletim anterior, não está operando no momento. Recomendações para resumir o funcionamento da estação já foram repassadas pelo IPT à ENGIE, e a empresa já iniciou o processo de aquisição de novos equipamentos.
+
+\datahoje{São Paulo, 25 de agosto de 2023}
+
+\pagebreak
+\clearpage
+\newpage
+
+\section{COMPLETUDE DOS DADOS}
+\label{fig:completude}
+\begin{figure}[htb!]
+    \centering
+	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
+    \caption{Gráfico de completude dos dados para o mês de MÊS para estação ESTAÇÃO.}
+    \includegraphics[width=1.0\textwidth]{../figuras/completude.png} % Substitua pelo nome da imagem e ajuste o tamanho
+    \caption*{Fonte:IPT}
+	\label{fig:completude}
+\end{figure}
+
+\section{TABELA DE EVENTOS}
+\label{sec:tabelas}
+\input{./testtable.tex}
+
+\pagebreak
+\clearpage
+\newpage
+
+\section{MAPA DE EVENTOS}
+\label{sec:mapa}
+\begin{figure}[ht]
+    \centering
+	\captionsetup{justification=raggedright, singlelinecheck=false, width=1\textwidth}
+    \caption{Mapa de eventos.}
+    \includegraphics[width=1.0\textwidth]{../figuras/mapaevents.png} % Substitua pelo nome do arquivo de imagem e ajuste o tamanho
+    \caption*{Fonte:IPT}
+\end{figure}
+
+%\section{REFERÊNCIAS BIBLIOGRÁFICAS}
+% Bibliografia
+%\renewcommand{\refname}{REFERÊNCIAS}
+%\addcontentsline{toc}{section}{REFERÊNCIAS}
+%\bibliography{ref}
+
+%\pageref{LastPage}
+%\label{pag:fim}
+
+\end{document}
