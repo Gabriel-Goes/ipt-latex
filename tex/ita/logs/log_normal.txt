@@ -1,48 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(./tex/ita_boletim.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16>
-
-! LaTeX Error: File `iptex.cls' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: cls)
-
-Enter file name: (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
-** ! and ?
-** punctuation: , . : ; and \colon
-** + and =
-** adding = ; and + to \nfss@catcodes
-** parentheses ( ) [ ] and slash /
-** \# \mathdollar \% \& 
-** \imath and \jmath 
-** Latin letters in the `normal' (resp. `bold') math versions are now
-** set up to use the fonts OT1/cmr/m(b)/it
-** Other characters (digits, ...) and \log-like names will be
-** typeset with the n shape.
-** \hbar
-** minus as endash
-** \Huge and \HUGE have been (re)-defined.
-** mathastext has declared larger sizes for subscripts.
-** To keep LaTeX defaults, use option `defaultmathsizes'.
-)
-! Undefined control sequence.
-<recently read> \sisetup 
-                         
-l.6 \sisetup
-            {
-? 
-! Emergency stop.
-<recently read> \sisetup 
-                         
-l.6 \sisetup
-            {
+! I can't write on file `Boletim_Itá.log'.
+(Press Enter to retry, or Control-D to exit; default file extension is `.log')
+Please type another transcript file name: ! I can't write on file `Boletim_Itá.log'.
+(Press Enter to retry, or Control-D to exit; default file extension is `.log')
+Please type another transcript file name: 
+! Emergency stop
 !  ==> Fatal error occurred, no output PDF file produced!
-Transcript written on final_boletins//Boletim_Itá.log.
