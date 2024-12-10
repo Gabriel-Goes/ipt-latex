@@ -190,14 +190,14 @@
     \rhead{{\footnotesize \thepage}}
 	\lfoot{}
 	\cfoot{}
-	\rfoot{\includegraphics[scale=1.0]{tex/figuras_tex/footImageCalibr.png}}
+	\rfoot{\includegraphics[scale=1.0]{tex/figuras_tex/footImage.pdf}}
 	\pagestyle{fancy}
 	\fancypagestyle{geral}{
     		\rhead{{\footnotesize \thepage /\pageref{LastPage}}}
 	}
 
 	\fancypagestyle{timbrado}{
-        \rhead{}   
+        \rhead{}
     }
     \fancypagestyle{tipo_pre}{\rhead{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage}}
     \fancypagestyle{tipo_doc}{\rhead{{\footnotesize \inserirTipo~n\textordmasculine~\inserirDocNum~-~\thepage /\pageref{LastPage}}}}
@@ -217,7 +217,7 @@
 			\end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=1.2]{tex/figuras_tex/footImageCalibr.png}}
+            \includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 	\fancypagestyle{calibr_doc}{
 		\lhead{
@@ -240,7 +240,7 @@
             \end{tabular}
 		}
 		\rfoot{
-            \includegraphics[scale=1.2]{tex/figuras_tex/footImageCalibr.png}}
+            \includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 
 % Capa
@@ -292,7 +292,7 @@
 }
 
 % Resumo
-	\newcommand{\resumo}[3][\textbf{Palavras-chave:}]{
+	\newcommand{\resumo}[3][\\ \textbf{Palavras-chave:}]{
 		\setcounter{page}{1}
 		\renewcommand{\thepage}{\roman{page}}
 		\section*{RESUMO}
@@ -490,7 +490,7 @@
         \end{tabular}
         \end{adjustwidth}
         \end{table}
-}                
+}
 
 %% Três assinaturas digitais
 	\newcommand{\assinaturaTresDigital}[6]{
@@ -568,7 +568,7 @@
                         \textbf{Geól. Me. Fabrício Araujo Mirandola} \\ \vspace{0.1cm}
                         \textbf{Diretor Técnico} \\ \vspace{0.1cm}
                         \textbf{CREASP Nº 5062055808 – RE 8658} \\ \vspace{0.1cm}
-                        {\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm} 
+                        {\color{blue} Assinado Digitalmente}\\ \vspace{0.1cm}
                     \end{center}
                 \end{tabular}
             }
@@ -742,7 +742,7 @@
 			 	\footnotesize \textbf{Anexo #1 do~\footnotesize\inserirTipo~n\textordmasculine~\inserirDocNum}
 			\end{tabular}
 		}
-		\rfoot{\includegraphics[scale=1.2]{tex/figuras_tex/footImageCalibr.png}}
+		\rfoot{\includegraphics[scale=1.2]{tex/figuras_tex/footImage.pdf}}
 	}
 	\pagestyle{anexo_sfr}
 	\begin{center}

@@ -1,6 +1,9 @@
 \documentclass[12pt]{sismo_iptex}
-% IDIOMA
-% Se necessário, inserir línguas e indicar língua principal (main)
+\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{pgfplots}
+
 \usepackage[main=brazil,english]{babel}
 \usepackage[italic]{mathastext}
 \usepackage{siunitx}
@@ -9,31 +12,17 @@
     group-minimum-digits=3,
     output-decimal-marker={,}}
 
-% Alterando nome do TOC (adicionar em outras línguas, se necessário)
-\addto\captionsbrazil{%
-	\renewcommand{\contentsname}{SUMÁRIO}
-	\renewcommand{\refname}{REFERÊNCIAS}
-}
-\addto\captionsenglish{%
-	\renewcommand{\contentsname}{CONTENTS}
-	\renewcommand{\refname}{REFERENCES}
-}
-% BIBLIOGRAFIA
-\usepackage[abnt-emphasize=bf,alf]{abntex2cite}
-
-% Início do documento
 \begin{document}
 
-% CAPA 
 \input{tex/relatorio_preditivo/tex/capa.tex}
+\newpage
 
-% Corpo
 \input{tex/relatorio_preditivo/tex/corpo.tex}
+\newpage
 
-% Bibliografia
 \section{REFERÊNCIAS BIBLIOGRÁFICAS}
-%\renewcommand{\refname}{REFERÊNCIAS}
-%\addcontentsline{toc}{section}{REFERÊNCIAS}
+\renewcommand{\refname}{REFERÊNCIAS}
+\addcontentsline{toc}{section}{REFERÊNCIAS}
 \bibliography{ref}
 
 \end{document}

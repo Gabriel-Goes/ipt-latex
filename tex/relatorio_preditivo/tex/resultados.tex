@@ -1,0 +1,23 @@
+\section{RESULTADOS}
+\label{sec:ativ_real}
+\par{Neste período de estudos, foi desenvolvido e implementado um Classificador Sismológico avançado, empregando redes neurais convolucionais para a classificação de espectrogramas de eventos sismológicos. Este algoritmo foi concebido para distinguir entre eventos naturais e antropogênicos, proporcionando uma ferramenta robusta para análises sismológicas detalhadas.}
+
+\par{O Classificador Sismológico foi desenvolvido em Python e é mantido em um repositório no GitLab, sob a colaboração entre o Laboratório de Planetologia e Geociências da Universidade de Nantes, França, e o setor de Sismologia do IPT. O código desenvolvido permite desde a aquisição até a análise das métricas de desempenho do modelo.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Desenvolvimento e configuração do sistema}
+\label{subsec:desenvolvimento}
+\par{O sistema foi estruturado para operar de maneira dinâmica e eficiente, permitindo a aplicação do algoritmo de classificação francês de forma integrada com os procedimentos de aquisição de dados sismológicos. A instalação e configuração do ambiente para o classificador foram automatizadas por meio de scripts, facilitando a reprodução e a execução em diferentes infraestruturas computacionais.}
+
+\par{Para a coleta de dados, foi estabelecida uma pipeline que integra o download, a filtragem e o armazenamento dos dados sismológicos, utilizando catálogos do MOHO (IAG-USP) para garantir a obtenção de eventos naturais. A classificação dos eventos foi realizada considerando distintos períodos do dia para discernir entre eventos naturais e antrópicos, com uma análise adicional da forma de onda no software Snuffler.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Testes e validação do Classificador}
+\label{subsec:testes_validacao}
+\par{O classificador foi testado utilizando um conjunto de dados rigorosamente selecionado, composto por eventos rotulados como naturais por especialistas. Esta fase de testes foi crucial para validar a precisão do classificador na discriminação entre eventos antrópicos e naturais, ajustando parâmetros e refinando o modelo conforme necessário.}
+
+\par{Os resultados dos testes foram encorajadores, mostrando uma boa capacidade do modelo em identificar corretamente a natureza dos eventos sismológicos. As métricas de desempenho, como precisão e recall, foram calculadas e apresentaram resultados satisfatórios, reforçando a eficácia do classificador desenvolvido.}
+
+\par{Adicionalmente, foram realizados ajustes baseados nos resultados dos testes, incluindo a otimização da captura de dados e do pré-processamento, para melhorar a acurácia das classificações.}
+
+
