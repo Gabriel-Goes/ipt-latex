@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[main=brazil]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{graphicx}
+\usepackage{longtable,booktabs}
+\usepackage{siunitx}
+\sisetup{
+    group-separator={.},
+    group-minimum-digits=3,
+    output-decimal-marker={,}}
+
+\title{Relatório de Controle de Qualidade e Sincronização}
+\author{Equipe Sismologia}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\clearpage
+
+\section{Resumo Executivo}
+Este relatório apresenta os resultados do controle de qualidade e sincronização dos dados sísmicos para os canais disponíveis no sistema. Os resultados estão detalhados nas seções seguintes, com foco nos períodos disponíveis, lacunas nos dados e operações realizadas.
+
+\section{Dados de Controle de Qualidade}
+\subsection{Canais Disponíveis}
+\begin{itemize}
+    \item MC\_MC9\_\_HHE
+    \item MC\_MC9\_\_HHN
+    \item MC\_MC9\_\_HHZ
+\end{itemize}
+
+\subsection{Períodos Disponíveis}
+\begin{longtable}{@{}lll@{}}
+\toprule
+\textbf{Canal} & \textbf{Início} & \textbf{Fim} \\ \midrule
+HHZ.D & 2024/296 & 2024/338 \\
+HHE.D & 2024/296 & 2024/338 \\
+HHN.D & 2024/296 & 2024/338 \\ \bottomrule
+\end{longtable}
+
+\subsection{Lacunas nos Dados}
+\begin{itemize}
+    \item \textbf{HHZ.D}: 3 segmentos, gaps de até 100.8 segundos.
+    \item \textbf{HHE.D}: 3 segmentos, gaps de até 100.6 segundos.
+    \item \textbf{HHN.D}: 3 segmentos, gaps de até 99.32 segundos.
+\end{itemize}
+
+\section{Sincronização}
+\subsection{Resumo de Operações}
+\begin{longtable}{@{}ll@{}}
+\toprule
+\textbf{Operação} & \textbf{Quantidade} \\ \midrule
+Arquivos Processados & 1095 \\
+Arquivos Copiados    & 126 \\
+Arquivos Mesclados   & 3 \\
+Arquivos Sobrepostos & 3 \\
+Erros               & 0 \\ \bottomrule
+\end{longtable}
+
+\section{Referências Bibliográficas}
+C. F. RICHTER, \textit{Elementary Seismology}, W. H. Freeman and Co., San Francisco, 1958, 768 pp.
+
+\end{document}
